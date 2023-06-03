@@ -1,0 +1,156 @@
+# List of global tags:
+# %nl% - Goes to new line.
+# %username% - Replaces the username of the player receiving the message.
+# %displayname% - Replaces the nickname (and colors) of the player receiving the message.
+
+# Registration
+registration:
+  register_request: '&3Đăng ký: /register <password> <ConfirmPassword>'
+  command_usage: '&cDùng: /register <password> <ConfirmPassword>'
+  reg_only: '&4Chỉ có người đã đăng ký mới được vào server!'
+  kicked_admin_registered: '1 admin/owner/staff/mod đã hủy tài khoản của bạn, hãy đăng nhập lại.'
+  success: '&2Đăng ký thành công!'
+  disabled: '&cĐăng ký trong game đã bị vô hiệu hóa!'
+  name_taken: '&cCái tên này đã có sẵn ở trong server này rồi!'
+
+# Password errors on registration
+password:
+  match_error: '&cMật khẩu không trùng, hãy nhập lại!'
+  name_in_password: '&cBạn không thể đặt mật khẩu giống với tên của bạn, hãy thử cái khác đi...'
+  unsafe_password: '&cMật khẩu không an toàn, hãy thử cái khác...'
+  forbidden_characters: '&4Mật khẩu của bạn chứa các ký tự không hợp lệ. Chỉ cho phép các ký tự: %valid_chars'
+  wrong_length: '&cMật khẩu của bạn đã quá ngắn hoặc đã quá dài, hãy thử cái khác!'
+
+# Login
+login:
+  command_usage: '&cDùng: /l <password>'
+  wrong_password: '&cSai mật khẩu!'
+  success: '&2Đăng nhập thành công!'
+  login_request: '&cĐăng nhập bằng lệnh: /l <password>'
+  timeout_error: '&4Thời gian đăng nhập đã hết, Bạn đã bị kick khỏi server, hãy thử lại sau!'
+
+# Errors
+error:
+  unregistered_user: '&cNgười chơi này chưa đăng ký!'
+  denied_command: '&cĐể sử dụng lệnh này, bạn phải đăng nhập/đăng ký!'
+  denied_chat: '&cĐể sử dụng lệnh này, bạn phải đăng nhập/đăng ký!'
+  not_logged_in: '&cBạn chưa đăng nhập!'
+  tempban_max_logins: '&cBạn đã bị band do đăng nhập sai quá nhiều lần.'
+  max_registration: '&cBạn đã vượt quá số lượng đăng ký tối đa (%reg_count/%max_acc %reg_names) đối với kết nối của bạn!'
+  no_permission: '&4Mày đel có quyền dùng lệnh đấy NONNN!'
+  unexpected_error: '&4Đã xảy ra lỗi, vui lòng liên hệ với ADMIN!'
+  kick_for_vip: '&3A Người chơi VIP đã bị kick do server full!'
+  logged_in: '&cBạn đã đăng nhập!'
+  kick_unresolved_hostname: '&cĐã xảy ra lỗi: tên máy chủ chưa được giải quyết!'
+
+# AntiBot
+antibot:
+  kick_antibot: 'AntiBot protection mode đã được bật! Bạn phải đợi vài phút trước khi vào máy chủ.'
+  auto_enabled: '&4[AntiBotService] AntiBot enabled due to the huge number of connections!'
+  auto_disabled: '&2[AntiBotService] AntiBot disabled after %m minutes!'
+
+unregister:
+  success: '&cHủy đăng ký thành công!'
+  command_usage: '&cDùng: /unregister <password>'
+
+# Other messages
+misc:
+  accounts_owned_self: 'Bạn có %count accounts:'
+  accounts_owned_other: 'Người chơi %name có %count nick:'
+  account_not_activated: '&cTài khoản của bạn chưa được kích hoạt, hãy kiểm tra email của bạn!'
+  password_changed: '&2Đã đổi mật khẩu thành công!'
+  logout: '&2Đăng xuất thành công!'
+  reload: '&2Configuration and database have been reloaded correctly!'
+  usage_change_password: '&cDùng: /changepassword <oldPassword> <newPassword>'
+
+# Session messages
+session:
+  invalid_session: '&cIP của bạn đã được thay đổi và dữ liệu của bạn đã mất hoặc xảy ra vấn đề!'
+  valid_session: '&2Đăng nhập do kết nối lại.'
+
+# Error messages when joining
+on_join_validation:
+  name_length: '&4Tên của bạn quá ngắn hoặc quá dài!'
+  characters_in_name: '&4Tên người dùng của bạn chứa những ký tự không hợp lệ. ký tự được cho phép: %valid_chars'
+  country_banned: '&4Quốc gia của bạn bị cấm trên máy chủ này!'
+  not_owner_error: 'Bạn không phải là chủ sở hữu của tài khoản này. Hãy dùng cái khác!'
+  kick_full_server: '&4The server is full, try again later!'
+  same_nick_online: '&4Tên người dùng tương tự đã ở trong trên máy chủ!'
+  invalid_name_case: 'Bạn nên tham gia bằng tên người dùng %valid, không %invalid.'
+  same_ip_online: 'Một người chơi có cùng IP đã ở sẵn trong server!'
+  quick_command: 'Quá nhanh Quá nguy hiểm! Hãy chờ 3 hoặc 5 giây rồi mới vào lại server.'
+
+# Email
+email:
+  usage_email_add: '&cDùng: /email add <email> <confirmEmail>'
+  usage_email_change: '&cDùng: /email change <oldEmail> <newEmail>'
+  new_email_invalid: '&cEmail không hợp lệ, hãy thử lại!'
+  old_email_invalid: '&cEmail không hợp lệ, hãy thử lại!'
+  invalid: '&cĐịa chỉ email không hợp lệ, hãy thử lại!'
+  added: '&2Thêm email thành công!'
+  request_confirmation: '&cHãy xác minh email của bạn!'
+  changed: '&2Đổi email thành công!'
+  email_show: '&2Email của bạn là: &f%email'
+  incomplete_settings: 'Lỗi: không phải tất cả các cài đặt bắt buộc đều được đặt để gửi email. Hãy liên hệ với admin.'
+  already_used: '&4Email đã được sử dụng, hãy thử cái khác'
+  send_failure: 'Không thể gửi mail. Hãy liên hệ với admin.'
+  no_email_for_account: '&2Hiện tại không có địa chỉ email được liên kết với tài khoản này.'
+  add_email_request: '&3Vui lòng thêm email của bạn vào tài khoản của bạn bằng lệnh: /email add <yourEmail> <confirmEmail>'
+  change_password_expired: 'Bạn không thể thay đổi mật khẩu của mình bằng lệnh này nữa.'
+  email_cooldown_error: '&cĐã có sẵn một email đã được gửi gần đây. Bạn phải đợi %time trước khi gửi 1 cái mới.'
+  add_not_allowed: '&cKhông được phép thêm email.'
+  change_not_allowed: '&cKhông được phép thay đổi email.'
+
+# Password recovery by email
+recovery:
+  forgot_password_hint: '&3Quên pass sao (ngu)? Dùng lệnh: /email recovery <yourEmail>'
+  command_usage: '&cDùng: /email recovery <Email>'
+  email_sent: '&2Email khôi phục đã được gửi thành công! Hãy kiểm tra mail của bạn!'
+  code:
+    code_sent: 'Mã khôi phục mật khẩu của bạn đã được gửi đến email của bạn.'
+    incorrect: 'Mã khôi phục sai! Bạn có %count lần nữa.'
+    tries_exceeded: 'Bạn đã vượt quá số lần dùng của mã khôi phục. Dùng "/email recovery [email]" để tạo cái mới.'
+    correct: 'Mã khôi phục chính xác!'
+    change_password: 'Hãy dùng lệnh: /email setpassword <new password> để thay mật khẩu ngay lập tức.'
+
+# Captcha
+captcha:
+  usage_captcha: '&3Để đăng nhập bạn phải giải mã captcha, Dùng lệnh: /captcha %captcha_code'
+  wrong_captcha: '&cSai mã captcha, hãy dùng "/captcha %captcha_code" trong phần chat!'
+  valid_captcha: '&2Đúng mã captcha!'
+  captcha_for_registration: 'Để đăng ký bạn phải giải ãm captcha trước, hãy dùng lệnh: /captcha %captcha_code'
+  register_captcha_valid: '&2Mã captcha hợp lệ! Bạn đã có thể đăng ký bằng "/register" rồi'
+
+# Verification code
+verification:
+  code_required: '&3Lệnh nhạy cảm và cần yêu cầu xác minh email! Kiểm tra hộp thư đến của bạn và làm theo hướng dẫn của email.'
+  command_usage: '&cDùng: /verification <code>'
+  incorrect_code: '&cSai mã, Hãy ấn "/verification <code>" vào phần chat, dùng mã mà bạn đã nhận được'
+  success: '&2xác minh thàn công! Bây giờ bạn có thể thực hiện các lệnh rồi!'
+  already_verified: '&2Bạn đã có thể thực hiện lệnh nhạy cảm!'
+  code_expired: '&3Mã của bạn đã hết hạn! Dùng lệnh khác để nhận mã mới!'
+  email_needed: '&3Để xác minh, bạn cần liên kết địa chỉ email với tài khoản của mình!!'
+
+# Two-factor authentication
+two_factor:
+  code_created: '&2Mã bảo mật của bạn là %code. Bạn có thể quét nó ở đây %url'
+  confirmation_required: 'Vui lòng xác nhận mã của bạn với /2fa confirm <code>'
+  code_required: 'Vui lòng nhập mã xác thực hai yếu tố của bạn với /2fa code <code>'
+  already_enabled: 'Xác thực hai yếu tố đã được bật cho tài khoản của bạn!'
+  enable_error_no_code: 'Không có khóa 2fa nào được tạo cho bạn hoặc nó đã hết hạn. Hãy dùng /2fa add'
+  enable_success: 'Đã bật thành công xác thực hai yếu tố cho tài khoản của bạn'
+  enable_error_wrong_code: 'Mã sai hoặc mã đã hết hạn. Dùng /2fa add'
+  not_enabled_error: 'Xác thực hai yếu tố chưa được bật cho tài khoản của bạn. Dùng /2fa add'
+  removed_success: 'Xóa thành công xác thực hai yếu tố khỏi tài khoản của bạn'
+  invalid_code: 'Mã không hợp lệ!'
+
+# Time units
+time:
+  second: 'second'
+  seconds: 'seconds'
+  minute: 'minute'
+  minutes: 'minutes'
+  hour: 'hour'
+  hours: 'hours'
+  day: 'day'
+  days: 'days'

@@ -1,0 +1,3 @@
+PREFIX: '&8[&cADMIN&8] '
+BLOCKED_CMD: '&cBạn không dùng được lệnh này'
+NO_PERMISSION: '&cBạn không dùng được lệnh này'

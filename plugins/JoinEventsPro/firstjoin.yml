@@ -1,0 +1,49 @@
+FirstJoin:
+  Message:
+    Message: '&7[&6&l+&7] &7Hello bé &b%player% &7nha.'
+    Enabled: true
+  Sound:
+    Sound: AMBIENCE_THUNDER
+    Pitch: 1
+    Enabled: true
+  Commands: []
+  MOTD:
+    Lines:
+    - '&f&m                                                                  '
+    - ' '
+    - ' &a&lChào mừng đến với server nha!'
+    - ' &7Chúc bạn chơi game vui vẻ '
+    - ' '
+    - ' &eWebsite: &ffunnysurvival.w3spaces.com'
+    - ' &eStore: &fChưa có '
+    - ' '
+    - '&f&m                                                                  '
+    Enabled: true
+  Book:
+    Information:
+      Slot: 4
+      Title: Welcome to our Network!
+      Author: Cervinakuy
+    Pages:
+    - '&a&lWelcome to our Network!%newline%&7This is a custom book made using the
+      plugin &bJoinEventsPro&7.%newline%%newline%&7You can customize these pages in
+      the config.yml.'
+    - '&a&lPage 2%newline%&7This is an example of a second page.'
+    Enabled: false
+  Items:
+    Diamond:
+      Name: '&aPhần thưởng vì đã chơi'
+      Material: DIAMOND
+      Permission: jep.items.diamond
+      Slot: 0
+      Amount: 25
+      Override: false
+      Lore:
+      - '&7Đây là phần thưởng vì!'
+      - '&7bạn đã chơi server này'
+      - '&7HEHE.'
+    Enabled: true
+  Other:
+    Firework: true
+  Spawn:
+    Enabled: true

@@ -1,0 +1,12 @@
+BLOCKED_COMMANDS:
+- /pl
+- /plugins
+- /bukkit:pl
+- /bukkit:plugins
+- /bukkit:?
+- /?
+- /bukkit:help
+- /petshop
+#- /sethome-of
+#- /home-del-of
+#- /home-teleport-of

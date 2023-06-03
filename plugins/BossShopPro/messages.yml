@@ -1,0 +1,60 @@
+#Here you can define all BossShopPro texts displayed to players. Leave a line empty in order to disable a message.
+Main:
+  NoPermission: '&cKhông đủ quyền!'
+  AlreadyBought: '&cBạn đã mua sẵn r!'
+  ShopNotExisting: '&cShop không tồn tại'
+  ShopItemNotExisting: '&cShop không tồn tại'
+  OpenShop: ''
+  OpenShopOtherPlayer: '&6Opening Shop &c%shop% &6for %player%&6.'
+  CloseShopOtherPlayer: '&6Closed inventory of %player%&6.'
+  CloseShop: ''
+  InventoryFull: '&cKhông đủ không gian!'
+  PlayerNotFound: '&c%name% không được tìm thấy!'
+  ClickSpamWarning: '&cChờ %time_left% giây để dùng tiếp.'
+  OffensiveClickSpamWarning: '&4Không được ấn nhanh.'
+  OffensiveClickSpamKick: '&4Spam click cc.'
+  NeedItemInHand: '&cCầm vật phẩm để sử dụng.'
+  PrintedItemInfo: '&6Dữ liệu vật phẩm đã được lưu'
+  ListAndSeparator: ' & '
+  ListOrSeparator: ' hoặc '
+Economy:
+  NoAccount: '&cTải khoản không được hỗ trợ!'
+NotEnough:
+  Money: '&cKhông đủ tiền!'
+  Item: '&cKhông đủ vật phẩm!'
+  Points: '&cKhông đủ điểm!'
+  Exp: '&cKhông đủ EXP!'
+  Or: '&cKhông đủ không đủ tài nguyên!'
+Enchantment:
+  Invalid: '&cVật phẩm không hỗ trợ phù phép này!'
+  EmptyHand: '&cCầm vật phẩm pls!'
+Display:
+  Exp: '%levels% cấp Exp '
+  Money: '%money% Tiền'
+  Points: '%points% điểm'
+  Item: '%items%'
+  ItemAll: 'all %item%'
+  ItemAllBuy: 'Mua %item% full balo r'
+  ItemAllEach: '%value% mỗi cái'
+  Nothing: 'không có j:|'
+  BungeeCordServer: 'Server teleport to %server%'
+  BungeeCordCommand: 'BungeeCord commands: %commands%'
+  Close: 'Đóng shop'
+  Command: 'Console commands: %commands%'
+  Custom: 'ưtf! lệnh nào thế cu'
+  Enchantment: 'Phù phép: %type% cấp %level%'
+  Permission: 'Quyền: %permissions%'
+  PlayerCommand: 'Lệnh: %commands%'
+  PlayerCommandOp: 'Lệnh: %commands%'
+  Shop: 'Mở shop %shop%'
+  Page: 'Mở shop trang %page%'
+Time:
+  Seconds: '%time% giây'
+  Minutes: '%time% phút'
+  Hours: '%time% giờ'
+  Days: '%time% ngày'
+  Weeks: '%time% tuần'
+#You can make BossShopPro translate every enchantment and item into any language included in Vanilla minecraft.
+#Optional & requires LangUtils to be installed (https://www.spigotmc.org/resources/1-10-x-1-9-x-1-8-x-1-7-10-language-utils.8859/)
+#Here you can find a list of locale ids: http://www.oracle.com/technetwork/java/javase/javase7locales-334809.html
+Locale: vi_vn

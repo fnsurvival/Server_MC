@@ -1,0 +1,22 @@
+General:
+# Change the prefix to the broadcasted message.
+# Refer to this page for color codes http://www.minecraftwiki.net/wiki/Formatting_codes
+  Prefix: '&c[&bTHÔNG BÁO&c]'
+#
+#Choose a default colour for messages
+#Once again please refer to the above link for colour codes.
+  DefaultTextColor: b
+AutoBroadcaster:
+#Either True of False.
+#To turn on set as True, to turn off set as False.
+  Enabled: true
+#Here is an area where you can add messages to the auto broadcaster.
+#You may use colour codes as the ones above in your messages.
+  Messages:
+  - "&eDùng lệnh &2/napthe &eđể giúp owner duy trì server đi mọi người"
+  - "&eDiscord: &ahttps://discord.gg/nfTUEWrEe6"
+  
+#
+#Below is the interval in seconds.
+#It changes the length of time between each boradcasted message.
+  Interval: 150

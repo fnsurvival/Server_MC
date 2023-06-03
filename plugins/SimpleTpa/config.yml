@@ -1,0 +1,146 @@
+#  ____    _                       _          _____
+# / ___|  (_)  _ __ ___    _ __   | |   ___  |_   _|  _ __     __ _
+# \___ \  | | | '_ ` _ \  | '_ \  | |  / _ \   | |   | '_ \   / _` |
+#  ___) | | | | | | | | | | |_) | | | |  __/   | |   | |_) | | (_| |
+# |____/  |_| |_| |_| |_| | .__/  |_|  \___|   |_|   | .__/   \__,_|
+#                         |_|                        |_|
+
+# Place Holders: %time% | %player% | %option%
+
+
+# !!!!!!!!!!!!!!!!
+# This options will support all plugins that use teleport stuff
+# If you want the plugin to log the previus teleport locations for the /back command from other plugins -> set this to true
+enable-teleport-logging: true
+# !!!!!!!!!!!!!!!!
+
+#If you set it to true, you will disable the prefix
+#Make sure to restart the server in order to apply it
+disable-prefix: false
+prefix: "&c[&6TPA&c]"
+
+#Messages:
+# TO DISABLE A MESSAGE - SET IT TO - NONE
+# EXAMPLE:
+# Console-Isnt-Player: "none"
+Console-Isnt-Player: "&6Console can't use &cSimpleTpa&6!"
+Disabled-World-Message: "&6Bạn không thể dùng &cTpa &6trong thế giới này!"
+Teleport-Message: "&6Bạn sẽ được dịch chuyển trong &c%time% &6giây!"
+Teleport-Message-Back-To-Player: "&6Bạn đã &cchấp nhận &6yêu cầu dịch chuyển"
+Player-Is-Null: "&6Người chơi không &conline&c &6hoặc không&6 &ctồn tại&c&6!"
+Player-Doesnt-Have-Back-Point: "&6Người chơi không có khu vực back!"
+Player-Doesnt-Have-Back-Point-1: "&6Bạn không có khu vực back!"
+Cooldown-Message: "&6Bạn không thể dùng lệnh trong %time% giây!"
+Death-Message: "&6Ghi &c/back &6để quay lại khu vực vừa chết"
+Teleport-Message-Back-To-Sender-TPHEREALL: "&6Đã gửi yêu cầu dịch chuyển đến chỗ mình đối với tất cả mọi người&6!"
+No-Permission-Message: "&6Bạn không có quyền dùng lệnh này!"
+TpaToggle-Deactivated-Player-2: "&c%player% &6đã vô hiệu hóa việc dịch chuyển đối với bạn!"
+TpaToggle-Activated-Player-2: "&c%player% &6đã bật dịch chuyển với bạn!"
+TpaToggle-Deactivated-Player: "&6Bạn &cđã tắt&6 dịch chuyển đối với &c%player%&6."
+TpaToggle-Activated-Player: "&6Bạn &cđã bật&6 dịch chuyển đối với &c%player%&6."
+TpaToggle-Deactivated: "&6Bạn &cđã tắt&6 yêu cầu dịch chuyển tới bạn."
+TpaToggle-Activated: "&6Bạn &cđã bật&6  yêu cầu dịch chuyển tới bạn."
+TpaToggled-Player-Message: "&6Người chơi này &cđã vô hiệu hóa &6việc dịch chuyển tới người chơi này!"
+Player-Is-Player: "&6Mày không tự dịch chuyển chính mày được&6!"
+Already-A-TP-Request: "&6Bạn đã &cgửi sẵn &6a yêu cầu dịch chuyển! Nếu bạn muốn hủy ghi &c/tpcancel người chơi "
+Tpa-Usage-Message: "&6Dùng: &c/tpa (player)"
+Timed-Out-Message: "&6Yêu cầu &tdịch chuyển của bạn&6 đã hết hạn!"
+Sending-Teleport-Request: "&6Đã gửi yêu cầu dịch chuyển tới &c%player%&6. Nếu bạn muốn hủy ghi &c/tpcancel người chơi "
+Accept-Message: "&6Để chấp nhận yêu cầu, gõ &c/tpaccept"
+Deny-Message: "&6Để từ chối yêu cầu, gõ &c/tpdeny"
+Sent-Request-On-You: "&c%player% &6đã gửi cho bạn yêu cầu dịch chuyển!"
+Timed-Out-Here-Message: "&6Yêu cầu dịch chuyển tới chỗ bạn đã &chết hạn!"
+Sending-Teleport-Here-Request: "&6Đã gửi yêu cầu đến chỗ bạn đối với &c%player%&6. Nếu bạn muốn hủy ghi &c/tpcancel người chơi"
+Sent-Here-Request-On-You: "&c%player% &6đã gửi cho bạn yêu cầu dịch chuyển!"
+Already-A-TPHere-Request: "&6Bạn đã &cgửi sẵn&6 1 yêu cầu dịch chuyển tới bạn! Nếu bạn muốn hủy ghi &c/tpcancel người chơi"
+Tpa-Here-Usage-Message: "&6Dùng: &c/tpahere (Tên)"
+No-Teleport-Requests: "&6Bạn không có yêu cầu dịch chuyểntp!"
+Invalid-Player: "&6Người bạn gửi yêu cầu dịch chuyển đã out server siêu cấp vjp pro này!"
+Teleport-Message-Back-To-Sender: "&c%player% &6đã chấp nhận yêu cầu dịch chuyển của bạn."
+Teleported-Message: "&6Đã dịch chuyển!"
+Move-Cancel-Message: "&6Bạn đã di chuyển nên yêu cầu dịch chuyển đã bị hủy!"
+Rejected-Sender: "&6Người chơi này đã từ chối &cyêu cầu&6 dịch chuyển của bạn!"
+Rejected-Message: "&6Bạn đã từ chối yêu cầu &cdịch chuyển&6!"
+Player-Is-In-Disabled-World: "&6Người chơi bạn muốn dịch chuyển đang ở trong &cthế giới vô hiệu hóa&6!"
+Tpcancel-Usage-Message: "&6Dùng: &c/tpcancel (Tên)"
+Error-Cancelling-Request: "&6Bạn không thể từ chối chính yêu cầu &ccủa bạn!"
+Request-Cancelled: "&6Bạn đã thành công hủy &cyêu cầu dịch chuyển&6!"
+Death-Message-Coords: "&6Khu vực bạn chết ở: &c%coords%&6!"
+Time-Left: "&6Bạn có &c%seconds% &6seconds để chấp nhận hoặc từ chối yêu cầu dịch chuyển"
+Damaged-Cancel-Message: "&6Bạn đã bị đánh nên yêu cầu dịch chuyển đã bị hủy!"
+Different-Gamemode: "&6Bạn không thể sử dụng bất cứ yêu cầu dịch chuyển nòa, bởi vì bạn đang trong &cchế độ &6quan sát!"
+World-Doesnt-Exists-Or-Unloaded: "&6Thế giới bạn đang muốn dịch chuyển tới chưa được tải hoặc không tồn tại!"
+## BUTTONS
+#Here you can find the colors https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/ChatColor.html
+
+#Accept Button Properties
+Accept-Button: "ACCEPT"
+Accept-Button-Color: "RED"
+Accept-Button-Set-Bold: true
+Accept-Button-Description: "&6Ấn vào đây để &cCHẤP NHẬN &6yêu cầu dịch chuyển!"
+
+#Middle Button Properties
+Middle-Button: " | "
+Middle-Button-Color: "GRAY"
+Middle-Button-Set-Bold: true
+Middle-Button-Description: "&7 <- CHỌN GIỮA -> "
+
+#Deny Button Properties
+Deny-Button: "DENY"
+Deny-Button-Color: "RED"
+Deny-Button-Set-Bold: true
+Deny-Button-Description: "&6Ấn vào đây để &cTỪ CHỐI &6yêu cầu dịch chuyển!"
+
+# If you want to disable simpletpa for some worlds, then you can add them by adding - 'NameOfTheWorld'
+#Disabled Worlds:
+disabled-worlds:
+  - 'disabledworld'
+
+# If you set anything to true, you will disable it.
+# B A C K    S E T T I N G S
+
+#If you want to disable the back command, then set this to true
+disable-back-command: false
+
+# If you want to disable the death coords message, then set this to true
+disable-coords-message: false
+
+# If you want to disable saving the death location, then set this to true
+disable-back-on-death: false
+
+# If you want to disable saving the TP Locations such as TPA, TPAHERE, then set this to true
+disable-back-on-tp: false
+
+#Booleans
+#  If you want to disable checking for gamemode if equals to spectator, then set this to true
+disable-gamemode-check: false
+#  If you want to disable saving the accept or deny buttons, then set this to true
+disable-accept-deny-buttons: false
+#  If you want to disable saving the particles, then set this to true
+disable-particles: false
+#  If you want to disable saving the move system, then set this to true
+disable-move-system: false
+
+# If you want to disable the invincibility after teleporting, then set this to true
+disable-invincibility: false
+
+# Everything works with SECONDS
+#Integers
+invincibility-seconds: 2
+#This will keep the teleport request alive for X seconds
+keep-alive: 60
+#This will delay the teleportation for X seconds
+delay-back-command: 0
+delay-teleportation: 0
+#Cooldowns
+back-cooldown: 0
+tpa-cooldown: 0
+tpahere-cooldown: 0
+tpahereall-cooldown: 0
+#To set a custom cooldown, you need to add a permission : simpletpa.cooldown.Y.X where Y is the command and  X are the seconds.
+#The options for commands are: tpa | tpahere | back | tpahereall
+#Example: simpletpa.cooldown.tpa.300 | simpletpa.cooldown.tpahere.300 | simpletpa.cooldown.tpahereall.300 | simpletpa.cooldown.back.300
+#This will set the cooldown for tpa/ tpahere/ tpahereall / back to 300 seconds
+
+
+

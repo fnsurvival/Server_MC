@@ -1,0 +1,32 @@
+items:
+  Owner_sword:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"OWNER_SWORD"}'
+      enchants:
+        DURABILITY: 255
+        SWEEPING_EDGE: 255
+        FIRE_ASPECT: 255
+        DAMAGE_ALL: 255
+        MENDING: 100
+        LOOT_BONUS_MOBS: 255
+        KNOCKBACK: 255
+      repair-cost: 150000
+  Owner_pickaxe:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"OWNER_PICKAXE"}'
+      enchants:
+        MENDING: 255
+        LOOT_BONUS_BLOCKS: 255
+        DURABILITY: 255
+        DIG_SPEED: 255
+      repair-cost: 150000

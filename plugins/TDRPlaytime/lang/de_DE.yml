@@ -1,0 +1,42 @@
+only:
+  player:
+    command: '&cDies ist ein Kommando nur für Spieler!'
+command:
+  playtime:
+    timemessage: '&8[&6PlayTime&8] &7Deine Spielzeit ist &6%D% &7Tag(e) &6%H% &7Stunde(n)
+      &6%M% &7Minute(n) &6%S% &7Sekunde(n)'
+    usertimemessage: '&8[&6PlayTime&8] &7%NAME% ''''s Spielzeit ist &6%D% &7Tag(e)
+      &6%H% &7Stunde(n) &6%M% &7Minute(n) &6%S% &7Sekunde(n)'
+    resettimeconfirm: '&cDie Zeit des Spielers ist zurückgesetzt!'
+    timeadded: '&aSie haben <player> erfolgreich Spielzeit hinzugefügt'
+    timeremoved: '&aSie haben die Spielzeit erfolgreich von <player> entfernt'
+    imported: '&aSie haben <count> Spieler erfolgreich transferiert!'
+  milestone:
+    mustbenumber: '&cDer Zeitparameter muss eine Anzahl sein!'
+    milestonenotexist: '&cDer Meilenstein <name> existiert nicht!'
+    milestonecreated: '&aDer Meilenstein ist geschaffen!'
+    itemadded: '&aSie haben dem Meilenstein erfolgreich einen Artikel hinzugefügt!'
+    commandadded: '&aSie haben dem Meilenstein erfolgreich einen Kommando hinzugefügt!'
+    fireworktoggled: '&aSie <state> das Feuerwerk für den Meilenstein'
+    setfireworkamount: '&aSie stellen die Feuerwerksnummer auf <amount>'
+    setfireworkdelay: '&aDu hast die Feuerwerksverzögerung auf <amount> eingestellt'
+    repeatingmilestoneremoved: '&aSie haben den sich wiederholenden Meilenstein erfolgreich
+      entfernt!'
+    milestoneremoved: '&aSie haben den Meilenstein erfolgreich entfernt!'
+    itemremoved: '&aSie haben ein Element aus dem Meilenstein entfernt!'
+    commandremoved: '&aSie haben eine Aufgabe aus dem Meilenstein entfernt!'
+    list:
+    - '%MILESTONE_NAME%'
+    - ' Zeit: Tage: %D% Stunden: %H%, Minuten: %M% Sekunden: %S%'
+    info:
+    - '%MILESTONE_NAME%'
+    - ' Zeit: Tage: %D% Stunden: %H%, Minuten: %M% Sekunden: %S%'
+    - ' Belohnung:'
+    - '    Befehle(%REWARD_COMMAND_COUNT%):'
+    - '%REWARD_COMMAND%'
+    - '    Artikel(%REWARD_ITEMS_COUNT%):'
+    - '%REWARD_ITEMS%'
+  defaults:
+    enabled: An
+    disabled: aus
+version: 1.3

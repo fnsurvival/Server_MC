@@ -1,0 +1,72 @@
+# Pickup automatically items
+auto_pickup_items: false
+
+# Pickup automatically experience
+auto_pickup_exp: false
+
+# Drop/ auto_pickup items in gamemode 1 (creative)
+gamemode: false
+
+inventory-full:
+  warn-message: true
+  warn-sound: true
+  sound: 'BLOCK_NOTE_BLOCK_BASS'
+
+# If true AutoSmelt only applies to the CustomPickaxe - AutoSmelt is deactivated for other pickaxes
+use-only-custom-pickaxe: false
+
+custom-pickaxe:
+  material: 'DIAMOND_PICKAXE'
+  displayname: '&cAutoSmelt Pickaxe'
+  lore:
+    - '&cCúp tự động nung quặng'
+  enchantments:
+    DIG_SPEED: 10
+    DURABILITY: 100
+  hide-enchantments: true
+
+items:
+  IRON_ORE:
+    material: 'IRON_INGOT'
+    drop_exp: 5
+    fortune: true
+    blacklist-worlds:
+      - 'exampleworld'
+  GOLD_ORE:
+    material: 'GOLD_INGOT'
+    drop_exp: 5
+    fortune: true
+    blacklist-worlds: [ ]
+  DEEPSLATE_IRON_ORE:
+    material: 'IRON_INGOT'
+    drop_exp: 5
+    fortune: true
+    blacklist-worlds: [ ]
+  COPPER_ORE:
+    material: 'COPPER_INGOT'
+    drop_exp: 5
+    fortune: true
+    blacklist-worlds: [ ]
+  DEEPSLATE_GOLD_ORE:
+    material: 'GOLD_INGOT'
+    drop_exp: 5
+    fortune: true
+    blacklist-worlds: [ ]
+
+messages:
+  prefix: '&8[&cTự động nung&8] '
+  noPermission: '&cNâng rank để dùng.'
+  commandSender: '&cOnly a player can execute the command.'
+  noPlayer: '&cNgười chơi này không online.'
+  reload: '&7AutoSmelt has been reloaded.'
+  inventory-full: '&c&l!! OH SHIT !! &cBalo đầy rồi kìa.'
+  activated: '&7Đã bật.'
+  deactivated: '&7Đã tắt.'
+  noPickaxe: '&cThe Pickaxe was disabled. Check the console.'
+  give: '&7Bạn đã nhận cúp tự động nung.'
+  give-player: '&7%target% đã nhận cúp tự động nung.'
+  give-target: '&7Bạn đã nhận cúp tự động nung bởi %player%.'
+  usage-toggle: '&7Dùng /AutoSmelt toggle'
+  usage-reload: '&7Use /AutoSmelt reload'
+  usage-give: '&7Dùng /AutoSmelt give'
+  usage-give-other: '&7Dùng /AutoSmelt give <Player>'

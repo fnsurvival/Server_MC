@@ -1,0 +1,139 @@
+#logs and command responses
+
+#when teleporting, say this
+alreadyTeleporting: "&e[Random tp] Bạn đang dịch chuyển!"
+# placeholder: [time] - how long before teleporting
+delayMessage: "&e[Random tp] Dịch chuyển trong [time]. Đừng di chuyển"
+# placeholder: [numAttempts] - number of attempts
+teleportMessage: "&e[Random tp] Dịch chuyển trong [numAttempts] lần thử, trong [time]"
+chunkLoading: "&e[Random tp] Loading chunks! please wait..."
+
+#if player moves
+teleportCancel: "&e[Random tp] Quá trình dịch chuyển đã hủy!"
+
+#if no safe places after reaching max attempts
+unsafe: "&e[Random tp] không thể tìm nơi an toàn trong [numAttempts] lần thử"
+
+# placeholder: [time] - how long before player is able to teleport again
+cooldownMessage: "&e[Random tp] You can't teleport again for [time]"
+
+#if the region doesn't have any locations queued and the player doesn't have Random tp.unqueued permission
+noLocationsQueued: "#f5eb73[Random tp] no locations ready at this time"
+
+#when the line shifts
+queueUpdate: "#2636ef[Random tp] Bạn đang trong hàng đợi dịch chuyển số: [num]"
+
+#if the player doesn't have enough money to teleport in the region
+# placeholder: [money] - how much money is required for the command
+notEnoughMoney: "&e[Random tp] you need at least $[money] for that."
+
+# for time placeholders, what to call days, hours, minutes, seconds
+days: "d"
+hours: "h"
+minutes: "m"
+seconds: "s"
+millis: "ms"
+
+# a configuration file 'version' is lower than the latest
+# placeholder: [filename] - name of file, including file extension
+oldFile: "&b[Random tp] old [filename] detected. Updating"
+
+# detected a bukkit world that isn't in the config file
+# placeholder: [worldName] - the world detected
+newWorld: "&b[Random tp] detected a new world '[worldName]'"
+
+updatingWorlds: "&b[Random tp] updating worlds configuration..."
+updatedWorlds: "&b[Random tp] updated worlds configuration!"
+
+updatingRegions: "&b[Random tp] updating regions configuration..."
+updatedRegions: "&b[Random tp] updated regions configuration!"
+
+# plugin reload text
+reloading: "&b[Random tp] reloading..."
+reloaded: "&b[Random tp] successfully reloaded."
+
+# plugin doesn't have the command the user requested
+# placeholder: [arg] - the argument attempted
+badArg: "&c[Random tp] invalid command argument [arg]"
+
+consoleCmdNotAllowed: "&cYou can't do this from console. Try adding a player or world argument or not using '~'."
+
+# user doesn't have permission for the command requested
+noPerms: "&eI'm sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is in error."
+
+# user tried to wake a world that doesn't send messages to their location, without perms
+# placeholder: [worldName] - the world attempted in the command
+noGlobalPerms: "&eYou don't have permission to teleport to [worldName] from your location"
+
+# world doesn't exist in bukkit
+invalidWorld: "&e[Random tp] could not find world '[worldName]'"
+
+# when more than on user fails to specify region in updateRegion
+missingRegionParam: "&e[Random tp] region parameter is required"
+
+fillStart: "&a[Random tp] fill task started for region [region]"
+fillCancel: "&e[Random tp] fill task cancelled for region [region]"
+fillPause: "#A020F0[Random tp] fill task paused for region [region]"
+fillResume: "#10A5F5[Random tp] fill task resumed for region [region]"
+fillRunning: "&c[Random tp] fill task already running for region [region]"
+fillNotRunning: "&c[Random tp] fill task not running for region [region]"
+fillStatus: "&a[Random tp] completed [num] / [total] chunks for region [region]"
+
+#command descriptions
+Random tp: "&b/Random tp - teleport to a random location"
+help: "&b/Random tp help - see this"
+reload: "&b/Random tp reload - reload config files"
+setWorld: "&b/Random tp setWorld - update world settings"
+setRegion: "&b/Random tp setRegion - create or update region settings"
+fill: "&b/Random tp fill - attempt each location once in a region"
+info: "&b/Random tp info - see plugin and region info"
+
+#player teleport status placeholders for PAPI
+PLAYER_AVAILABLE: "&aAVAILABLE"
+PLAYER_COOLDOWN: "&eON COOLDOWN"
+PLAYER_SETUP: "&bPICKING A LOCATION"
+PLAYER_LOADING: "&bLOADING CHUNKS"
+PLAYER_TELEPORTING: "&bTELEPORTING"
+
+#info command
+title: "&a======Random tp Info======"
+chunks: "#D4AF37Chunks currently loaded by Random tp: [chunks]"
+worldHeader: "#008080Worlds:"
+world: "  #21ADA8[world]"
+regionHeader: "#63C5DARegions:"
+region: "  #52B2BF[region]"
+
+#sub-info
+worldInfo:
+  - "#21ADA8[world]:"
+  - "#99EEBB  name: [name]"
+  - "#99EEBB  region: [region]"
+  - "#99EEBB  requirePermission: [requirePermission]"
+  - "#99EEBB  override: [override]"
+  - "#99EEBB  nearShape: [nearShape]"
+  - "#99EEBB  nearRadius: [nearRadius]"
+  - "#99EEBB  nearCenterRadius: [nearCenterRadius]"
+  - "#99EEBB  nearMinY: [nearMinY]"
+  - "#99EEBB  nearMaxY: [nearMaxY]"
+
+regionInfo:
+  - "#52B2BF[region]:"
+  - "#58CCED  world: [world]"
+  - "#58CCED  shape: [shape]"
+  - "#58CCED  mode: [mode]"
+  - "#58CCED  radius: [radius] chunks"
+  - "#58CCED  centerRadius: [centerRadius] chunks"
+  - "#58CCED  centerX: [centerX]"
+  - "#58CCED  centerZ: [centerZ]"
+  - "#58CCED  minY: [minY]"
+  - "#58CCED  maxY: [maxY]"
+  - "#58CCED  weight: [weight]"
+  - "#58CCED  requireSkyLight: [requireSkyLight]"
+  - "#58CCED  requirePermission: [requirePermission]"
+  - "#58CCED  worldBorderOverride: [worldBorderOverride]"
+  - "#58CCED  uniquePlacements: [uniquePlacements]"
+  - "#58CCED  expand: [expand]"
+  - "#58CCED  queueLen: [queueLen]"
+  - "#58CCED  queued: [queued]"
+
+version: 2.2

@@ -1,0 +1,87 @@
+Debug: true
+Config:
+  ItemAdder-Support: true
+  mcMMO-Support: false
+  Check-for-Updates: true
+  Prefix: '&bReal&9Scoreboard &7| &r'
+  Reloaded: '&fThe config has been &areloaded&f.'
+  Use-Placeholders-In-Scoreboard-Titles: false
+  RealScoreboard-Disabled-By-Default: false
+  Hours:
+    Formatting: HH:mm:ss
+    Offset: 0
+  Messages:
+    Scoreboard-Toggle:
+      ON: '&fBảng đã &abật&f.'
+      OFF: '&fBảng đã &ctắt&f.'
+  Animations:
+    Title-Delay: 20
+    Loop-Delay: 20
+  Scoreboard-Refresh: 5
+  Disabled-Worlds:
+  - testWorld
+  - ExampleWorld2
+  Bypass-Worlds:
+  - skywarsLobby
+  Scoreboard:
+    world:
+      special:
+        Switch-Timer: 1
+        Boards:
+          Board1:
+            Title:
+            - '&bBảng thông tin'
+            #- ' &7Date: &f%day% &8| &f%time%'
+            # - ' &7Tọa độ:'
+            # - ' &fX:%x%  Y:%y%  Z:%z%'
+            
+            # - ' &7Online: &f%online%&8&f/&f&f%maxplayers%'
+            # - ' &7Online: &f%online%&8&f/&f&f%maxplayers%'
+            # - ' &f%tdrplaytime_days_number%d %tdrplaytime_hour_number%h %tdrplaytime_minutes_number%m %tdrplaytime_seconds_number%s'
+            Lines:
+            - '%blank%'
+            - ' &7Name: &f%playername%'
+            - ' &7Ping: &f%ping%'
+            - ' &7Rank: &f%powerranks_rank%'
+            - ' &7Thời gian đã chơi'
+            - ' &f%playtime_time%'
+            - ' &7Điểm: &f%tm_tokens%'
+            - ' &7Tiền: &f%playerpoints_points%&7 '
+            - '%blank%'
+            - ' &7Kills: &f%kills% &7| &7KDA: &f%kd%'
+            - ' &7Chết ngu: &f%deaths% &7lần'
+            - ' &7Pet lv: &f%mypet_level% '
+            - ' &7Máu: &f%mypet_health%/%mypet_health_max%'
+            - '%blank%'
+            - ' &2/napthe &fđi pls:>'
+      default:
+        Switch-Timer: 1
+        Boards:
+          Board1:
+            Title:
+            - '&bBảng thông tin'
+            #- ' &7Date: &f%day% &8| &f%time%'
+            # - ' &7Tọa độ:'
+            # - ' &fX:%x%  Y:%y%  Z:%z%'
+            # - ' &7RAM: &f%ram%'
+            # - ' &7Online: &f%online%&8&f/&f&f%maxplayers%'
+            # - ' &7Online: &f%online%&8&f/&f&f%maxplayers%'
+            # - ' &f%tdrplaytime_days_number%d %tdrplaytime_hour_number%h %tdrplaytime_minutes_number%m %tdrplaytime_seconds_number%s'
+            Lines:
+            - '%blank%'
+            - ' &7Name: &f%playername%'
+            - ' &7Ping: &f%ping%'
+            - ' &7Rank: &f%powerranks_rank%'
+            - ' &7Thời gian đã chơi'
+            - ' &f%playtime_time%'
+            - ' &7Điểm: &f%tm_tokens%'
+            - ' &7Tiền: &f%playerpoints_points%&7 '
+            - '%blank%'
+            - ' &7Kills: &f%kills% &7| &7KDA: &f%kd%'
+            - ' &7Chết ngu: &f%deaths% &7lần'
+            - ' &7Pet lv: &f%mypet_level% '
+            - ' &7Máu: &f%mypet_health%/%mypet_health_max%'
+            - '%blank%'
+            - ' &2/napthe &fđi pls:>'
+
+Version: '14'

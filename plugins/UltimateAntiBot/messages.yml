@@ -1,0 +1,184 @@
+version: 4.0
+prefix: "&4&LGAME&r &7» "
+onping: #<-- works only on bungeecord!
+  normal: "&c&l◆ &f&l$1&7/&c&l$2"
+  ready: "&f&l◆ &c&lXÁC MINH THÀNH CÔNG!"
+commands:
+  perms: "&fNâng rank để dùng!"
+  cleared: "&c$1&f has been &ccleared! "
+  added: "&c$1&f has been added in the &c$2"
+  removed: "&c$1&f has been removed from the &c$2"
+  wrong-args: "&fInvalid argument! Use &c/uab help!"
+  no-blacklist: "&cThis ID does not appear to be associated with anything!"
+  reload: "&fThe config and messages have been reloaded! This command is not recommended and could cause problems, a server restart is suggested!"
+analyzer:
+  increase: "&a↑ &7- &f%old% &c➜ &f%new% &7- &c%perc%%"
+  decrease: "&c↓ &7- &f%old% &c➜ &f%new% &7- &c%perc%%"
+notifications:
+  action: "&aToggled ActionBar notifications!"
+  title: "&aToggled Title notifications!"
+  bossbar: "&aToggled BossBar notifications"
+#actionbar/title/stats allowed values
+#%bots% - return botpersecond
+#%queue% - return queue
+#%pings% - return pingpersecond
+#%whitelist% - return whitelist size
+#%blacklist% - return blacklist size
+#%type% - return current attacktype
+#%checks% - return checkspersecond
+#%latency% - return server latency
+#%packets% - return packetspersecond
+#%totalpackets% - return totalpackets
+#%totalbots% - return totalbots
+#%totalpings% - return totalpings
+#%prefix% - return prefix
+#%underverification% - returns player under verification
+actionbar:
+  offline: "%prefix%&cJoin&7/&cPing &f%bots%&7/&f%pings% &4- &cVerify &f%underverification% &4- &cWhitelist &f%whitelist% » &c&l%type%"
+  antibot: "%prefix%&cBot&7/&cPing &f%bots%&7/&f%pings% &4- &cBlacklist&7/&cQueue&7/&cWhitelist &f%blacklist%&7/&f%queue%&7/&f%whitelist% &4- &cVerify &f%underverification% » &c&l%type%"
+  packets: "%prefix%&cPackets &f%packets%/sec &4- &cBlocked &f%totalpackets% &4- &cVerify &f%underverification% » &c&l%type%"
+title:
+  title: "&f%totalbots% &cBlocked Bots"
+  subtitle: "&f%blacklist% &cCurrent Blacklist"
+stats:
+  - "&cCurrent Session Stats:"
+  - ""
+  - "&cBot Blocked &f%totalbots%"
+  - "&cTotal Ping &f%totalpings%"
+  - "&cTotal Packets &f%totalpackets%"
+  - "&cWhitelisted IP &f%whitelist%"
+  - "&cBlacklisted IP &f%blacklist%"
+  - ""
+  - "&cCurrent server latency is &f%latency%"
+reason:
+  names: "Quá nhiều nick từ IP của bạn"
+  joins: "Quá nhiều liên kết từ IP của bạn"
+  pings: "Pings quá cao từ IP của bạn"
+  strange: "Người chơi lạ"
+  vpn: "Tắt VPN/PROXY"
+  admin: "ADMIN nhét mày zô á :)"
+  check: "Quá nhiều lần kiểm tra không thành công!"
+help:
+  - ""
+  - "&c/uab &chelp"
+  - "&c/uab &ctoggle &factionbar/title/bossbar"
+  - "&c/uab &cstats"
+  - "&c/uab &cclear &fblacklist/whitelist"
+  - "&c/uab &cwhitelist &fadd/remove &f<ip>"
+  - "&c/uab &cblacklist &fadd/remove &f<ip>"
+  - "&c/uab &cfirewall"
+  - "&c/uab &ccheck &f<id>"
+  - "&c/uab &creload"
+  - "&c/uab &cdump"
+satellitestats:
+  - ""
+  - "&cStatus: %status%"
+  - "&cAvg Requests: &f%avg%"
+  - "&cLast Minute Requests: &f%lastmin%"
+  - "&cCurrent Requests: &f%currentreq%"
+  - "&cLast UAB Servers Restart: &f%lastreboot%"
+  - "&cMessage: &f%message%"
+  - "&cResponse time: &f%time%ms"
+  - ""
+  - "&fThere are &c%currentserver%&f out of &c%maxservers%&f servers connected"
+firewall:
+  - "&cFirewall status: %status%"
+  - ""
+  - "&cIP in queue: %queue%"
+  - "&cIP blacklisted: %blacklist%"
+  - ""
+  - "&cThese are the UAB firewall stats that will only work if you have it enabled in the config!"
+  - "&cThe attack will be mitigated when all IPs have been blocked!"
+antibotmode:
+  - "&fᛃ &4&LGAME &fᛃ"
+  - ""
+  - "&7The antibot protection is now active!"
+  - "&7It will remain active until &c$1%&7 of IPs are blacklisted"
+  - "&7Current BlackList is &c$2%"
+  - ""
+  - "&cDiscord &7» &c&nhttps://discord.gg/gDPCqd3RDn"
+  - ""
+  - "&c&nFUNNY SURVIVAL SMP"
+first_join:
+  - "&fᛃ &4&LGAME &fᛃ"
+  - ""
+  - "&cChúng tôi đang xác thực ip của bạn!"
+  - "&cbây giờ bạn đã có thể vào lại"
+  - ""
+  - "&cDiscord &7» &c&nhttps://discord.gg/gDPCqd3RDn"
+  - ""
+  - "&c&nFUNNY SURVIVAL SMP"
+safe_mode:
+  - "&fᛃ &4&LGAME &fᛃ"
+  - ""
+  - "&7Chúng tôi không thể xác thực ip &ccủabạn&7 trong thời gian này!"
+  - "&7Server đang bị tấn công bởi &cbot &7 nên bạn không thể vào bây giờ"
+  - "&c&nHãy quay lại vào 1 lúc nữa nhé"
+  - ""
+  - "&cDiscord &7» &c&https://discord.gg/gDPCqd3RDn"
+  - ""
+  - "&c&nFUNNY SURVIVAL SMP"
+account-online:
+  - "&fᛃ &4&LGAME &fᛃ"
+  - ""
+  - "&7Bạn có quá nhiều tài khoản đăng nhập vào server &cCÙNG MỘT LÚC!"
+  - ""
+  - "&cDiscord &7» &c&nhttps://discord.gg/gDPCqd3RDn"
+  - ""
+  - "&c&nFUNNY SURVIVAL SMP"
+ping:
+  - "&fᛃ &4&LGAME &fᛃ"
+  - ""
+  # - "&7Ping the server exactly &c$1&7 times and join"
+  - "&7Chờ đợi là hạnh phúc"
+  - ""
+  - "&cDiscord &7» &c&nhttps://discord.gg/gDPCqd3RDn"
+  - ""
+  - "&c&nFUNNY SURVIVAL SMP"
+timer:
+  - "&fᛃ &4&LGAME &fᛃ"
+  - ""
+  - "&7Vào lại server trong &c$1&7 giây"
+  - ""
+  - "&cDiscord &7» &c&nhttps://discord.gg/gDPCqd3RDn"
+  - ""
+  - "&c&nFUNNY SURVIVAL SMP"
+blacklisted:
+  - "&fᛃ &4&LGAME &fᛃ"
+  - ""
+  - "&7Mày bị cho vào &cBLACKLIST &7bởi &chệ thống game"
+  - "&7Nếu bạn nghĩ đây là lỗi thì hãy tạo ticket trong discord để được hỗ trợ"
+  - "&7Liên hệ với chúng tôi trên discord và cung cấp &cid&7 của bạn để có thể &cchơi tiếp!"
+  - ""
+  - "&cLý do &7» &c$1"
+  - "&cID &7» &c$2"
+  - ""
+  - "&cDiscord &7» &c&nhttps://discord.gg/gDPCqd3RDn"
+  - ""
+  - "&c&nFUNNY SURVIVAL SMP"
+wait:
+  - "&fᛃ &4&LGAME &fᛃ"
+  - ""
+  - "&7Bạn đã thử lại quá nhiều lần! Xin hãy chờ &c10 &7giây rồi vào lại"
+  - ""
+  - "&cDiscord &7» &c&nhttps://discord.gg/gDPCqd3RDn"
+  - ""
+  - "&c&nFUNNY SURVIVAL SMP"
+fastjoin-queue:
+  - "&fᛃ &4&LGAME &fᛃ"
+  - ""
+  - "&7Bạn đang trong quá trình xác minh! Thời gian ước tinh là &c3/5&7 giây!"
+  - ""
+  - "&cDiscord &7» &c&nhttps://discord.gg/gDPCqd3RDn"
+  - ""
+  - "&c&nFUNNY SURVIVAL SMP"
+
+bossbar_idle_message: "&fĐang chờ đợi tấn công"
+blacklist_info:
+  - "&c&lThông tin BLACKLIST:"
+  - ""
+  - "&cLý do &7» &c$reason"
+  - "&cIP &7» &c$ip"
+  - "&cNickName &7» &c$nick"
+  - "&cID &7» &c$id"
+  - ""

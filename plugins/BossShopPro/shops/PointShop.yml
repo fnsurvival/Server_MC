@@ -1,0 +1,162 @@
+ShopName: PointShop
+DisplayName: '&1&lPointShop &a[v]'
+signs:
+  text: '[Shop điểm]'
+  NeedPermissionToCreateSign: true
+shop:
+  1000Points:
+    MenuItem:
+    - type:DIAMOND
+    - amount:1
+    - name:&6%reward%
+    - 'lore:&cPrice: %price%'
+    RewardType: POINTS
+    Reward: 1000
+    PriceType: MONEY
+    Price: 100
+    Message: '&eBạn vừa mua %reward%! Số tiền còn lại: &c%left%'
+    Amount: 1
+    ExtraPermission: ''
+    InventoryLocation: 3
+  2000Points:
+    MenuItem:
+    - type:DIAMOND
+    - amount:1
+    - name:&6%reward%
+    - 'lore:&cPrice: %price%'
+    RewardType: POINTS
+    Reward: 2000
+    PriceType: MONEY
+    Price: 200
+    Message: '&eBạn vừa mua %reward%! Số tiền còn lại: &c%left%'
+    Amount: 2
+    ExtraPermission: ''
+    InventoryLocation: 4
+  3000Points:
+    MenuItem:
+    - type:DIAMOND
+    - amount:1
+    - name:&6%reward%
+    - 'lore:&cPrice: %price%'
+    RewardType: POINTS
+    Reward: 3000
+    PriceType: MONEY
+    Price: 300
+    Message: '&eBạn vừa mua %reward%! Số tiền còn lại: &c%left%'
+    Amount: 3
+    ExtraPermission: ''
+    InventoryLocation: 5
+  4000Points:
+    MenuItem:
+    - type:DIAMOND
+    - amount:1
+    - name:&6%reward%
+    - 'lore:&cPrice: %price%'
+    RewardType: POINTS
+    Reward: 4000
+    PriceType: MONEY
+    Price: 400
+    Message: '&eBạn vừa mua %reward%! Số tiền còn lại: &c%left%'
+    Amount: 4
+    ExtraPermission: ''
+    InventoryLocation: 6
+  5000Points:
+    MenuItem:
+    - type:DIAMOND
+    - amount:1
+    - name:&6%reward%
+    - 'lore:&cPrice: %price%'
+    RewardType: POINTS
+    Reward: 5000
+    PriceType: MONEY
+    Price: 500
+    Message: '&eBạn vừa mua %reward%! Số tiền còn lại: &c%left%'
+    Amount: 5
+    ExtraPermission: ''
+    InventoryLocation: 7
+# # # # # # # # # # # # # MONEY # # # # # # # # # # # # # # # # # # # # 
+  # 90Money:
+  #   MenuItem:
+  #   - type:EMERALD
+  #   - amount:1
+  #   - name:&6%reward%
+  #   - 'lore:&cPrice: %price%'
+  #   RewardType: Money
+  #   Reward: 90
+  #   PriceType: POINTS
+  #   Price: 1000
+  #   Message: '&eBạn vừa mua %reward%! Số tiền còn lại: &c%left%'
+  #   Amount: 1
+  #   ExtraPermission: ''
+  #   InventoryLocation: 21
+  # 1990Money:
+  #   MenuItem:
+  #   - type:EMERALD
+  #   - amount:1
+  #   - name:&6%reward%
+  #   - 'lore:&cPrice: %price%'
+  #   RewardType: MONEY
+  #   Reward: 1990
+  #   PriceType: POINTS
+  #   Price: 2000
+  #   Message: '&eBạn vừa mua %reward%! Số tiền còn lại: &c%left%'
+  #   Amount: 2
+  #   ExtraPermission: ''
+  #   InventoryLocation: 22
+  # 2990Money:
+  #   MenuItem:
+  #   - type:EMERALD
+  #   - amount:1
+  #   - name:&6%reward%
+  #   - 'lore:&cPrice: %price%'
+  #   RewardType: MONEY
+  #   Reward: 2990
+  #   PriceType: POINTS
+  #   Price: 3000
+  #   Message: '&eBạn vừa mua %reward%! Số tiền còn lại: &c%left%'
+  #   Amount: 3
+  #   ExtraPermission: ''
+  #   InventoryLocation: 23
+  # 3990Money:
+  #   MenuItem:
+  #   - type:EMERALD
+  #   - amount:1
+  #   - name:&6%reward%
+  #   - 'lore:&cPrice: %price%'
+  #   RewardType: MONEY
+  #   Reward: 3990
+  #   PriceType: POINTS
+  #   Price: 4000
+  #   Message: '&eBạn vừa mua %reward%! Số tiền còn lại: &c%left%'
+  #   Amount: 4
+  #   ExtraPermission: ''
+  #   InventoryLocation: 24
+  # 4990Money:
+  #   MenuItem:
+  #   - type:EMERALD
+  #   - amount:1
+  #   - name:&6%reward%
+  #   - 'lore:&cPrice: %price%'
+  #   RewardType: MONEY
+  #   Reward: 4990
+  #   PriceType: POINTS
+  #   Price: 5000
+  #   Message: '&eBạn vừa mua %reward%! Số tiền còn lại: &c%left%'
+  #   Amount: 5
+  #   ExtraPermission: ''
+  #   InventoryLocation: 25
+
+
+
+  Back:
+    MenuItem:
+    - type:REDSTONE
+    - amount:1
+    - name:&cBack
+    - lore:&8Back to Menu
+    RewardType: SHOP
+    Reward: menu
+    PriceType: NOTHING
+    Message: '&6Đang thoát shop'
+    ExtraPermission: ''
+    InventoryLocation: 14

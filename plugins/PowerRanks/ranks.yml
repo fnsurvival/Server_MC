@@ -1,0 +1,374 @@
+Moderator:
+  permissions: []
+  inheritances: []
+  weight: 0
+  default: false
+  prefix: '[#9d1dffM#a51eefO#ae1fdfD#b720d0E#bf21c0R#c822b0A#d123a1T#d92491O#e22581R#FFFFFF]
+    #e22581'
+  suffix: ''
+  buyCommand: ''
+  buyableRanks: []
+  buyCost: 0.0
+  buyDescription: ''
+  namecolor: ''
+  chatcolor: ''
+Owner:
+  permissions: []
+  inheritances: []
+  weight: 100
+  default: false
+  prefix: '[#ff00ffO#cc33ffW#9966ffN#6699ffE#33ccffR#FFFFFF] #33ccff'
+  suffix: ''
+  buyCommand: ''
+  buyableRanks: []
+  buyCost: 0.0
+  buyDescription: ''
+  namecolor: ''
+  chatcolor: ''
+KING:
+  permissions:
+  - name: hat.*
+    value: true
+  - name: repairgui.command.repair
+    value: true
+  - name: repairgui.command.multirepair
+    value: true
+  - name: playerpoints.pay
+    value: true
+  - name: GFly.Fly
+    value: true
+  - name: GFly.FlySpeed
+    value: true
+  - name: weather.manage
+    value: true
+  - name: ulti.feed
+    value: true
+  - name: ulti.heal
+    value: true
+  - name: autosmelt.permission.use
+    value: true
+  - name: autosmelt.toggle
+    value: true
+  - name: autotool.use
+    value: true
+  - name: chestcommands.open.example.yml
+    value: true
+  - name: chestcommands.open.Shop.yml
+    value: true
+  - name: BossShop.open
+    value: true
+  - name: BossShop.close
+    value: true
+  - name: MyPet.leash.*
+    value: true
+  - name: MyPet.command.release
+    value: true
+  - name: MyPet.Skill.Ride.Item
+    value: true
+  - name: chestcommands.open.pet.yml
+    value: true
+  - name: essentials.afk
+    value: true
+  - name: essentials.msg
+    value: true
+  - name: essentials.balance
+    value: true
+  - name: essentials.warp
+    value: true
+  - name: essentials.warp.list
+    value: true
+  inheritances: []
+  weight: 0
+  default: false
+  prefix: '[#E70000KING#FFFFFF]#E70000'
+  suffix: ''
+  buyCommand: ''
+  buyableRanks: []
+  buyCost: 400.0
+  buyDescription: /flyspeed 0.1-1, /heal hoi mau
+  namecolor: '&4'
+  chatcolor: '#FF0000'
+Donator:
+  permissions:
+  - name: playerpoints.pay
+    value: true
+  - name: invsee
+    value: true
+  - name: hat.*
+    value: true
+  - name: repairgui.command.repair
+    value: true
+  - name: autosmelt.permission.use
+    value: true
+  - name: autosmelt.toggle
+    value: true
+  - name: autotool.use
+    value: true
+  - name: chestcommands.open.example.yml
+    value: true
+  - name: chestcommands.open.Shop.yml
+    value: true
+  - name: mypet.command.trade.receive.*
+    value: true
+  - name: BossShop.open
+    value: true
+  - name: BossShop.close
+    value: true
+  - name: MyPet.leash.*
+    value: true
+  - name: MyPet.command.release
+    value: true
+  - name: MyPet.Skill.Ride.Item
+    value: true
+  - name: chestcommands.open.pet.yml
+    value: true
+  - name: essentials.afk
+    value: true
+  - name: essentials.msg
+    value: true
+  - name: essentials.balance
+    value: true
+  - name: essentials.warp
+    value: true
+  - name: essentials.warp.list
+    value: true
+  inheritances: []
+  weight: 0
+  default: false
+  prefix: '[#2792AFDonator#FFFFFF] #2792AF'
+  suffix: ''
+  buyCommand: ''
+  buyableRanks:
+  - LORD
+  buyCost: 150.0
+  buyDescription: /hat, /autotool toggle, /invsee, /repair, /as
+  namecolor: '#2792AF'
+  chatcolor: '#2792AF'
+LORD:
+  permissions:
+  - name: GFly.Fly
+    value: true
+  - name: weather.manage
+    value: true
+  - name: hat.*
+    value: true
+  - name: playerpoints.pay
+    value: true
+  - name: repairgui.command.multirepair
+    value: true
+  - name: repairgui.command.repair
+    value: true
+  - name: ulti.feed
+    value: true
+  - name: autosmelt.permission.use
+    value: true
+  - name: autosmelt.toggle
+    value: true
+  - name: autotool.use
+    value: true
+  - name: chestcommands.open.example.yml
+    value: true
+  - name: chestcommands.open.Shop.yml
+    value: true
+  - name: BossShop.open
+    value: true
+  - name: BossShop.close
+    value: true
+  - name: MyPet.leash.*
+    value: true
+  - name: MyPet.command.release
+    value: true
+  - name: MyPet.Skill.Ride.Item
+    value: true
+  - name: chestcommands.open.pet.yml
+    value: true
+  - name: essentials.afk
+    value: true
+  - name: essentials.msg
+    value: true
+  - name: essentials.balance
+    value: true
+  - name: essentials.warp
+    value: true
+  - name: essentials.warp.list
+    value: true
+  inheritances: []
+  weight: 0
+  default: false
+  prefix: '[#990033LORD#FFFFFF] #990033'
+  suffix: ''
+  buyCommand: ''
+  buyableRanks:
+  - KING
+  buyCost: 200.0
+  buyDescription: /fly, /weather clear-storm, /feed hoi thanh thuc an
+  namecolor: '#990033'
+  chatcolor: '#660000'
+MVP:
+  permissions:
+  - name: playerpoints.pay
+    value: true
+  - name: invsee
+    value: true
+  - name: hat.*
+    value: true
+  - name: repairgui.command.repair
+    value: true
+  - name: autotool.use
+    value: true
+  - name: autosmelt.permission.use
+    value: true
+  - name: autosmelt.toggle
+    value: true
+  - name: chestcommands.open.example.yml
+    value: true
+  - name: chestcommands.open.Shop.yml
+    value: true
+  - name: BossShop.open
+    value: true
+  - name: BossShop.close
+    value: true
+  - name: MyPet.leash.*
+    value: true
+  - name: MyPet.command.release
+    value: true
+  - name: MyPet.Skill.Ride.Item
+    value: true
+  - name: chestcommands.open.pet.yml
+    value: true
+  - name: essentials.afk
+    value: true
+  - name: essentials.msg
+    value: true
+  - name: essentials.balance
+    value: true
+  - name: essentials.warp
+    value: true
+  - name: essentials.warp.list
+    value: true
+  inheritances: []
+  weight: 0
+  default: false
+  prefix: '[#3366FFM#3366CCV#336699P#FFFFFF] #336699'
+  suffix: ''
+  buyCommand: ''
+  buyableRanks:
+  - LORD
+  - Donator
+  buyCost: 100.0
+  buyDescription: /invsee xem inventory nguoi khac, /repair fix item, /as
+  namecolor: '#336699'
+  chatcolor: '#3366FF'
+Admin:
+  permissions: []
+  inheritances: []
+  weight: 75
+  default: false
+  prefix: '[#ffff00A#fbcc00D#f79900M#f36600I#ef3300N#FFFFFF] #ef3300'
+  suffix: ''
+  buyCommand: ''
+  buyableRanks: []
+  buyCost: 0.0
+  buyDescription: ''
+  namecolor: ''
+  chatcolor: ''
+VIP:
+  permissions:
+  - name: hat.*
+    value: true
+  - name: playerpoints.pay
+    value: true
+  - name: autotool.use
+    value: true
+  - name: playtime.playtime
+    value: true
+  - name: chestcommands.open.example.yml
+    value: true
+  - name: chestcommands.open.Shop.yml
+    value: true
+  - name: BossShop.open
+    value: true
+  - name: BossShop.close
+    value: true
+  - name: MyPet.leash.*
+    value: true
+  - name: MyPet.command.release
+    value: true
+  - name: MyPet.Skill.Ride.Item
+    value: true
+  - name: chestcommands.open.pet.yml
+    value: true
+  - name: essentials.afk
+    value: true
+  - name: essentials.msg
+    value: true
+  - name: essentials.balance
+    value: true
+  - name: essentials.warp
+    value: true
+  - name: essentials.warp.list
+    value: true
+  inheritances: []
+  weight: 0
+  default: false
+  prefix: '[#FFFF66V#FFFF33I#FFFF00P#FFFFFF] #FFFF00'
+  suffix: ''
+  buyCommand: ''
+  buyableRanks:
+  - MVP
+  - Donator
+  buyCost: 50.0
+  buyDescription: /hat
+  namecolor: '#FFFF00'
+  chatcolor: '#FFFF33'
+Member:
+  permissions:
+  - name: playerpoints.pay
+    value: true
+  - name: playtime.playtime
+    value: true
+  - name: chestcommands.open.Shop.yml
+    value: true
+  - name: chestcommands.open.example.yml
+    value: true
+  - name: mypet.command.trade.receive.*
+    value: true
+  - name: bossshop.open.command
+    value: true
+  - name: bossshop.open
+    value: true
+  - name: BossShop.open
+    value: true
+  - name: BossShop.close
+    value: true
+  - name: MyPet.leash.*
+    value: true
+  - name: MyPet.command.release
+    value: true
+  - name: MyPet.Skill.Ride.Item
+    value: true
+  - name: chestcommands.open.pet.yml
+    value: true
+  - name: essentials.afk
+    value: true
+  - name: essentials.msg
+    value: true
+  - name: essentials.balance
+    value: true
+  - name: essentials.warp.list
+    value: true
+  - name: essentials.warp
+    value: true
+  inheritances: []
+  weight: 0
+  default: true
+  prefix: '[#127e00M#1a8704E#239109M#2c9b0eB#35a513E#3eaf18R#FFFFFF] #127e00'
+  suffix: ''
+  buyCommand: ''
+  buyableRanks:
+  - VIP
+  - Donator
+  buyCost: 0.0
+  buyDescription: /hat ?? ??i m?
+  namecolor: '&2'
+  chatcolor: '&a'

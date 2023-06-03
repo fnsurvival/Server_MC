@@ -1,0 +1,15 @@
+# TDR Playtime Plugin 
+# https://www.spigotmc.org/resources/tdrplaytime.47894/ 
+# Change the language to one of the other files default it has nl_NL.yml and en_GB.yml, 
+# you can create your own language file
+
+language: vi_vn
+settings:
+  update_check: true
+  afk:
+    countAfkTime: false
+    events:
+      chatResetAfkTime: true
+      inventoryClickResetAfkTime: true
+      interactResetAfkTime: true
+  update_checktime: 0.5

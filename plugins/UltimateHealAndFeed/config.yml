@@ -1,0 +1,35 @@
+# Change the prefix here!
+Prefix: '&d[&5Sức mạnh của tiền&d] '
+
+# Permission message
+Nopermissionmessage: '&cHãy nâng rank để dùng!'
+
+# Feed permissions
+Feedperm: ulti.feed
+Feedpermothers: ulti.feed.others
+Feedcooldownbypassperm: ulti.feed.bypass
+
+# Heal permissions
+Healperm: ulti.heal
+Healpermothers: ulti.heal.others
+Healcooldownbypassperm: ulti.heal.bypass
+
+# Other messages
+Mustbeaplayer: '&cYou must be a player to execute this command!'
+unknownplayer: '&c%target% is not online!'
+
+# Feed
+Feed: '&cHồi thức ăn thành công'
+Feedother: '&cHồi thức ăn cho %target% thành công'
+Fedby: '&cThức ăn của bạn đã được hồi bới %player%'
+Usagefeed: '&cDùng: /feed <player>'
+Feedcooldownmsg: '&cBạn có thể sử dụng lại lệnh này sau %timeleft% giây!'
+Feedcooldowntime: 60
+
+# Heal
+Heal: '&cBạn đã được hồi máu và thức ăn!'
+Healother: '&cBạn đã được hồi máu và thức ăn cho %target%!'
+Healby: '&cBạn đã được hồi máu và thức ăn bởi %player%'
+Usageheal: '&cDùng: /heal <player>'
+Healcooldownmsg: '&cBạn có thể sử dụng lại lệnh này sau %timeleft% giây!'
+Healcooldowntime: 60

@@ -1,0 +1,5 @@
+messages-enabled: true
+set: '&a[Hat] Thành công.'
+stack-size: '&c[Hat] Chỉ cầm 1 thôi.'
+no-permission: '&c[Hat] Mua rank vip để dùng'
+console: '&c[Hat] sai chỗ r bro:).'

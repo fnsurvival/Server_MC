@@ -1,0 +1,70 @@
+# Documentation for using commands in configuration files can be found here:
+# github.com/cervinakuy/KitPvP/wiki/Typical-Formats
+
+
+Server:
+  MOTD:
+    Options:
+      Maintenance: false
+      Enabled: true
+    List:
+      RandomBlue:
+        Line-1: '&b&lFunny survival SMP.' # &3Now with JoinEventsPro!'
+        Line-2: '&3Chúc bạn chơi game vui vẻ nhé.'
+      RandomGreen:
+        Line-1: '&2&lFunny survival SMP.' # &aNow with JoinEventsPro!'
+        Line-2: '&aChúc bạn chơi game vui vẻ nhé.'
+      RandomYellow:
+        Line-1: '&e&lFunny survival SMP.' # &6Now with JoinEventsPro!'
+        Line-2: '&6Chúc bạn chơi game vui vẻ nhé.'
+      Maintenance:
+        Line-1: '&c&lFunny survival SMP.' # &7Now with &eJoinEventsPro!'
+        Line-2: '&7Chúc bạn chơi game vui vẻ nhé.'
+  Messages:
+    Full: '&7[&b&lGame&7] &cServer full rồi :<, bạn hãy thử lại sau nhé.'
+    Maintenance: '&7[&b&lHệ thống&7] &cMáy chủ hiện đang được Bảo trì, vui lòng kiểm
+      tra lại sau.'
+  Players:
+    Unlimited: false
+    Max: 10
+
+
+
+# Documentation for using commands in configuration files can be found here:
+# github.com/cervinakuy/KitPvP/wiki/Typical-Formats
+
+Leave:
+  Message:
+    Message: '&7[&c&l-&7] &b%player% &7đã out game vì bị bố/mẹ gank r:<'
+    Enabled: true
+  Sound:
+    Sound: NOTE_BASS
+    Pitch: 1
+    Enabled: true
+  Commands: []
+
+# Server:
+#   MOTD:
+#     Options:
+#       Maintenance: true
+#       Enabled: true
+#     List:
+#       RandomBlue:
+#         Line-1: '&b&lFunny survival SMP.' # &3Now with JoinEventsPro!'
+#         Line-2: '&3Chúc bạn chơi game vui vẻ nhé.'
+#       RandomGreen:
+#         Line-1: '&2&lFunny survival SMP.' # &aNow with JoinEventsPro!'
+#         Line-2: '&aChúc bạn chơi game vui vẻ nhé.'
+#       RandomYellow:
+#         Line-1: '&e&lFunny survival SMP.' # &6Now with JoinEventsPro!'
+#         Line-2: '&6Chúc bạn chơi game vui vẻ nhé.'
+#       Maintenance:
+#         Line-1: '&c&lFunny survival SMP.' # &7Now with &eJoinEventsPro!'
+#         Line-2: '&7Chúc bạn chơi game vui vẻ nhé.'
+#   Messages:
+#     Full: '&7[&b&lGame&7] &cServer full rồi :<, bạn hãy thử lại sau nhé.'
+#     Maintenance: '&7[&b&lJOINEVENTSPRO&7] &cThe server is currently undergoing Maintenance,
+#       please check back later.'
+#   Players:
+#     Unlimited: true
+#     Max: 100

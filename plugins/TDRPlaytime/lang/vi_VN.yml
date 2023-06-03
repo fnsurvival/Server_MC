@@ -1,0 +1,41 @@
+only:
+  player:
+    command: '&cLệnh dành cho người chơi!'
+command:
+  playtime:
+    timemessage: '&8[&6Đếm thời gian chơi&8] &7Thời gian chơi của bạn là &6%D% &7ngày &6%H% &7giờ
+      &6%M% &7phút &6%S% &7giây'
+    usertimemessage: '&8[&6Đếm thời gian chơi&8] Thời gian chơi của &7%NAME% là &6%D% &7ngày &6%H% &7giờ
+      &6%M% &7phút &6%S% &7giây'
+    resettimeconfirm: '&cĐã reset thời gian chơi thành công!'
+    timeadded: '&aĐã thêm thời gian chơi cho <player>'
+    timeremoved: '&aĐã thành công xóa bớt thời gian chơi của <player>'
+    imported: '&aThành công nhập <count> người chơi!'
+  milestone:
+    mustbenumber: '&cHãy ghi thành số!'
+    milestonenotexist: '&cThe milestone <name> doesn''t exist!'
+    milestonecreated: '&aThe milestone is created!'
+    itemadded: '&aYou added succesfull a item to the milestone!'
+    commandadded: '&aYou added succesfull a command to the milestone!'
+    fireworktoggled: '&aYou <state> the firework for the milestone'
+    setfireworkamount: '&aYou set the firework amount to <amount>'
+    setfireworkdelay: '&aYou set the firework amount to <amount>'
+    repeatingmilestoneremoved: '&aYou have successfully removed the repeating milestone!'
+    milestoneremoved: '&aYou have successfully removed the milestone!'
+    itemremoved: '&aYou removed an item from the milestone!'
+    commandremoved: '&aYou removed an command from the milestone!'
+    list:
+    - '%MILESTONE_NAME%'
+    - ' Time: Days: %D% Hours: %H% ,Minute''s: %M% Seconds''s: %S%'
+    info:
+    - '%MILESTONE_NAME%'
+    - ' Time: Days: %D% Hours: %H% ,Minute''s: %M% Seconds''s: %S%'
+    - ' Rewards:'
+    - '    Commands(%REWARD_COMMAND_COUNT%):'
+    - '%REWARD_COMMAND%'
+    - '    Items(%REWARD_ITEMS_COUNT%):'
+    - '%REWARD_ITEMS%'
+  defaults:
+    enabled: Enabled
+    disabled: Disabled
+version: 1.3

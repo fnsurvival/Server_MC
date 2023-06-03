@@ -1,0 +1,3 @@
+prefix: '&8[&4&lInv&6See&8] &7'
+wrongSyntax: '&cSai cấu trúc lệnh&8: &7Dùng&8: &6/invsee &8<&cplayer&8>'
+noPermission: '&cKhông đủ quyền%'

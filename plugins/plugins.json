@@ -1,0 +1,66 @@
+[
+  {
+    "Name": "Simple Tpa",
+    "IsSpigetPlugin": true,
+    "SpigetId": 64270,
+    "InstalledVersion": 0,
+    "IsDownloaded": true,
+    "IsEnabled": true
+  },
+  {
+    "Name": "AdvancedBan",
+    "IsSpigetPlugin": true,
+    "SpigetId": 8695,
+    "InstalledVersion": 0,
+    "IsDownloaded": true,
+    "IsEnabled": true
+  },
+  {
+    "Name": "❤ Simple Health Bar ❤",
+    "IsSpigetPlugin": true,
+    "SpigetId": 18413,
+    "InstalledVersion": 0,
+    "IsDownloaded": true,
+    "IsEnabled": true
+  },
+  {
+    "Name": "AureliumSkills-Beta1.3.6.jar",
+    "IsSpigetPlugin": false,
+    "SpigetId": 0,
+    "InstalledVersion": 0,
+    "IsDownloaded": true,
+    "IsEnabled": true
+  },
+  {
+    "Name": "PowerRanks.jar",
+    "IsSpigetPlugin": false,
+    "SpigetId": 0,
+    "InstalledVersion": 0,
+    "IsDownloaded": true,
+    "IsEnabled": true
+  },
+  {
+    "Name": "SimpleTpa.jar",
+    "IsSpigetPlugin": false,
+    "SpigetId": 0,
+    "InstalledVersion": 0,
+    "IsDownloaded": true,
+    "IsEnabled": true
+  },
+  {
+    "Name": "SkinsRestorer.jar",
+    "IsSpigetPlugin": false,
+    "SpigetId": 0,
+    "InstalledVersion": 0,
+    "IsDownloaded": true,
+    "IsEnabled": true
+  },
+  {
+    "Name": "❤SimpleHealthBar❤.jar",
+    "IsSpigetPlugin": false,
+    "SpigetId": 0,
+    "InstalledVersion": 0,
+    "IsDownloaded": true,
+    "IsEnabled": true
+  }
+]

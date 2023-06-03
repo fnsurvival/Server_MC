@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.1.202
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1677752140673
+  login: 1677750889537
+money: '1550.0'
+last-account-name: vanhfakereal
+logoutlocation:
+  world: 5ff962dd-e74a-46ae-ac93-caa740cdbf56
+  world-name: world
+  x: 4.420061
+  y: 96.0
+  z: -1.9051974
+  yaw: -178.55126953125
+  pitch: -55.20416259765625
+lastlocation:
+  world: 5ff962dd-e74a-46ae-ac93-caa740cdbf56
+  world-name: world
+  x: -8.5
+  y: 103.0
+  z: 10.5
+  yaw: 33.769775390625
+  pitch: 2.329498291015625

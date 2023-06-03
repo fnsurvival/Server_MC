@@ -1,0 +1,62 @@
+Join:
+  Message:
+    Message: '&7[&a&l+&7] &b%player% &7đã tham gia server.'
+    Enabled: true
+  Sound:
+    Sound: ITEM_PICKUP
+    Pitch: 1
+    Enabled: true
+  Commands: []
+  MOTD:
+    Lines:
+    - '&f&m                                                                  '
+    - ' '
+    - ' &a&lChào mừng đến với server nha!'
+    - ' &7Chào mừng quay trở lại'
+    - ' &7Chúc mày chơi game vui vẻ '
+    - ' '
+    - ' &eWebsite: &ahttps://funnysurvival.w3spaces.com/'
+    - ' &eStore: &fChưa có '
+    - ' '
+    - '&f&m                                                                      '
+    Enabled: true
+  Book:
+    Information:
+      Slot: 4
+      Title: HELLO!
+      Author: Game
+    Pages:
+    - '&a&lChào mừng bạn đến mới server của tôi !%newline%&7 Server này chả có gì
+      ngoài sinh tồn cả:< %newline%%newline%&7Sau này nếu Owner có máy vip hơn thì
+      chúng ta sẽ có 1 server ngon hơn.'
+    # - '&a&lPage 2%newline%&7This is an example of a second page.'
+    Enabled: false
+  Items:
+    Selector:
+      Name: '&aServer Selector &7(Right Click)'
+      Slot: 0
+      Amount: 1
+      Permission: jep.items.selector
+      Material: COMPASS
+      Lore:
+      - '&7This is our server selector.'
+      - '&7it replaces the item in the'
+      - '&7configured slot when'
+      - '&fOverride: true&7 is set'
+      - on the item in the config.yml
+      Commands:
+      - 'player: servers'
+    Pickaxe:
+      Name: '&aDefault Pickaxe'
+      Slot: 1
+      Amount: 1
+      Permission: jep.items.pickaxe
+      Material: IRON_PICKAXE
+      Override: false
+      Lore:
+      - '&7This is a pickaxe.'
+    Enabled: false
+  Other:
+    Firework: true
+  Spawn:
+    Enabled: true
