@@ -1,0 +1,16 @@
+CustomJoinAndQuitMessage:
+  Prefix: '&e[&dCustomJoinAndQuitMessages&e]'
+  Help-Msg:
+    - '&b/CustomJoinAndQuitMessage &8| &9/Cjm &7Estas son las variantes del comando del plgin principal'
+    - '&b/Cjm &ehelp &7muestrar este mismo mensaje'
+    - '&b/Cjm &ereload &7recargar los archivos del plugin'
+    - '&b/Cjm &einfo &7muestra información sobre el plugin'
+  Help-Cmd: '&7Use &b/Cjm &6help&7 para más información'
+  Reload: '&aRecarga Completada'
+  Error-Cmd: '&cArgumento desconocido'
+  No-Permission: '&cNo tienes permiso para hacer eso!'
+  No-Permission-Label: 'Solicite ayuda al propietario del servidor o a un administrador para obtener más información.'
+  Sound-Error: 'El sonido no pertenece a la versión actual o el nombre está mal'
+  DisplayManager.Error: '&c|!| &cEstablezca la opción para ver la caracteristica'
+  DisplayManager.Sound.Usage: '&7Seleccione una de estas dos opciones para ejecutar la función &e<join|quit>'
+  Groups.NotFoundGroup: '&cNo se pudo encontrar el grupo.'

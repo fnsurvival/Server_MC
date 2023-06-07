@@ -142,6 +142,8 @@ settings:
         - /captcha
         - /2fa
         - /totp
+        - /dangky
+        - /dangnhap
         # Max number of allowed registrations per IP
         # The value 0 means an unlimited number of registrations!
         maxRegPerIp: 1

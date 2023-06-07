@@ -14,12 +14,12 @@
 # Example usage: /ban Leoko @ExampleLayout
 Message:
   ExampleLayout:
-    - "%PREFIX% &7Banned for Hacking"
-    - "&c&oBanned by %OPERATOR%"
+    - "%PREFIX% &7Ban vì dùng hack/phần mềm thứ 3"
+    - "&c&oBan bởi %OPERATOR%"
     - ""
-    - "&cIt seems like you are using a"
-    - "&chacked client please disable it!"
-    - "&cUnban in &8» https://discord.gg/nfTUEWrEe6"
+    - "&cCó vẻ bạn đã sử dụng hack/phần mềm thứ 3"
+    - "&cNếu bạn cho rằng đây là sai xót!"
+    - "&cMở ban tại &8» https://discord.gg/nfTUEWrEe6"
     - ""
     # - '&8Unban application in TS or forum'
     - "&eMở ban tại &8» &c&nhttps://discord.gg/nfTUEWrEe6"

@@ -676,6 +676,10 @@ commands:
     stat_entry: |2-
 
         &3{stat} &7- Общий уровень: &f{total_level}&7, Базовый уровень: &f{base_level}&7, Изменённый уровень: &f{modified_level}
+  transfer:
+    success: '&aУспешно перенесенные данные игрока из  &7{from} &aв &7{to}'
+    error: '&cПроизошла ошибка при передаче данных игрока. Проверьте консоль на наличие
+      ошибок.'
 leveler:
   title: '&a{skill} Уровень повышен'
   subtitle: '&6{old} ➜ {new}'
@@ -850,6 +854,7 @@ menus:
     unlocked_desc_maxed: |-
       &fОписание:
         &7{desc}
+    desc_upgrade_value: '&7{current}&8→{next}&7'
 mana_abilities:
   replenish:
     name: Комбайнер
@@ -1050,7 +1055,7 @@ units:
   mana: МАНЫ
   hp: ЖИЗНЕЙ
   xp: ОПЫТ
-file_version: 27
+file_version: 29
 sources:
   farming:
     wheat: Пшеница

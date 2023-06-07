@@ -580,6 +580,9 @@ commands:
     stat_entry: |2-
 
         &3{stat} &7- 总等级: &f{total_level}&7, 基础等级: &f{base_level}&7, 翻倍等级: &f{modified_level}
+  transfer:
+    success: '&a成功将玩家数据从 &7{from} &a转移到 &7{to}'
+    error: '&c传输玩家数据时出错。请检查控制台以获取错误信息。'
 leveler:
   title: '&a{skill} 等级提升'
   subtitle: '&6{old} ➜ {new}'
@@ -745,6 +748,7 @@ menus:
     unlocked_desc_maxed: |-
       &f描述：
         &7{desc}
+    desc_upgrade_value: '&7{current}&8→{next}&7'
 mana_abilities:
   replenish:
     name: 自动补种
@@ -1170,4 +1174,4 @@ units:
   mana: 魔法值
   hp: 血量
   xp: 经验
-file_version: 27
+file_version: 29

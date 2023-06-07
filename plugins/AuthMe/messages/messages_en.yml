@@ -5,8 +5,8 @@
 
 # Registration
 registration:
-  register_request: '&3Đăng ký: /register <password> <ConfirmPassword>'
-  command_usage: '&cDùng: /register <password> <ConfirmPassword>'
+  register_request: '&3Đăng ký: /reg <mật khẩu> <nhập lại mật khẩu>'
+  command_usage: '&cDùng: /reg <mật khẩu> <nhập lại mật khẩu>'
   reg_only: '&4Chỉ có người đã đăng ký mới được vào server!'
   kicked_admin_registered: '1 admin/owner/staff/mod đã hủy tài khoản của bạn, hãy đăng nhập lại.'
   success: '&2Đăng ký thành công!'
@@ -23,10 +23,10 @@ password:
 
 # Login
 login:
-  command_usage: '&cDùng: /l <password>'
+  command_usage: '&cDùng: /l <mật khẩu>'
   wrong_password: '&cSai mật khẩu!'
   success: '&2Đăng nhập thành công!'
-  login_request: '&cĐăng nhập bằng lệnh: /l <password>'
+  login_request: '&cĐăng nhập bằng lệnh: /l <mật khẩu>'
   timeout_error: '&4Thời gian đăng nhập đã hết, Bạn đã bị kick khỏi server, hãy thử lại sau!'
 
 # Errors
@@ -51,7 +51,7 @@ antibot:
 
 unregister:
   success: '&cHủy đăng ký thành công!'
-  command_usage: '&cDùng: /unregister <password>'
+  command_usage: '&cDùng: /unregister <mật khẩu>'
 
 # Other messages
 misc:
@@ -146,11 +146,11 @@ two_factor:
 
 # Time units
 time:
-  second: 'second'
-  seconds: 'seconds'
-  minute: 'minute'
-  minutes: 'minutes'
-  hour: 'hour'
-  hours: 'hours'
-  day: 'day'
-  days: 'days'
+  second: 'giây'
+  seconds: 'giây'
+  minute: 'phút'
+  minutes: 'phút'
+  hour: 'giờ'
+  hours: 'giờ'
+  day: 'ngày'
+  days: 'ngày'

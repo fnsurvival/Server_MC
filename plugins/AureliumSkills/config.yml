@@ -1,3 +1,9 @@
+hooks:
+  HolographicDisplays:
+    enabled: true
+  DecentHolograms:
+    enabled: false
+reset-skills-on-death: false
 save-blank-profiles: false
 mysql:
   enabled: false
@@ -9,7 +15,7 @@ mysql:
   load-delay: 0
   always-load-on-join: false
   ssl: false
-default-language: en
+default-language: vi
 try-detect-client-language: true
 languages:
 - en
@@ -27,6 +33,7 @@ languages:
 - it
 - ko
 - cs
+- vi
 action-bar:
   use-suffix: true
   enabled: true
