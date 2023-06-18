@@ -14,4 +14,4 @@ Java 17 to run server:
 
 If you found any bug, please immidiately report it to this email: fnsurvival@gmail.com or fcapham201@gmail.com and claim your rewards
 
-Have fun!
+If you want to changes custom icon, you only need to use your 2 desired picture and change its name to "custom-icon.png" and "server-icon.png"
