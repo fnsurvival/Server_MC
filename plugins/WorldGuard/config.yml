@@ -147,13 +147,13 @@ blacklist:
         console:
             enable: true
         database:
-            enable: false
+            enable: true
             dsn: jdbc:mysql://localhost:3306/minecraft
             user: root
             pass: ''
             table: blacklist_events
         file:
-            enable: false
+            enable: true
             path: worldguard/logs/%Y-%m-%d.log
             open-files: 10
 custom-metrics-charts: true

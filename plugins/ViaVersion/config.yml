@@ -1,14 +1,3 @@
-# Thanks for downloading ViaVersion
-# Ensure you look through all these options
-# If you need help:
-# Discord - https://viaversion.com/discord
-# viaversion.com - Discussion tab
-# Docs - https://docs.viaversion.com/display/VIAVERSION/Configuration
-#
-#----------------------------------------------------------#
-#                     GLOBAL OPTIONS                       #
-#----------------------------------------------------------#
-#
 # Should ViaVersion check for updates?
 checkforupdates: true
 # Send the supported versions with the Status (Ping) response packet
@@ -183,6 +172,6 @@ minimize-cooldown: true
 left-handed-handling: true
 # Get the world names which should be returned for each vanilla dimension
 map-1_16-world-names:
-  overworld: minecraft:overworld
+  overworld: minecraft:world
   nether: minecraft:the_nether
   end: minecraft:the_end

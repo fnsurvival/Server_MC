@@ -1,7 +1,9 @@
 # Server_MC
 
+Server is 
+
 Server support PC & PC:
-+ PC: 1.18.1 (recomment)
++ PC: 1.18.1 (recommend)
 + PE: Lastest version <br>
   + Port: default
 
@@ -15,3 +17,5 @@ Java 17 to run server:
 If you found any bug, please immidiately report it to this email: fnsurvival@gmail.com or fcapham201@gmail.com and claim your rewards
 
 If you want to changes custom icon, you only need to use your 2 desired picture and change its name to "custom-icon.png" and "server-icon.png"
+
+You can read more in "run.bat" file

@@ -22,7 +22,7 @@ Ban:
   - "&cLý do &8» &7%REASON%"
   - '&7'
   #- '&8Unban application in TS or forum'
-  - "&eMở ban tại &8» &c&nhttps://discord.gg/nfTUEWrEe6"
+  - "&eMở ban tại &8» &c&n "
   #- "&eForum &8» &c&ncoming soon"
   Notification:
   - "&c&o%NAME% &7bị ban bởi &e&o%OPERATOR%"
@@ -38,7 +38,7 @@ Ipban:
   - "&cLý do &8» &7%REASON%"
   - '&7'
   #- '&8Unban application in TS or forum'
-  - "&eMở ban tại &8» &c&nhttps://discord.gg/nfTUEWrEe6"
+  - "&eMở ban tại &8» &c&n "
   #- "&eForum &8» &c&ncoming soon"
   Notification:
   - "&c&o%NAME% &7bị ban bởi &e&o%OPERATOR%"
@@ -55,7 +55,7 @@ Tempban:
   - "&cLý do &8» &7%REASON%"
   - '&7'
   #- '&8Unban application in TS or forum'
-  - "&eMở ban tại &8» &c&nhttps://discord.gg/nfTUEWrEe6"
+  - "&eMở ban tại &8» &c&n "
   #- "&eForum &8» &c&ncoming soon"
   Notification:
   - "&c&o%NAME% &7bị ban bởi &e&o%OPERATOR%"
@@ -72,7 +72,7 @@ Tempipban:
   - "&cLý do &8» &7%REASON%"
   - '&7'
   #- '&8Unban application in TS or forum'
-  - "&eMở ban tại &8» &c&nhttps://discord.gg/nfTUEWrEe6"
+  - "&eMở ban tại &8» &c&n "
   #- "&eForum &8» &c&ncoming soon"
   Notification:
   - "&c&o%NAME% &7bị ban bởi &e&o%OPERATOR%"

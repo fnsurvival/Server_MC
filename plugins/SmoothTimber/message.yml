@@ -1,9 +1,9 @@
 version: 4
 messages:
   global:
-    prefix: '&5Smooth&dTimber &8||'
+    prefix: '&5HIệu ứng&dChặt cây &8||'
     list-split: '&7, &d'
-    not-allowed: '&7You''re lacking the permission &5%permission% &7to use &5Smooth&dTimber&7!'
+    not-allowed: '&7You''re lacking the permission &5%permission% &7to use  &5HIệu ứng&dChặt cây&7!'
   reload:
     needed: '&7Detected a %type0% change, &5reloading %type1%&7...'
     done: '&7%type% reloaded &dsuccessfully!'
@@ -11,11 +11,11 @@ messages:
     version:
       supported: '&7You''re currently using the &dsupported&7 Minecraft Version &d%minecraft%
         &7(&5Core %core%&7)'
-      unsupported: '&7You''re currently using the &cunsupported&7 Minecraft Version
+      unsupported: '&7Bạn đang sử dụng phiên bản Minecraft &cKHÔNG ĐƯỢC HỖ TRỢ&7
         &4%minecraft%'
-      need-update: '&7If you want to use &5Smooth&dTimber &7you need to update your
-        server to a supported Minecraft Version'
-      versions: '&7Supported Versions are: &d%versions%'
+      need-update: '&7Nếu bạn muốn dùng &5HIệu ứng&dChặt cây &7bạn cần cập nhật
+        lên phiên bản Minecraft được hỗ trợ'
+      versions: '&7Phiên bản được hỗ trợ: &d%versions%'
   type:
     message: message
     messages: messages
@@ -34,14 +34,14 @@ messages:
     woodchopper: woodchopper
   toggle:
     'on':
-      forever: '&7You enabled your &d%tool%&7!'
-      timed: '&7You enabled your &d%tool% &7for &5%time%&7!'
+      forever: '&7Bạn đã kích hoạt&d%tool%&7!'
+      timed: '&7Bạn đã kích hoạt&d%tool% &7for &5%time%&7!'
     'off':
-      forever: '&7You disabled your &c%tool%&7!'
-      timed: '&7You disabled your &c%tool% &7for &4%time%&7!'
-    disabled: '&7Toggling is disabled!'
+      forever: '&7Bạn đã tắt của bạn &c%tool%&7!'
+      timed: '&7Bạn đã tắt của bạn &c%tool% &7cho &4%time%&7!'
+    disabled: '&7Chuyển đổi đã tắt!'
   cooldown:
-    wait: '&7Your tool is still on &dcooldown&7 for &5%time%&7!'
+    wait: '&7Công cụ của bạn vẫn đang trong &dthời gian hồi&7 cho &5%time%&7!'
   command:
     only:
       player: '&7Only a &5player &7can run this command!'
@@ -55,7 +55,7 @@ messages:
       help: '&7/sm help &8- &7List all smoothtimber commands with their description
         and usage'
   abort:
-    message: '&7You can''t cut this tree because &c%reason%&7!'
+    message: '&7Bạn không thể cắt cái cây này vì &c%reason%&7!'
     reason:
       unknown: another plugin cancelled the process
       griefprevention: it is protected by a GriefPrevetion Claim

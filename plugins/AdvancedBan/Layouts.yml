@@ -19,10 +19,10 @@ Message:
     - ""
     - "&cCó vẻ bạn đã sử dụng hack/phần mềm thứ 3"
     - "&cNếu bạn cho rằng đây là sai xót!"
-    - "&cMở ban tại &8» https://discord.gg/nfTUEWrEe6"
+    - "&cMở ban tại &8» "
     - ""
     # - '&8Unban application in TS or forum'
-    - "&eMở ban tại &8» &c&nhttps://discord.gg/nfTUEWrEe6"
+    - "&eMở ban tại &8» &c&n"
     #- "&eForum &8» &c&ncoming soon"
   ExampleLayout2:
     - '%PREFIX% &7Banned for offensive language'

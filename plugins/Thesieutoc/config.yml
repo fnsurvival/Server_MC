@@ -1,14 +1,15 @@
 #Nhập API để sử dụng plugin
 TheSieuToc-API:
-  key: '6F11F71B9023D79F0BCA040B748E0636'
-  secret: '1CDBBF1947D6CFBCDA6811B3ACF666CC'
+  key: ''
+  secret: ''
+# Tìm những thứ ở trên tại đây https://thesieutoc.net/trangchu
 
 
 #Tắt theo mặc định
 #Nếu không sử dụng MySQL thì dữ liệu sẽ được lưu trên file, cẩn thận khi chuyển đổi vì dữ liệu có sẵn từ trước sẽ không di chuyển theo
 #Lưu ý MySQL chỉ hoạt động sau khi plugin được khởi động, không áp dụng cho lệnh /tst reload
 mysql:
-  enable: false
+  enable: true
   host: localhost
   port: 3306
   user: root

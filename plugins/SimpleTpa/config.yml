@@ -130,10 +130,10 @@ invincibility-seconds: 2
 #This will keep the teleport request alive for X seconds
 keep-alive: 60
 #This will delay the teleportation for X seconds
-delay-back-command: 0
+delay-back-command: 3
 delay-teleportation: 0
 #Cooldowns
-back-cooldown: 0
+back-cooldown: 2
 tpa-cooldown: 0
 tpahere-cooldown: 0
 tpahereall-cooldown: 0

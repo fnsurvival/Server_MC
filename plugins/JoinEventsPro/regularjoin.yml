@@ -12,11 +12,6 @@ Join:
     - '&f&m                                                                  '
     - ' '
     - ' &a&lChào mừng đến với server nha!'
-    - ' &7Chào mừng quay trở lại'
-    - ' &7Chúc mày chơi game vui vẻ '
-    - ' '
-    - ' &eWebsite: &ahttps://funnysurvival.w3spaces.com/'
-    - ' &eStore: &fChưa có '
     - ' '
     - '&f&m                                                                      '
     Enabled: true
@@ -39,11 +34,7 @@ Join:
       Permission: jep.items.selector
       Material: COMPASS
       Lore:
-      - '&7This is our server selector.'
-      - '&7it replaces the item in the'
-      - '&7configured slot when'
-      - '&fOverride: true&7 is set'
-      - on the item in the config.yml
+      - '&7Khu chọn máy chủ.'
       Commands:
       - 'player: servers'
     Pickaxe:
