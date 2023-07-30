@@ -18,14 +18,14 @@ unsafe: "&e[Random tp] không thể tìm nơi an toàn trong [numAttempts] lần
 cooldownMessage: "&e[Random tp] You can't teleport again for [time]"
 
 #if the region doesn't have any locations queued and the player doesn't have Random tp.unqueued permission
-noLocationsQueued: "#f5eb73[Random tp] Không có địa điểm sẵn sàng"
+noLocationsQueued: "#f5eb73[Random tp] no locations ready at this time"
 
 #when the line shifts
 queueUpdate: "#2636ef[Random tp] Bạn đang trong hàng đợi dịch chuyển số: [num]"
 
 #if the player doesn't have enough money to teleport in the region
 # placeholder: [money] - how much money is required for the command
-notEnoughMoney: "&e[Random tp] Cần ít nhất $[money]."
+notEnoughMoney: "&e[Random tp] you need at least $[money] for that."
 
 # for time placeholders, what to call days, hours, minutes, seconds
 days: "d"
@@ -36,7 +36,7 @@ millis: "ms"
 
 # a configuration file 'version' is lower than the latest
 # placeholder: [filename] - name of file, including file extension
-oldFile: "&b[Random tp] file [filename] cũ đã được tìm thấy. Đang tiến hành cập nhập!"
+oldFile: "&b[Random tp] old [filename] detected. Updating"
 
 # detected a bukkit world that isn't in the config file
 # placeholder: [worldName] - the world detected

@@ -29,7 +29,7 @@
 #########################################################################################   
 
 # Note: Whether or not to strip colors from messages shown to console.
-stripConsole: false
+stripConsole: true
 messages:
 
    # Note: Use {PREFIX} in any message to add the below prefix!
@@ -102,7 +102,7 @@ messages:
     titles:
       enabled: false
       titleContent: '{PREFIX}'
-      subtitleContent: '&fĐã reload file!'
+      subtitleContent: '&fĐã tải lại file!'
          
   COMMAND_NOPERMISSION:
    # Placeholders: None

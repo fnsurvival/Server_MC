@@ -2,5 +2,5 @@
 verbose: true
 # Messages
 verbose-message: "&8(&7PingFix&8) &aFixing &e%player%'s &aping &d%from% &e> &d%to%"
-noperm-message: "&cKhông đủ quyền!"
-ping-message: "&aPing của bạn: &e%ping%"
+noperm-message: "&cYou don't have permission for this!"
+ping-message: "&aYour ping is &e%ping%"

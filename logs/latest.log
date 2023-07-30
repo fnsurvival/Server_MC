@@ -1,0 +1,1346 @@
+[00:58:39] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:58:39] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[00:58:40] [Worker-Main-5/INFO]: Loaded 7 recipes
+[00:58:44] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[00:58:44] [Server thread/INFO]: Loading properties
+[00:58:44] [Server thread/INFO]: This server is running CraftBukkit version 3443-Spigot-699290c-2c1e499 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT)
+[00:58:45] [Server thread/INFO]: Debug logging is disabled
+[00:58:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[00:58:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[00:58:45] [Server thread/INFO]: Default game type: SURVIVAL
+[00:58:45] [Server thread/INFO]: Generating keypair
+[00:58:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:58:45] [Server thread/INFO]: Using default channel type
+[00:58:47] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[00:58:51] [Server thread/WARN]: Legacy plugin BlockedCmds v2.1.4 does not specify an api-version.
+[00:58:51] [Server thread/WARN]: Legacy plugin UltimateHealAndFeed v1.0 does not specify an api-version.
+[00:58:51] [Server thread/WARN]: Legacy plugin PlayTime v3.6 does not specify an api-version.
+[00:58:51] [Server thread/WARN]: Legacy plugin Invsee v1.0.0 does not specify an api-version.
+[00:58:51] [Server thread/WARN]: Legacy plugin BossBroadcast v1.0.2 does not specify an api-version.
+[00:58:51] [Server thread/WARN]: Legacy plugin SimpleTpa v6.4 does not specify an api-version.
+[00:58:51] [Server thread/WARN]: Legacy plugin Weather v1.0 does not specify an api-version.
+[00:58:51] [Server thread/WARN]: Legacy plugin LangUtils v1.9 does not specify an api-version.
+[00:58:51] [Server thread/WARN]: Legacy plugin PingFix v1.2.0 does not specify an api-version.
+[00:58:51] [Server thread/WARN]: Legacy plugin ChestCommands v3.1.4 does not specify an api-version.
+[00:58:52] [Server thread/INFO]: [BlockedCmds] Loading BlockedCmds v2.1.4
+[00:58:52] [Server thread/INFO]: [UltimateHealAndFeed] Loading UltimateHealAndFeed v1.0
+[00:58:52] [Server thread/INFO]: [GFly] Loading GFly v[2.3.0.0]
+[00:58:52] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
+[00:58:52] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.7
+[00:58:52] [Server thread/INFO]: [PlayTime] Loading PlayTime v3.6
+[00:58:52] [Server thread/INFO]: [AutoTool] Loading AutoTool v1.1.3
+[00:58:52] [Server thread/INFO]: [UltimateAntiBot] Loading UltimateAntiBot v4.0.7-ABYSS
+[00:58:52] [Server thread/INFO]: [SetHome-Config] Loading SetHome-Config v2.3
+[00:58:52] [Server thread/INFO]: [Invsee] Loading Invsee v1.0.0
+[00:58:52] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.6.2
+[00:58:52] [Server thread/INFO]: [ViaVersion] ViaVersion 4.6.2 is now loaded. Registering protocol transformers and injecting...
+[00:58:53] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v4.4.1
+[00:58:53] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[00:58:53] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[00:58:53] [Server thread/ERROR]: 'void com.viaversion.viaversion.api.data.MappingDataBase.<init>(java.lang.String, java.lang.String, boolean)' initializing ViaBackwards v4.4.1 (Is it up to date?)
+java.lang.NoSuchMethodError: 'void com.viaversion.viaversion.api.data.MappingDataBase.<init>(java.lang.String, java.lang.String, boolean)'
+	at com.viaversion.viabackwards.api.data.BackwardsMappings.<init>(BackwardsMappings.java:46) ~[?:?]
+	at com.viaversion.viabackwards.protocol.protocol1_9_4to1_10.Protocol1_9_4To1_10.<clinit>(Protocol1_9_4To1_10.java:39) ~[?:?]
+	at com.viaversion.viabackwards.api.ViaBackwardsPlatform.init(ViaBackwardsPlatform.java:85) ~[?:?]
+	at com.viaversion.viabackwards.BukkitPlugin.init(BukkitPlugin.java:48) ~[?:?]
+	at com.viaversion.viabackwards.BukkitPlugin.onLoad(BukkitPlugin.java:36) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.loadPlugins(CraftServer.java:415) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:231) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:994) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[00:58:53] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.41
+[00:58:54] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[00:58:54] [Server thread/INFO]: [BossBroadcast] Loading BossBroadcast v1.0.2
+[00:58:54] [Server thread/INFO]: [AutoSmelt] Loading AutoSmelt vV1.0
+[00:58:54] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.2.2
+[00:58:54] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0
+[00:58:56] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[00:58:56] [Server thread/INFO]: [Weather] Loading Weather v1.0
+[00:58:56] [Server thread/INFO]: [LangUtils] Loading LangUtils v1.9
+[00:58:56] [Server thread/INFO]: [Hat] Loading Hat v1.5.0
+[00:58:56] [Server thread/INFO]: [floodgate] Loading floodgate v2.2.0-SNAPSHOT (b74-4f36112)
+[00:58:57] [Server thread/INFO]: [floodgate] Took 730ms to boot Floodgate
+[00:58:57] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[00:58:57] [Server thread/INFO]: [TokenManager] Loading TokenManager v3.2.8
+[00:58:57] [Server thread/INFO]: [PingFix] Loading PingFix v1.2.0
+[00:58:57] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v2.0.2
+[00:58:57] [Server thread/INFO]: [JoinEventsPro] Loading JoinEventsPro v4.4
+[00:58:57] [Server thread/INFO]: [Thesieutoc] Loading Thesieutoc v#27
+[00:58:57] [Server thread/INFO]: [RealScoreboard] Loading RealScoreboard v1.1
+[00:58:57] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.2.5
+[00:58:57] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v3.1.4
+[00:58:57] [Server thread/INFO]: [BossShopPro] Loading BossShopPro v2.0.9
+[00:58:57] [Server thread/INFO]: [DamageIndicator] Loading DamageIndicator v1.3.8
+[00:58:57] [Server thread/INFO]: [Orebfuscator] Loading Orebfuscator v5.3.0
+[00:58:57] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.1.0-SNAPSHOT
+[00:58:58] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[00:58:58] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[00:58:58] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
+[00:58:59] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4c3d8bda]
+[00:59:00] [Server thread/INFO]: [ClearLagTimer] Loading ClearLagTimer vBuild 36
+[00:59:00] [Server thread/INFO]: [AdvancedBan] Loading AdvancedBan v2.3.0
+[00:59:00] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.7+216b061
+[00:59:00] [Server thread/INFO]: [GSit] Loading GSit v1.4.4
+[00:59:00] [Server thread/INFO]: [SmoothTimber] Loading SmoothTimber v1.22.1
+[00:59:00] [Server thread/INFO]: [RTP] Loading RTP v1.3.23
+[00:59:00] [Server thread/INFO]: [ActionHealth] Loading ActionHealth v3.5.8
+[00:59:00] [Server thread/INFO]: [AureliumSkills] Loading AureliumSkills vBeta 1.3.21
+[00:59:00] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-SNAPSHOT-bCUSTOM
+[00:59:00] [Server thread/INFO]: [WildStacker] Loading WildStacker v2023.2
+[00:59:00] [Server thread/WARN]: java.lang.ClassNotFoundException: com.bgsoftware.wildstacker.nms.v1181.NMSAdapter
+[00:59:00] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:147)
+[00:59:00] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99)
+[00:59:00] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+[00:59:00] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
+[00:59:00] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:375)
+[00:59:00] [Server thread/WARN]: 	at com.bgsoftware.wildstacker.WildStackerPlugin.loadNMSAdapter(WildStackerPlugin.java:244)
+[00:59:00] [Server thread/WARN]: 	at com.bgsoftware.wildstacker.WildStackerPlugin.onLoad(WildStackerPlugin.java:93)
+[00:59:00] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.loadPlugins(CraftServer.java:415)
+[00:59:00] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:231)
+[00:59:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:994)
+[00:59:00] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304)
+[00:59:00] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[00:59:00] [Server thread/INFO]: [WildStacker] [0;31;1mThe plugin doesn't support your minecraft version.[m
+[00:59:00] [Server thread/INFO]: [WildStacker] [0;31;1mPlease try a different version.[m
+[00:59:00] [Server thread/INFO]: [WildStacker] [0;31;1mThere was an error while loading the plugin.[m
+[00:59:00] [Server thread/INFO]: [PowerRanks] Loading PowerRanks v1.10.5R2
+[00:59:00] [Server thread/INFO]: [MyPet] Loading MyPet v3.12
+[00:59:00] [Server thread/INFO]: [[0;32;22mMyPet[m] [mError-Reporter ENABLED[m
+[00:59:00] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1-dev+37-b2ae28b
+[00:59:00] [Server thread/INFO]: [TradeSystem] Loading TradeSystem v2.3.3
+[00:59:00] [Server thread/INFO]: [TAB] Loading TAB v3.1.4
+[00:59:00] [Server thread/INFO]: [SuperVanish] Loading SuperVanish v6.2.15
+[00:59:00] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.26.2
+[00:59:00] [Server thread/INFO]: [CustomJoinAndQuitMessages] Loading CustomJoinAndQuitMessages v1.7.12-beta
+[00:59:00] [Server thread/INFO]: [0;35;1m   ______    _____   ____    __  ___[m
+[00:59:00] [Server thread/INFO]: [0;35;1m   / ____/   / /   | / __ \  /  |/  /[m
+[00:59:00] [Server thread/INFO]: [0;35;1m  / /   __  / / /| |/ / / / / /|_/ /  [0;36;1mBy jonagamerpro1234[m
+[00:59:00] [Server thread/INFO]: [0;35;1m / /___/ /_/ / ___ / /_/ / / /  / /   [0;36;1mVersion [0;32;1m1.7.12-beta[m
+[00:59:00] [Server thread/INFO]: [0;35;1m \____/\____/_/  |_\___\_\/_/  /_/    [0;32;1mThanks for using CustomJoinAndQuitMessage [0;31;1m<3[m
+[00:59:00] [Server thread/INFO]: [UltimateAntiBot] Enabling UltimateAntiBot v4.0.7-ABYSS
+[00:59:00] [Server thread/INFO]: [0;31;22m[21mU[0;31;1m[21mA[0;31;22m[21mB[m [0;37;22m» [0;37;1mLoading [0;31;1mUltimateAntiBot...[m
+[00:59:00] [Server thread/INFO]: [0;37;1m[UAB DEBUG] [0;37;22m» Loaded VPNService![m
+[00:59:00] [Server thread/INFO]: [0;37;1m[UAB DEBUG] [0;37;22m» Enabled DynamicCounterThread![m
+[00:59:00] [Server thread/INFO]: [0;37;1m[UAB DEBUG] [0;37;22m» Enabled DynamicCounterThread![m
+[00:59:00] [Server thread/INFO]: [0;37;1m[UAB DEBUG] [0;37;22m» Enabled DynamicCounterThread![m
+[00:59:00] [Server thread/INFO]: [0;37;1m[UAB DEBUG] [0;37;22m» Enabled DynamicCounterThread![m
+[00:59:00] [Server thread/INFO]: [0;31;22m[21mU[0;31;1m[21mA[0;31;22m[21mB[m [0;37;22m» [0;31;1m5 [0;37;1mIP added to whitelist![m
+[00:59:00] [Server thread/INFO]: [0;31;22m[21mU[0;31;1m[21mA[0;31;22m[21mB[m [0;37;22m» [0;31;1m0 [0;37;1mIP added to blacklist![m
+[00:59:00] [Server thread/INFO]: [0;31;22m[21mU[0;31;1m[21mA[0;31;22m[21mB[m [0;37;22m» [0;31;1mFirewall hook is not available for windows![m
+[00:59:00] [Server thread/INFO]: [0;37;1m[UAB DEBUG] [0;37;22m» Enabled LatencyThread![m
+[00:59:00] [Server thread/INFO]: [0;37;1m[UAB DEBUG] [0;37;22m» Enabled AnimationThread![m
+[00:59:00] [Server thread/INFO]: [0;31;22m[21mU[0;31;1m[21mA[0;31;22m[21mB[m [0;37;22m» [0;37;1mLoading [0;31;1mCore...[m
+[00:59:00] [Server thread/INFO]: [0;37;1m[UAB DEBUG] [0;37;22m» Enabled AttackAnalyzerThread![m
+[00:59:00] [Server thread/INFO]: [0;31;22m[21mU[0;31;1m[21mA[0;31;22m[21mB[m [0;37;22m» [0;37;1mLoaded [0;31;1mUltimateAntiBot![m
+[00:59:00] [Server thread/INFO]: [0;31;22m[21mU[0;31;1m[21mA[0;31;22m[21mB[m [0;37;22m» [0;31;1m _    _         [0;31;1m____ [m
+[00:59:00] [Server thread/INFO]: [0;31;22m[21mU[0;31;1m[21mA[0;31;22m[21mB[m [0;37;22m» [0;31;1m| |  | |[0;37;1m  /\   [0;31;1m|  _ \ [m
+[00:59:00] [Server thread/INFO]: [0;31;22m[21mU[0;31;1m[21mA[0;31;22m[21mB[m [0;37;22m» [0;31;1m| |  | |[0;37;1m /  \  [0;31;1m| |_) |[m
+[00:59:00] [Server thread/INFO]: [0;31;22m[21mU[0;31;1m[21mA[0;31;22m[21mB[m [0;37;22m» [0;31;1m| |  | |[0;37;1m/ /\ \[0;31;1m |  _ <[m
+[00:59:00] [Server thread/INFO]: [0;31;22m[21mU[0;31;1m[21mA[0;31;22m[21mB[m [0;37;22m» [0;31;1m| |__| [0;37;1m/ ____ \[0;31;1m| |_) |[m
+[00:59:00] [Server thread/INFO]: [0;31;22m[21mU[0;31;1m[21mA[0;31;22m[21mB[m [0;37;22m» [0;31;1m\____[0;37;1m/_/     \_[0;31;1m\____/[m
+[00:59:00] [Server thread/INFO]: [0;31;22m[21mU[0;31;1m[21mA[0;31;22m[21mB[m [0;37;22m» [0;31;1mVersion: [0;37;1m4.0.7-ABYSS [0;31;22m| [0;31;1mAuthor: [0;37;1m[Kr1S_D] [0;31;22m| [0;31;1mCores: [0;37;1m4 [0;31;22m| [0;31;1mMode: CUSTOM[m
+[00:59:00] [Server thread/INFO]: [0;31;22m[21mU[0;31;1m[21mA[0;31;22m[21mB[m [0;37;22m» [0;37;1mThe [0;31;1mabyss[0;37;1m is ready to swallow all the bots![m
+[00:59:00] [Server thread/INFO]: [0;37;1m[UAB DEBUG] [0;37;22m» Loaded FirstJoinCheck![m
+[00:59:00] [Server thread/INFO]: [0;37;1m[UAB DEBUG] [0;37;22m» Loaded NameChangerCheck![m
+[00:59:00] [Server thread/INFO]: [0;37;1m[UAB DEBUG] [0;37;22m» Loaded SuperJoinCheck![m
+[00:59:00] [Server thread/INFO]: [0;37;1m[UAB DEBUG] [0;37;22m» Loaded AuthCheckReloaded![m
+[00:59:00] [Server thread/INFO]: [0;37;1m[UAB DEBUG] [0;37;22m» Loaded AccountCheck![m
+[00:59:00] [Server thread/INFO]: [0;37;1m[UAB DEBUG] [0;37;22m» Loaded SlowJoinCheck![m
+[00:59:00] [Server thread/INFO]: [0;37;1m[UAB DEBUG] [0;37;22m» Loaded RegisterCheck![m
+[00:59:00] [Server thread/INFO]: [0;31;22m[21mU[0;31;1m[21mA[0;31;22m[21mB[m [0;37;22m» [0;37;22mTook [0;31;1m197ms[0;37;22m to load[m
+[00:59:01] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.41
+[00:59:02] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[00:59:02] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.41[m
+[00:59:02] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[00:59:02] [Server thread/INFO]: [m
+[00:59:02] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[00:59:03] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[00:59:04] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[00:59:04] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[00:59:04] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3756ms)
+[00:59:04] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0
+[00:59:04] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[00:59:04] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.20.1-dev+37-b2ae28b which is not a depend or softdepend of this plugin.
+[00:59:05] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[00:59:05] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[00:59:05] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[00:59:05] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[00:59:05] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v2.0.2
+[00:59:05] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.2.5
+[00:59:05] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.1.0.42-SNAPSHOT
+[00:59:06] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
+[00:59:06] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
+[00:59:06] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[00:59:06] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[00:59:06] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R1.PaperweightAdapter as the Bukkit adapter
+[00:59:08] [Server thread/INFO]: [WorldEdit] ====================================================
+[00:59:08] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[00:59:08] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[00:59:08] [Server thread/INFO]: [WorldEdit]   
+[00:59:08] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[00:59:08] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[00:59:08] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[00:59:08] [Server thread/INFO]: [WorldEdit]   
+[00:59:08] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[00:59:08] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[00:59:08] [Server thread/INFO]: [WorldEdit]   
+[00:59:08] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[00:59:08] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[00:59:08] [Server thread/INFO]: [WorldEdit]   
+[00:59:08] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[00:59:08] [Server thread/INFO]: [WorldEdit] ====================================================
+[00:59:08] [Server thread/INFO]: [PowerRanks] Enabling PowerRanks v1.10.5R2
+[00:59:08] [Server thread/INFO]: [PowerRanks] 
+[00:59:08] [Server thread/INFO]: [PowerRanks] === ------- LOADING CONFIGURATION ------ ===
+[00:59:08] [Server thread/INFO]: [PowerRanks] Loading config file
+[00:59:09] [Server thread/INFO]: [PowerRanks] Loading language file
+[00:59:09] [Server thread/INFO]: [PowerRanks] Loading usertags file
+[00:59:09] [Server thread/INFO]: [PowerRanks] 
+[00:59:09] [Server thread/INFO]: [PowerRanks] === ---------- LOADING ADDONS ---------- ===
+[00:59:10] [Server thread/INFO]: [PowerRanks] Loaded 0 add-on(s)!
+[00:59:10] [Server thread/INFO]: [PowerRanks] 
+[00:59:10] [Server thread/INFO]: [PowerRanks] === ----------- LOADING DATA ----------- ===
+[00:59:10] [Server thread/INFO]: [PowerRanks] Loading player & rank data
+[00:59:10] [Server thread/ERROR]: Error occurred while enabling PowerRanks v1.10.5R2 (Is it up to date?)
+java.lang.IllegalArgumentException: Cannot deserialize instance of `java.lang.String` out of START_ARRAY token
+ at [Source: UNKNOWN; line: -1, column: -1] (through reference chain: nl.svenar.common.structure.PRRank["buyDescription"])
+	at nl.svenar.lib.fasterxml.jackson.databind.ObjectMapper._convert(ObjectMapper.java:3751) ~[?:?]
+	at nl.svenar.lib.fasterxml.jackson.databind.ObjectMapper.convertValue(ObjectMapper.java:3669) ~[?:?]
+	at nl.svenar.common.serializer.PRSerializer.deserialize(PRSerializer.java:104) ~[?:?]
+	at nl.svenar.common.storage.provided.YAMLStorageManager.loadRanks(YAMLStorageManager.java:149) ~[?:?]
+	at nl.svenar.common.storage.provided.YAMLStorageManager.<init>(YAMLStorageManager.java:96) ~[?:?]
+	at nl.svenar.PowerRanks.Cache.CacheManager.load(CacheManager.java:149) ~[?:?]
+	at nl.svenar.PowerRanks.PowerRanks.onEnable(PowerRanks.java:189) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:521) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:435) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:232) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:994) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: nl.svenar.lib.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.lang.String` out of START_ARRAY token
+ at [Source: UNKNOWN; line: -1, column: -1] (through reference chain: nl.svenar.common.structure.PRRank["buyDescription"])
+	at nl.svenar.lib.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:63) ~[?:?]
+	at nl.svenar.lib.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1343) ~[?:?]
+	at nl.svenar.lib.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1139) ~[?:?]
+	at nl.svenar.lib.fasterxml.jackson.databind.deser.std.StdDeserializer._deserializeFromArray(StdDeserializer.java:675) ~[?:?]
+	at nl.svenar.lib.fasterxml.jackson.databind.deser.std.StringDeserializer.deserialize(StringDeserializer.java:40) ~[?:?]
+	at nl.svenar.lib.fasterxml.jackson.databind.deser.std.StringDeserializer.deserialize(StringDeserializer.java:10) ~[?:?]
+	at nl.svenar.lib.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129) ~[?:?]
+	at nl.svenar.lib.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:288) ~[?:?]
+	at nl.svenar.lib.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:151) ~[?:?]
+	at nl.svenar.lib.fasterxml.jackson.databind.ObjectMapper._convert(ObjectMapper.java:3746) ~[?:?]
+	... 15 more
+[00:59:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:59:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:59:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:59:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:59:10] [Server thread/INFO]: Preparing level "world"
+[00:59:11] [Server thread/INFO]: -------- World Settings For [world] --------
+[00:59:11] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[00:59:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:59:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:59:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:59:11] [Server thread/INFO]: View Distance: 10
+[00:59:11] [Server thread/INFO]: Simulation Distance: 10
+[00:59:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:59:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:59:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:59:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:59:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:59:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:59:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:59:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:59:11] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:59:11] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:59:11] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:59:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:59:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:59:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:59:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:59:11] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:59:11] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:59:11] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:59:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:59:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[00:59:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:59:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:59:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:59:11] [Server thread/INFO]: Max TNT Explosions: 100
+[00:59:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:59:11] [Server thread/INFO]: Mob Spawn Range: 6
+[00:59:12] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[00:59:12] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[00:59:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:59:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:59:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:59:12] [Server thread/INFO]: View Distance: 10
+[00:59:12] [Server thread/INFO]: Simulation Distance: 10
+[00:59:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:59:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:59:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:59:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[00:59:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:59:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:59:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:59:12] [Server thread/INFO]: Max TNT Explosions: 100
+[00:59:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:59:12] [Server thread/INFO]: Mob Spawn Range: 6
+[00:59:12] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[00:59:12] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[00:59:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[00:59:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[00:59:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[00:59:12] [Server thread/INFO]: View Distance: 10
+[00:59:12] [Server thread/INFO]: Simulation Distance: 10
+[00:59:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[00:59:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[00:59:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Potato Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[00:59:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[00:59:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[00:59:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[00:59:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[00:59:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[00:59:12] [Server thread/INFO]: Max TNT Explosions: 100
+[00:59:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[00:59:12] [Server thread/INFO]: Mob Spawn Range: 6
+[00:59:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:59:13] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[00:59:14] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[00:59:14] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[00:59:14] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[00:59:14] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[00:59:15] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[00:59:15] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[00:59:16] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[00:59:16] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[00:59:17] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[00:59:17] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[00:59:18] [Worker-Main-6/INFO]: Preparing spawn area: 1%
+[00:59:18] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[00:59:19] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[00:59:19] [Worker-Main-5/INFO]: Preparing spawn area: 4%
+[00:59:20] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[00:59:20] [Worker-Main-4/INFO]: Preparing spawn area: 4%
+[00:59:21] [Worker-Main-5/INFO]: Preparing spawn area: 4%
+[00:59:21] [Worker-Main-4/INFO]: Preparing spawn area: 6%
+[00:59:22] [Worker-Main-6/INFO]: Preparing spawn area: 10%
+[00:59:22] [Worker-Main-6/INFO]: Preparing spawn area: 20%
+[00:59:23] [Worker-Main-6/INFO]: Preparing spawn area: 33%
+[00:59:23] [Worker-Main-4/INFO]: Preparing spawn area: 46%
+[00:59:24] [Worker-Main-5/INFO]: Preparing spawn area: 48%
+[00:59:24] [Worker-Main-5/INFO]: Preparing spawn area: 49%
+[00:59:25] [Worker-Main-6/INFO]: Preparing spawn area: 51%
+[00:59:25] [Worker-Main-4/INFO]: Preparing spawn area: 59%
+[00:59:26] [Worker-Main-5/INFO]: Preparing spawn area: 64%
+[00:59:26] [Worker-Main-4/INFO]: Preparing spawn area: 81%
+[00:59:27] [Worker-Main-5/INFO]: Preparing spawn area: 95%
+[00:59:42] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:50] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[00:59:50] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[00:59:51] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:51] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[00:59:54] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:54] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:54] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:54] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:54] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:54] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:55] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[00:59:55] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[00:59:56] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[00:59:56] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[00:59:57] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[00:59:57] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[00:59:58] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:01] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:01] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:01] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:01] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:01] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:01] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:01] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:02] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:02] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:03] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:03] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:04] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:04] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:05] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:05] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:06] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:06] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:07] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:07] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:08] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:10] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:10] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:10] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:10] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:10] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:11] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:11] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:12] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:12] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:13] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:13] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:14] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:14] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:15] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:15] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:16] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:16] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:17] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:17] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:20] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:20] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:20] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:20] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:20] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:20] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:21] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:23] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:23] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:23] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:23] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:23] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:24] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:24] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:25] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:25] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:26] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:26] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:27] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:27] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:28] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:28] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:29] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:29] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:30] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:32] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:32] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:32] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:32] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:32] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:33] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:33] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:34] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:34] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:35] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:35] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:36] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:36] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:37] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:37] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:38] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:38] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:39] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:39] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:40] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:40] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:43] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:43] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:43] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:43] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:43] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:43] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:44] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:44] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:45] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:45] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:46] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:46] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:47] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:47] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:48] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:48] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:49] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:50] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:50] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:51] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:51] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:52] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:54] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:54] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:54] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:54] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:54] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:55] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:55] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:56] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:56] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:57] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:57] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:58] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:00:58] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:00:59] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:00:59] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:00] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:00] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:02] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:02] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:02] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:02] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:03] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:03] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:04] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:04] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:05] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:05] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:06] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:06] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:07] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:07] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:08] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:10] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:10] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:10] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:10] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:10] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:11] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:11] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:12] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:12] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:13] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:13] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:14] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:14] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:15] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:15] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:16] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:16] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:17] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:17] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:18] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:20] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:20] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:20] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:20] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:20] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:21] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:21] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:22] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:22] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:23] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:23] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:24] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:24] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:25] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:27] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:27] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:27] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:27] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:27] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:28] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:28] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:29] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:29] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:30] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:30] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:31] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:31] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:32] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:34] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:34] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:34] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:34] [Worker-Main-4/INFO]: Preparing spawn area: 100%
+[01:01:34] [Worker-Main-5/INFO]: Preparing spawn area: 100%
+[01:01:35] [Worker-Main-6/INFO]: Preparing spawn area: 100%
+[01:01:35] [Server thread/INFO]: Time elapsed: 142808 ms
+[01:01:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:01:36] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[01:01:36] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[01:01:36] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[01:01:36] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[01:01:37] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[01:01:37] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[01:01:38] [Worker-Main-6/INFO]: Preparing spawn area: 3%
+[01:01:38] [Worker-Main-6/INFO]: Preparing spawn area: 3%
+[01:01:41] [Worker-Main-4/INFO]: Preparing spawn area: 3%
+[01:01:41] [Worker-Main-4/INFO]: Preparing spawn area: 3%
+[01:01:41] [Worker-Main-4/INFO]: Preparing spawn area: 3%
+[01:01:41] [Worker-Main-4/INFO]: Preparing spawn area: 3%
+[01:01:41] [Worker-Main-4/INFO]: Preparing spawn area: 3%
+[01:01:41] [Worker-Main-6/INFO]: Preparing spawn area: 19%
+[01:01:42] [Worker-Main-5/INFO]: Preparing spawn area: 27%
+[01:01:44] [Worker-Main-5/INFO]: Preparing spawn area: 37%
+[01:01:44] [Worker-Main-5/INFO]: Preparing spawn area: 37%
+[01:01:44] [Worker-Main-5/INFO]: Preparing spawn area: 37%
+[01:01:44] [Worker-Main-5/INFO]: Preparing spawn area: 37%
+[01:01:44] [Worker-Main-5/INFO]: Preparing spawn area: 56%
+[01:01:45] [Worker-Main-4/INFO]: Preparing spawn area: 68%
+[01:01:45] [Worker-Main-4/INFO]: Preparing spawn area: 69%
+[01:01:46] [Worker-Main-4/INFO]: Preparing spawn area: 71%
+[01:01:46] [Worker-Main-4/INFO]: Preparing spawn area: 73%
+[01:01:47] [Worker-Main-4/INFO]: Preparing spawn area: 75%
+[01:01:47] [Worker-Main-5/INFO]: Preparing spawn area: 76%
+[01:01:50] [Worker-Main-5/INFO]: Preparing spawn area: 77%
+[01:01:50] [Worker-Main-5/INFO]: Preparing spawn area: 77%
+[01:01:50] [Worker-Main-5/INFO]: Preparing spawn area: 77%
+[01:01:50] [Worker-Main-5/INFO]: Preparing spawn area: 77%
+[01:01:50] [Worker-Main-4/INFO]: Preparing spawn area: 80%
+[01:01:50] [Worker-Main-6/INFO]: Preparing spawn area: 82%
+[01:01:51] [Worker-Main-4/INFO]: Preparing spawn area: 83%
+[01:01:51] [Worker-Main-6/INFO]: Preparing spawn area: 84%
+[01:01:52] [Worker-Main-5/INFO]: Preparing spawn area: 85%
+[01:01:52] [Worker-Main-4/INFO]: Preparing spawn area: 86%
+[01:01:53] [Worker-Main-5/INFO]: Preparing spawn area: 88%
+[01:01:53] [Worker-Main-4/INFO]: Preparing spawn area: 91%
+[01:01:54] [Worker-Main-4/INFO]: Preparing spawn area: 93%
+[01:01:54] [Worker-Main-6/INFO]: Preparing spawn area: 96%
+[01:01:55] [Worker-Main-6/INFO]: Preparing spawn area: 98%
+[01:01:55] [Server thread/INFO]: Time elapsed: 20447 ms
+[01:01:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:01:58] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[01:01:58] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[01:01:58] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[01:01:58] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[01:01:58] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[01:01:58] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[01:01:58] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[01:01:59] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[01:01:59] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[01:02:00] [Worker-Main-4/INFO]: Preparing spawn area: 3%
+[01:02:00] [Worker-Main-4/INFO]: Preparing spawn area: 12%
+[01:02:02] [Worker-Main-4/INFO]: Preparing spawn area: 12%
+[01:02:02] [Worker-Main-4/INFO]: Preparing spawn area: 12%
+[01:02:02] [Worker-Main-4/INFO]: Preparing spawn area: 12%
+[01:02:02] [Worker-Main-4/INFO]: Preparing spawn area: 12%
+[01:02:03] [Worker-Main-4/INFO]: Preparing spawn area: 35%
+[01:02:03] [Worker-Main-4/INFO]: Preparing spawn area: 51%
+[01:02:04] [Worker-Main-4/INFO]: Preparing spawn area: 65%
+[01:02:06] [Worker-Main-4/INFO]: Preparing spawn area: 66%
+[01:02:06] [Worker-Main-4/INFO]: Preparing spawn area: 66%
+[01:02:06] [Worker-Main-4/INFO]: Preparing spawn area: 66%
+[01:02:06] [Worker-Main-4/INFO]: Preparing spawn area: 66%
+[01:02:06] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[01:02:07] [Worker-Main-5/INFO]: Preparing spawn area: 94%
+[01:02:07] [Server thread/INFO]: Time elapsed: 11655 ms
+[01:02:07] [Server thread/INFO]: [BlockedCmds] Enabling BlockedCmds v2.1.4
+[01:02:07] [Server thread/INFO]: ======== Enabling BlockedCmds... ========
+[01:02:07] [Server thread/INFO]: ======== ENABLED BlockedCmds (28ms) ========
+[01:02:07] [Server thread/INFO]: [UltimateHealAndFeed] Enabling UltimateHealAndFeed v1.0
+[01:02:07] [Server thread/INFO]: [0;35;1m[[0;35;22mUltimate Heal and Feed[0;35;1m][0;31;1m Plugin enabled![m
+[01:02:07] [Server thread/INFO]: [GFly] Enabling GFly v[2.3.0.0]
+[01:02:07] [Server thread/INFO]: [0;37;22m[[0;33;22mPower of Tiền[0;37;22m][0;32;1m The Plugin was successfully enabled.[m
+[01:02:07] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
+[01:02:08] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[01:02:08] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
+[01:02:08] [Server thread/INFO]: [PlayTime] Enabling PlayTime v3.6
+[01:02:08] [Server thread/INFO]: [0;37;22m[PlayTime] [0;36;1mPlaceholderAPI [0;32;1mwas found[0;37;22m! Registering Placeholders.[m
+[01:02:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playtime [3.6]
+[01:02:08] [Server thread/INFO]: [AutoTool] Enabling AutoTool v1.1.3
+[01:02:08] [Server thread/WARN]: [AutoTool] This is not a valid Material: BUILDING_AMETHYST
+[01:02:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: autotool [1.1.3]
+[01:02:08] [Server thread/INFO]: [SetHome-Config] Enabling SetHome-Config v2.3
+[01:02:08] [Server thread/INFO]: [0;36;1m[SetHome] Enabled![m
+[01:02:08] [Server thread/INFO]: [Invsee] Enabling Invsee v1.0.0
+[01:02:08] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.6.2
+[01:02:08] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.4.1
+[01:02:08] [Server thread/INFO]: [BossBroadcast] Enabling BossBroadcast v1.0.2
+[01:02:08] [Server thread/INFO]: [BossBroadcast] Boss Broadcast is now Enabled!
+[01:02:08] [Server thread/INFO]: [AutoSmelt] Enabling AutoSmelt vV1.0
+[01:02:09] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[01:02:09] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[01:02:09] [Server thread/INFO]: [ClearLag] Loading modules...
+[01:02:09] [Server thread/WARN]: [ClearLag] Clearlag FAILED to find your desired language file 'Vietnam.lang'. Defaulting to English...
+[01:02:09] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_18_R1.MinecraftServer)
+[01:02:09] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[01:02:09] [Server thread/WARN]: [ClearLag] Invalid entity type specified path="command-remove.remove-entities" value=items
+[01:02:09] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[01:02:09] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[01:02:09] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[01:02:09] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[01:02:09] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+[01:02:09] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[01:02:09] [Server thread/INFO]: [Weather] Enabling Weather v1.0
+[01:02:09] [Server thread/INFO]: [LangUtils] Enabling LangUtils v1.9
+[01:02:09] [Thread-15/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.18]...
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped af_za
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped ar_sa
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped ast_es
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped az_az
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped be_by
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped bg_bg
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped br_fr
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped ca_es
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped cs_cz
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped cy_gb
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped da_dk
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped de_at
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped de_de
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped el_gr
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped en_au
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped en_ca
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped en_gb
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped en_nz
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped en_pt
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped en_ud
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped en_us
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped eo_uy
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped es_ar
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped es_es
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped es_mx
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped es_uy
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped es_ve
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped et_ee
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped eu_es
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped fa_ir
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped fil_ph
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped fi_fi
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped fo_fo
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped fr_ca
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped fr_fr
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped fy_nl
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped ga_ie
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped gd_gb
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped gl_es
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped gv_im
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped haw_us
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped he_il
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped hi_in
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped hr_hr
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped hu_hu
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped hy_am
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped id_id
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped io_ido
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped is_is
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped it_it
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped ja_jp
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped jbo_en
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped ka_ge
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped ko_kr
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped ksh_de
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped kw_gb
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped la_la
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped lb_lu
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped li_li
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped lol_us
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped lt_lt
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped lv_lv
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped mi_nz
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped mk_mk
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped mn_mn
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped ms_my
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped mt_mt
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped nds_de
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped nl_nl
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped nn_no
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped no_no
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped oc_fr
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped pl_pl
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped pt_br
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped pt_pt
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped qya_aa
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped ro_ro
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped ru_ru
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped se_no
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped sk_sk
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped sl_si
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped so_so
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped sq_al
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped sr_sp
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped sv_se
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped swg_de
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped th_th
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped tlh_aa
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped tr_tr
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped tzl_tzl
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped uk_ua
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped val_es
+[01:02:09] [Server thread/INFO]: [LangUtils] vi_vn has been loaded.
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped zh_cn
+[01:02:09] [Server thread/INFO]: [LangUtils] Skipped zh_tw
+[01:02:09] [Server thread/INFO]: [LangUtils] Language Utils has been enabled.(80ms)
+[01:02:09] [Server thread/INFO]: [Hat] Enabling Hat v1.5.0
+[01:02:09] [Server thread/INFO]: [Hat] Validating messages.yml[m
+[01:02:09] [Server thread/INFO]: [Hat] messages.yml has been validated.[m
+[01:02:10] [Thread-15/INFO]: [ClearLag] No updates found!
+[01:02:15] [Server thread/INFO]: [Hat] Hat has been enabled.[m
+[01:02:15] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.0-SNAPSHOT (b74-4f36112)
+[01:02:15] [Server thread/INFO]: [TokenManager] Enabling TokenManager v3.2.8
+[01:02:15] [Server thread/INFO]: [TokenManager] Loaded Config.
+[01:02:15] [Server thread/INFO]: [TokenManager] Loaded Lang.
+[01:02:15] [Server thread/INFO]: [TokenManager] ===============================================
+[01:02:15] [Server thread/INFO]: [TokenManager] TokenManager has detected your server as offline mode.
+[01:02:15] [Server thread/INFO]: [TokenManager] DataManager will operate with Usernames.
+[01:02:15] [Server thread/INFO]: [TokenManager] If your server is NOT in offline mode, please manually set online-mode in TokenManager's config.yml.
+[01:02:15] [Server thread/INFO]: [TokenManager] ===============================================
+[01:02:16] [Server thread/INFO]: [TokenManager] [0;31;1mThere was an error while loading DataManager! If you believe this is an issue from the plugin, please contact the developer.[m
+[01:02:16] [Server thread/INFO]: [TokenManager] [0;31;1mCause of error: Failed to initialize pool: Communications link failure
+[01:02:16] [Server thread/INFO]: 
+[01:02:16] [Server thread/INFO]: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.[m
+[01:02:16] [Server thread/WARN]: me.realized.tokenmanager.shaded.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Communications link failure
+[01:02:16] [Server thread/WARN]: 
+[01:02:16] [Server thread/WARN]: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[01:02:16] [Server thread/WARN]: 	at me.realized.tokenmanager.shaded.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:596)
+[01:02:16] [Server thread/WARN]: 	at me.realized.tokenmanager.shaded.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:582)
+[01:02:16] [Server thread/WARN]: 	at me.realized.tokenmanager.shaded.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+[01:02:16] [Server thread/WARN]: 	at me.realized.tokenmanager.shaded.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+[01:02:16] [Server thread/WARN]: 	at me.realized.tokenmanager.data.database.MySQLDatabase.setup(MySQLDatabase.java:82)
+[01:02:16] [Server thread/WARN]: 	at me.realized.tokenmanager.data.DataManager.handleLoad(DataManager.java:57)
+[01:02:16] [Server thread/WARN]: 	at me.realized.tokenmanager.TokenManagerPlugin.load(TokenManagerPlugin.java:123)
+[01:02:16] [Server thread/WARN]: 	at me.realized.tokenmanager.TokenManagerPlugin.onEnable(TokenManagerPlugin.java:79)
+[01:02:16] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[01:02:16] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+[01:02:16] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[01:02:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:521)
+[01:02:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:435)
+[01:02:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:612)
+[01:02:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:414)
+[01:02:16] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:262)
+[01:02:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:994)
+[01:02:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304)
+[01:02:16] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[01:02:16] [Server thread/WARN]: Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+[01:02:16] [Server thread/WARN]: 
+[01:02:16] [Server thread/WARN]: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[01:02:16] [Server thread/WARN]: 	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+[01:02:16] [Server thread/WARN]: 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+[01:02:16] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+[01:02:16] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+[01:02:16] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+[01:02:16] [Server thread/WARN]: 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+[01:02:16] [Server thread/WARN]: 	at me.realized.tokenmanager.shaded.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+[01:02:16] [Server thread/WARN]: 	at me.realized.tokenmanager.shaded.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+[01:02:16] [Server thread/WARN]: 	at me.realized.tokenmanager.shaded.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+[01:02:16] [Server thread/WARN]: 	at me.realized.tokenmanager.shaded.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+[01:02:16] [Server thread/WARN]: 	at me.realized.tokenmanager.shaded.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+[01:02:16] [Server thread/WARN]: 	... 17 more
+[01:02:16] [Server thread/WARN]: Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+[01:02:16] [Server thread/WARN]: 
+[01:02:16] [Server thread/WARN]: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[01:02:16] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[01:02:16] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+[01:02:17] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[01:02:17] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+[01:02:17] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+[01:02:17] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+[01:02:17] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+[01:02:17] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+[01:02:17] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+[01:02:17] [Server thread/WARN]: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+[01:02:17] [Server thread/WARN]: 	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+[01:02:17] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+[01:02:17] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+[01:02:17] [Server thread/WARN]: 	... 25 more
+[01:02:17] [Server thread/WARN]: Caused by: java.net.ConnectException: Connection refused: no further information
+[01:02:17] [Server thread/WARN]: 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+[01:02:17] [Server thread/WARN]: 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+[01:02:17] [Server thread/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+[01:02:17] [Server thread/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+[01:02:17] [Server thread/WARN]: 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[01:02:17] [Server thread/WARN]: 	at java.base/java.net.Socket.connect(Socket.java:633)
+[01:02:17] [Server thread/WARN]: 	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:156)
+[01:02:17] [Server thread/WARN]: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+[01:02:17] [Server thread/WARN]: 	... 28 more
+[01:02:17] [Server thread/INFO]: [TokenManager] Disabling TokenManager v3.2.8
+[01:02:17] [Server thread/INFO]: [TokenManager] Unloaded Lang.
+[01:02:17] [Server thread/INFO]: [TokenManager] Unloaded Config.
+[01:02:17] [Server thread/INFO]: [PingFix] Enabling PingFix v1.2.0
+[01:02:17] [Server thread/INFO]: [JoinEventsPro] Enabling JoinEventsPro v4.4
+[01:02:17] [Server thread/INFO]: [[0;36;1m[21mJOINEVENTSPRO[0;37;22m] [0;37;22mLoading [0;36;1mJoinEventsPro [0;37;22mversion [0;36;1m4.4[0;37;22m...[m
+[01:02:17] [Server thread/INFO]: [[0;36;1m[21mJOINEVENTSPRO[0;37;22m] [0;37;22mDiscovered [0;36;1mPlaceholderAPI[0;37;22m, now hooking into it.[m
+[01:02:17] [Server thread/INFO]: [[0;36;1m[21mJOINEVENTSPRO[0;37;22m] [0;32;1mSuccessfully loaded the plugin.[m
+[01:02:17] [Server thread/INFO]: [Thesieutoc] Enabling Thesieutoc v#27
+[01:02:17] [Thread-16/WARN]: [floodgate] 
+**********************************
+* You specified an empty prefix in your Floodgate config for Bedrock players!
+* Should a Java player join and a Bedrock player join with the same username, unwanted results and conflicts will happen!
+* We strongly recommend using . as the prefix, but other alternatives that will not conflict include: +, - and *
+**********************************
+[01:02:25] [Server thread/WARN]: §a[Thesieutoc] §cKet noi MySQL that bai, vui long lien he staff TheSieuToc.
+[01:02:25] [Server thread/WARN]: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+[01:02:25] [Server thread/WARN]: 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+[01:02:25] [Server thread/WARN]: 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+[01:02:25] [Server thread/WARN]: 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+[01:02:25] [Server thread/WARN]: 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+[01:02:25] [Server thread/WARN]: 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+[01:02:25] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:898)
+[01:02:25] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823)
+[01:02:25] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+[01:02:25] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+[01:02:25] [Server thread/WARN]: 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+[01:02:25] [Server thread/WARN]: 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+[01:02:25] [Server thread/WARN]: 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+[01:02:25] [Server thread/WARN]: 	at net.thesieutoc.database.MySQL.getConnection(MySQL.java:75)
+[01:02:25] [Server thread/WARN]: 	at net.thesieutoc.database.MySQL.start(MySQL.java:51)
+[01:02:25] [Server thread/WARN]: 	at net.thesieutoc.database.MySQL.<init>(MySQL.java:18)
+[01:02:25] [Server thread/WARN]: 	at net.thesieutoc.database.DB.<init>(DB.java:14)
+[01:02:25] [Server thread/WARN]: 	at net.thesieutoc.Thesieutoc.onEnable(Thesieutoc.java:113)
+[01:02:25] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[01:02:25] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+[01:02:25] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[01:02:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:521)
+[01:02:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:435)
+[01:02:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:612)
+[01:02:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:414)
+[01:02:25] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:262)
+[01:02:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:994)
+[01:02:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304)
+[01:02:25] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[01:02:25] [Server thread/WARN]: Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+[01:02:25] [Server thread/WARN]: 
+[01:02:25] [Server thread/WARN]: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[01:02:25] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[01:02:25] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+[01:02:25] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[01:02:25] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+[01:02:25] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+[01:02:25] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+[01:02:25] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+[01:02:25] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+[01:02:25] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+[01:02:25] [Server thread/WARN]: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+[01:02:25] [Server thread/WARN]: 	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+[01:02:25] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:842)
+[01:02:25] [Server thread/WARN]: 	... 22 more
+[01:02:25] [Server thread/WARN]: Caused by: java.net.ConnectException: Connection refused: no further information
+[01:02:25] [Server thread/WARN]: 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+[01:02:25] [Server thread/WARN]: 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+[01:02:25] [Server thread/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+[01:02:25] [Server thread/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+[01:02:25] [Server thread/WARN]: 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[01:02:25] [Server thread/WARN]: 	at java.base/java.net.Socket.connect(Socket.java:633)
+[01:02:25] [Server thread/WARN]: 	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:156)
+[01:02:25] [Server thread/WARN]: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+[01:02:25] [Server thread/WARN]: 	... 24 more
+[01:02:25] [Server thread/WARN]: §a[Thesieutoc] §cKet noi MySQL that bai, plugin se bi tat!
+[01:02:25] [Server thread/INFO]: [Thesieutoc] Disabling Thesieutoc v#27
+[01:02:25] [Server thread/ERROR]: Error occurred while enabling Thesieutoc v#27 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.createStatement()" because "this.connection" is null
+	at net.thesieutoc.database.MySQL.<init>(MySQL.java:21) ~[?:?]
+	at net.thesieutoc.database.DB.<init>(DB.java:14) ~[?:?]
+	at net.thesieutoc.Thesieutoc.onEnable(Thesieutoc.java:113) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:521) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:435) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:612) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:414) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:262) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:994) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[01:02:25] [Server thread/INFO]: [RealScoreboard] Enabling RealScoreboard v1.1
+[01:02:26] [Server thread/INFO]: [RealScoreboard] ------------------- RealScoreboard 1.1 -------------------
+[01:02:26] [Server thread/INFO]: [RealScoreboard] Your config version is: 14
+[01:02:26] [Server thread/INFO]: [RealScoreboard] Finished loading RealScoreboard.
+[01:02:26] [Server thread/INFO]: [RealScoreboard] Server version: v1_18_R1 | Plugin Version: 1.1
+[01:02:26] [Server thread/INFO]: [RealScoreboard] ------------------- RealScoreboard 1.1 -------------------
+[01:02:26] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v3.1.4
+[01:02:26] [Server thread/INFO]: [ChestCommands] PlaceholderAPI was found! External placeholders can be used.
+[01:02:26] [Server thread/INFO]: [BossShopPro] Enabling BossShopPro v2.0.9
+[01:02:26] [Server thread/INFO]: [BossShopPro] Loading data...
+[01:02:26] [Server thread/INFO]: [BossShopPro] Hooked into PlaceholderAPI.
+[01:02:26] [Server thread/INFO]: [DamageIndicator] Enabling DamageIndicator v1.3.8
+[01:02:26] [Server thread/INFO]: [Orebfuscator] Enabling Orebfuscator v5.3.0
+[01:02:26] [Server thread/INFO]: [Orebfuscator] Verbose logging has been enabled
+[01:02:26] [Server thread/INFO]: [Orebfuscator] advanced.maxMillisecondsPerTick = 10
+[01:02:26] [Server thread/INFO]: [Orebfuscator] advanced.protocolLibThreads = 2
+[01:02:26] [Server thread/INFO]: [Orebfuscator] advanced.obfuscationWorkerThreads = 4
+[01:02:26] [Server thread/INFO]: [Orebfuscator] advanced.proximityHiderThreads = 2
+[01:02:26] [Server thread/INFO]: [Orebfuscator] Using 'orebfuscator_cache' as chunk cache path
+[01:02:26] [Server thread/INFO]: [Orebfuscator] Searching NMS adapter for server version "v1_18_R1"!
+[01:02:26] [Server thread/INFO]: [Orebfuscator] NMS adapter for server version "v1_18_R1" found!
+[01:02:26] [Server thread/INFO]: [Orebfuscator] HeightAccessor found method: World::getMaxHeight()
+[01:02:26] [Server thread/INFO]: [Orebfuscator] HeightAccessor found method: World::getMinHeight()
+[01:02:26] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.0-SNAPSHOT
+[01:02:26] [Server thread/INFO]: [ClearLagTimer] Enabling ClearLagTimer vBuild 36
+[01:02:26] [Server thread/INFO]: [ClearLagTimer] Build 36, a free resource by Norska - Thanks for downloading![m
+[01:02:27] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.3.0
+[01:02:27] [Server thread/INFO]: HikariPool-1 - Starting...
+[01:02:27] [Server thread/INFO]: checkpointClose start
+[01:02:27] [Server thread/INFO]: checkpointClose synched
+[01:02:27] [Server thread/INFO]: checkpointClose script done
+[01:02:27] [Server thread/INFO]: checkpointClose end
+[01:02:27] [Server thread/INFO]: HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+[01:02:27] [Server thread/INFO]: HikariPool-1 - Start completed.
+[01:02:27] [Server thread/INFO]: 
+[01:02:27] [Server thread/INFO]:  
+[01:02:27] [Server thread/INFO]: [0;30;1m[]=====[[0;37;22mEnabling AdvancedBan[0;30;1m]=====[]
+[01:02:27] [Server thread/INFO]: [0;30;1m| [0;31;1mInformation:
+[01:02:27] [Server thread/INFO]: [0;30;1m|   [0;31;1mName: [0;37;22mAdvancedBan
+[01:02:27] [Server thread/INFO]: [0;30;1m|   [0;31;1mDeveloper: [0;37;22mLeoko
+[01:02:27] [Server thread/INFO]: [0;30;1m|   [0;31;1mVersion: [0;37;22m2.3.0
+[01:02:27] [Server thread/INFO]: [0;30;1m|   [0;31;1mStorage: [0;37;22mHSQLDB (local)
+[01:02:27] [Server thread/INFO]: [0;30;1m| [0;31;1mSupport:
+[01:02:27] [Server thread/INFO]: [0;30;1m|   [0;31;1mGithub: [0;37;22mhttps://github.com/DevLeoko/AdvancedBan/issues
+[01:02:27] [Server thread/INFO]: [0;30;1m|   [0;31;1mDiscord: [0;37;22mhttps://discord.gg/ycDG6rS
+[01:02:27] [Server thread/INFO]: [0;30;1m| [0;31;1mTwitter: [0;37;22m@LeokoGar
+[01:02:27] [Server thread/INFO]: [0;30;1m| [0;31;1mUpdate:
+[01:02:27] [Server thread/INFO]: [0;30;1m|   [0;37;22mYou have the newest version
+[01:02:27] [Server thread/INFO]: [0;30;1m[]================================[][m
+[01:02:27] [Server thread/INFO]:  [m
+[01:02:27] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
+[01:02:28] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[01:02:28] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[01:02:28] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[01:02:28] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[01:02:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[01:02:28] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[01:02:28] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[01:02:28] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[01:02:28] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[01:02:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[01:02:28] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[01:02:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[01:02:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[01:02:28] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[01:02:28] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[01:02:28] [Server thread/INFO]: [WorldGuard] Loading region data...
+[01:02:28] [Server thread/INFO]: [GSit] Enabling GSit v1.4.4
+[01:02:28] [Server thread/INFO]: Plugin.plugin-enabled[m
+[01:02:28] [Server thread/INFO]: Plugin.plugin-link[m
+[01:02:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: gsit [1.4.4]
+[01:02:28] [Server thread/INFO]: Plugin.plugin-link[m
+[01:02:28] [Server thread/INFO]: Plugin.plugin-update[m
+[01:02:28] [Server thread/INFO]: [SmoothTimber] Enabling SmoothTimber v1.22.1
+[01:02:28] [Server thread/INFO]: [0;35;22mSmooth[0;35;1mTimber [0;30;1m|| [0;37;22mYou're currently using the [0;35;1msupported[0;37;22m Minecraft Version [0;35;1m1.18.1 [0;37;22m([0;35;22mCore v1_16x[0;37;22m)[m
+[01:02:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: smoothtimber [1.22.1]
+[01:02:28] [Server thread/INFO]: [RTP] Enabling RTP v1.3.23
+[01:02:28] [Server thread/INFO]: [RTP] ====================================================
+[01:02:28] [Server thread/INFO]: [RTP]  RTP works better if you use Paper 
+[01:02:28] [Server thread/INFO]: [RTP]  as your server software. 
+[01:02:28] [Server thread/INFO]: [RTP] ====================================================
+[01:02:28] [Server thread/WARN]: [rtp] unknown biome: none
+[01:02:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: rtp [1.3.23]
+[01:02:29] [Server thread/INFO]: [ActionHealth] Enabling ActionHealth v3.5.8
+[01:02:29] [Server thread/INFO]: [AureliumSkills] Enabling AureliumSkills vBeta 1.3.21
+[01:02:29] [Server thread/INFO]: [AureliumSkills] WorldGuard Support Enabled!
+[01:02:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: aureliumskills [Beta 1.3.21]
+[01:02:29] [Server thread/INFO]: [AureliumSkills] PlaceholderAPI Support Enabled!
+[01:02:29] [Server thread/INFO]: [AureliumSkills] Vault Support Enabled!
+[01:02:29] [Server thread/INFO]: [AureliumSkills] Loaded 194 config options in 1 ms
+[01:02:29] [Server thread/INFO]: [AureliumSkills] sources_config.yml was updated to a new file version, 9 new keys were added.
+[01:02:29] [Server thread/INFO]: [AureliumSkills] Loaded 312 sources and 10 tags in 91ms
+[01:02:30] [Server thread/INFO]: [AureliumSkills] Registered 2 items
+[01:02:31] [Server thread/INFO]: [AureliumSkills] Loading languages...
+[01:02:31] [Server thread/INFO]: [AureliumSkills] messages_en.yml was updated to a new file version, 7 new keys were added.
+[01:02:32] [Server thread/INFO]: [AureliumSkills] messages_fr.yml was updated to a new file version, 29 new keys were added.
+[01:02:35] [Server thread/WARN]: [AureliumSkills] messages_pt-BR.yml was changed: The menus.common.ability_levels message was reset to fix a bug, this is normal.
+[01:02:35] [Server thread/WARN]: [AureliumSkills] messages_pt-BR.yml was changed: The menus.common.stats_leveled message was reset to fix a bug, this is normal.
+[01:02:35] [Server thread/WARN]: [AureliumSkills] messages_pt-BR.yml was changed: The menus.common.mana_ability message was reset to fix a bug, this is normal.
+[01:02:35] [Server thread/WARN]: [AureliumSkills] messages_pt-BR.yml was changed: The menus.level_progression_menu.back_click message was reset for the menus update, this is normal.
+[01:02:35] [Server thread/WARN]: [AureliumSkills] messages_pt-BR.yml was changed: The menu messages for the mana abilities sharp_hook, charged_shot, and lightning_blade were reset to fix a bug, this is normal
+[01:02:35] [Server thread/INFO]: [AureliumSkills] messages_pt-BR.yml was updated to a new file version, 283 new keys were added.
+[01:02:36] [Server thread/INFO]: [AureliumSkills] Loaded 16 languages in 5140ms
+[01:02:36] [Server thread/INFO]: [AureliumSkills] Loaded 30 pattern rewards and 0 level rewards
+[01:02:37] [Server thread/INFO]: [AureliumSkills] Loaded 78 Ability Options in 3ms
+[01:02:37] [Server thread/INFO]: [AureliumSkills] Loaded 6 menus
+[01:02:41] [Server thread/WARN]: [AureliumSkills] Loaded class me.leoko.advancedban.shaded.org.hsqldb.jdbc.JDBCDriver from AdvancedBan v2.3.0 which is not a depend or softdepend of this plugin.
+[01:02:41] [Server thread/ERROR]: [AureliumSkills] Failed to connect to MySQL database, see error below:
+[01:02:41] [Server thread/WARN]: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+[01:02:41] [Server thread/WARN]: 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+[01:02:41] [Server thread/WARN]: 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+[01:02:41] [Server thread/WARN]: 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+[01:02:41] [Server thread/WARN]: 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+[01:02:41] [Server thread/WARN]: 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+[01:02:41] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:898)
+[01:02:41] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:823)
+[01:02:41] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+[01:02:41] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+[01:02:41] [Server thread/WARN]: 	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+[01:02:41] [Server thread/WARN]: 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+[01:02:41] [Server thread/WARN]: 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+[01:02:41] [Server thread/WARN]: 	at com.archyx.aureliumskills.data.storage.MySqlStorageProvider.openConnection(MySqlStorageProvider.java:76)
+[01:02:41] [Server thread/WARN]: 	at com.archyx.aureliumskills.data.storage.MySqlStorageProvider.init(MySqlStorageProvider.java:54)
+[01:02:41] [Server thread/WARN]: 	at com.archyx.aureliumskills.AureliumSkills.onEnable(AureliumSkills.java:305)
+[01:02:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[01:02:41] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+[01:02:41] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[01:02:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:521)
+[01:02:41] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:435)
+[01:02:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:612)
+[01:02:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:414)
+[01:02:41] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:262)
+[01:02:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:994)
+[01:02:41] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304)
+[01:02:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[01:02:41] [Server thread/WARN]: Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+[01:02:41] [Server thread/WARN]: 
+[01:02:41] [Server thread/WARN]: The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[01:02:41] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[01:02:41] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+[01:02:41] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[01:02:41] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+[01:02:41] [Server thread/WARN]: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+[01:02:41] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+[01:02:41] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+[01:02:41] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+[01:02:41] [Server thread/WARN]: 	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+[01:02:41] [Server thread/WARN]: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+[01:02:41] [Server thread/WARN]: 	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+[01:02:41] [Server thread/WARN]: 	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:842)
+[01:02:41] [Server thread/WARN]: 	... 20 more
+[01:02:41] [Server thread/WARN]: Caused by: java.net.ConnectException: Connection refused: no further information
+[01:02:41] [Server thread/WARN]: 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+[01:02:41] [Server thread/WARN]: 	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+[01:02:41] [Server thread/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+[01:02:41] [Server thread/WARN]: 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+[01:02:41] [Server thread/WARN]: 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+[01:02:41] [Server thread/WARN]: 	at java.base/java.net.Socket.connect(Socket.java:633)
+[01:02:41] [Server thread/WARN]: 	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:156)
+[01:02:41] [Server thread/WARN]: 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+[01:02:41] [Server thread/WARN]: 	... 22 more
+[01:02:41] [Server thread/ERROR]: Error occurred while enabling AureliumSkills vBeta 1.3.21 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.getMetaData()" because "this.connection" is null
+	at com.archyx.aureliumskills.data.storage.MySqlStorageProvider.localeColumnExists(MySqlStorageProvider.java:512) ~[?:?]
+	at com.archyx.aureliumskills.AureliumSkills.onEnable(AureliumSkills.java:308) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[spigot-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342) ~[spigot-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480) ~[spigot-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugin(CraftServer.java:521) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at org.bukkit.craftbukkit.v1_18_R1.CraftServer.enablePlugins(CraftServer.java:435) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:612) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:414) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:262) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:994) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[01:02:41] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-SNAPSHOT-bCUSTOM
+[01:02:41] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[01:02:41] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[01:02:42] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-SNAPSHOT build n.CUSTOM successfully enabled!
+[01:02:42] [Server thread/INFO]: [WildStacker] Enabling WildStacker v2023.2
+[01:02:42] [Server thread/INFO]: [WildStacker] Disabling WildStacker v2023.2
+[01:02:42] [Server thread/INFO]: [WildStacker] Cancelling tasks...
+[01:02:42] [Server thread/INFO]: [WildStacker] Shutting down stacking service...
+[01:02:42] [Server thread/INFO]: [WildStacker] Stopping executor...
+[01:02:42] [Server thread/INFO]: [[0;32;22mMyPet[m] [mEnabling MyPet v3.12[m
+[01:02:42] [Server thread/INFO]: [[0;32;22mMyPet[m] [mNo Update available.[m
+[01:02:42] [Server thread/INFO]: [[0;32;22mMyPet[m] [mCompat mode for v1_18_R1 loaded.[m
+[01:02:43] [Server thread/INFO]: [[0;32;22mMyPet[m] [mExp calculation mode: MyPet[m
+[01:02:43] [Server thread/INFO]: [[0;32;22mMyPet[m] [mLoading WorldGroups...[m
+[01:02:43] [Server thread/INFO]: [[0;32;22mMyPet[m] [m   added '[0;33;22mworld[m' to 'default'[m
+[01:02:43] [Server thread/INFO]: [[0;32;22mMyPet[m] [m   added '[0;33;22mworld_nether[m' to 'default'[m
+[01:02:43] [Server thread/INFO]: [[0;32;22mMyPet[m] [m   added '[0;33;22mworld_the_end[m' to 'default'[m
+[01:02:43] [Server thread/INFO]: [[0;32;22mMyPet[m] [mConnect to SQLite database...[m
+[01:02:43] [Server thread/INFO]: [[0;32;22mMyPet[m] [mSQLite connection successful.[m
+[01:02:43] [Server thread/INFO]: [[0;32;22mMyPet[m] [mBossShopPro (2.0.9) hook activated.[m
+[01:02:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: mypet [1.0.4]
+[01:02:43] [Server thread/INFO]: [[0;32;22mMyPet[m] [mPlaceholderAPI (2.11.3) hook activated.[m
+[01:02:43] [Server thread/INFO]: [[0;32;22mMyPet[m] [mProtocolLib (5.0.0) hook activated.[m
+[01:02:43] [Server thread/INFO]: [[0;32;22mMyPet[m] [mVault (1.7.3-b131) (Economy: PlayerPoints) (Permissions: LuckPerms) hook activated.[m
+[01:02:43] [Server thread/INFO]: [[0;32;22mMyPet[m] [mWorldGuard (7.0.7+216b061) hook activated.[m
+[01:02:43] [Server thread/INFO]: [[0;32;22mMyPet[m] [mVersion 3.12-b1737[0;32;1m ENABLED[m
+[01:02:43] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1-dev+37-b2ae28b
+[01:02:43] [Server thread/ERROR]: You are running an unsupported server version!
+[01:02:44] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[01:02:44] [Server thread/INFO]: No kits found to migrate.
+[01:02:44] [Server thread/INFO]: Loaded 38132 items from items.json.
+[01:02:44] [Server thread/INFO]: Using locale vi
+[01:02:44] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[01:02:45] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[01:02:45] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[01:02:45] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[01:02:45] [Server thread/INFO]: Using Vault based permissions (LuckPerms)
+[01:02:45] [Server thread/INFO]: [TradeSystem] Enabling TradeSystem v2.3.3
+[01:02:45] [Server thread/INFO]:  
+[01:02:45] [Server thread/INFO]: __________________________________________________________
+[01:02:45] [Server thread/INFO]:  
+[01:02:45] [Server thread/INFO]:                        TradeSystem [2.3.3]
+[01:02:45] [Server thread/INFO]:  
+[01:02:45] [Server thread/INFO]: Status:
+[01:02:45] [Server thread/INFO]:  
+[01:02:45] [Server thread/INFO]: MC-Version: 1.18.1 (R0.1-SNAPSHOT, Spigot)
+[01:02:45] [Server thread/INFO]:  
+[01:02:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tradesystem [1.2]
+[01:02:45] [Server thread/INFO]:   > Loading sounds
+[01:02:45] [Server thread/INFO]:   > Loading blacklist
+[01:02:45] [Server thread/INFO]:     ...got 3 blocked item(s)
+[01:02:45] [Server thread/INFO]:   > Loading layouts
+[01:02:45] [Server thread/INFO]:     ...got 4 layout(s)
+[01:02:45] [Server thread/INFO]:   > Queuing database initializing task
+[01:02:45] [Server thread/INFO]:  
+[01:02:45] [Server thread/INFO]: Finished (751ms)
+[01:02:45] [Server thread/INFO]:  
+[01:02:45] [Server thread/INFO]: __________________________________________________________
+[01:02:45] [Server thread/INFO]:  
+[01:02:45] [Server thread/INFO]: [TAB] Enabling TAB v3.1.4
+[01:02:45] [Server thread/INFO]: [TAB] Server version: 1.18.1 (v1_18_R1)[m
+[01:02:46] [Server thread/INFO]: [TAB] Loaded NMS hook in 77ms[m
+[01:02:46] [Server thread/INFO]: [TAB] [0;32;1mEnabled in 204ms[m
+[01:02:46] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.2.15
+[01:02:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: supervanish [6.2.15]
+[01:02:46] [Server thread/INFO]: [SuperVanish] Hooked into PlaceholderAPI
+[01:02:46] [Server thread/INFO]: [SuperVanish] Hooked into Essentials
+[01:02:46] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.26.2
+[01:02:46] [Server thread/INFO]: [CustomJoinAndQuitMessages] Enabling CustomJoinAndQuitMessages v1.7.12-beta
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;35;22m <||============================================----[m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;35;22m <|| [0;31;1m* [0;36;1mThe plugin is [0;35;1m[[0;32;1mSuccessfully activated[0;35;1m][m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;35;22m <|| [0;31;1m* [0;36;1mVersion: [0;33;1m[[0;32;1m1.7.12-beta[0;33;1m][m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;35;22m <|| [0;31;1m* [0;36;1mBy: [0;33;1m[[0;36;1mjonagamerpro1234[0;33;1m][m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;35;22m <|| [0;31;1m* [0;36;1mTested Versions [0;36;22m|[0;32;1m1.8 [0;36;22m- [0;32;1m1.20[0;36;22m| [0;33;1mComing Soon -> [0;31;1m1.21[m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;35;22m <||============================================----[m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;30;1m: [0;33;1m[[0;35;1mWARNING[0;33;1m] [0;37;22m[0;33;1mFile: de-DE.ymlis not in the correct format for a lang file - [0;36;1mskipping...[m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;30;1m: [0;33;1m[[0;35;1mWARNING[0;33;1m] [0;37;22m[0;33;1mFile: en-US.ymlis not in the correct format for a lang file - [0;36;1mskipping...[m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;30;1m: [0;33;1m[[0;35;1mWARNING[0;33;1m] [0;37;22m[0;33;1mFile: es-ES.ymlis not in the correct format for a lang file - [0;36;1mskipping...[m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;30;1m: [0;33;1m[[0;35;1mWARNING[0;33;1m] [0;37;22m[0;33;1mFile: fr-FR.ymlis not in the correct format for a lang file - [0;36;1mskipping...[m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;30;1m: [0;33;1m[[0;35;1mWARNING[0;33;1m] [0;37;22m[0;33;1mFile: vi-VN.ymlis not in the correct format for a lang file - [0;36;1mskipping...[m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;30;1m: [0;33;1m[[0;35;1mWARNING[0;33;1m] [0;37;22m[0;33;1mFile: zh-CN.ymlis not in the correct format for a lang file - [0;36;1mskipping...[m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;30;1m: [0;33;1m[[0;35;1mWARNING[0;33;1m] [0;37;22m[0;33;1mFile: zh-TW.ymlis not in the correct format for a lang file - [0;36;1mskipping...[m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;30;1m: [0;33;1m[[0;35;1mWARNING[0;33;1m] [0;37;22m[0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;33;1mLoad File: vi-VN.yml' not found in /lang/ folder. Using /lang/en_US.yml[m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;32;1mLoading PlaceholderAPI features...[m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;32;1mLoading DiscordSRV features...[m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;30;1m: [0;33;1m[[0;35;1mWARNING[0;33;1m] [0;37;22m[0;33;1mEssentialsDiscord not enabled! - Disable Features...[m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;32;1mLoading Essentials features...[m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;30;1m: [0;33;1m[[0;35;1mWARNING[0;33;1m] [0;37;22m[0;33;1m!!These features are still under development and may have bugs!![m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;32;1mLoading LuckPerms features...[m
+[01:02:46] [Server thread/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;30;1m: [0;33;1m[[0;35;1mWARNING[0;33;1m] [0;37;22m[0;33;1mSuperVanish or PremiumVanish not enabled! - Disable Features...[m
+[01:02:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:02:48] [pool-51-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (767828469573c2f0fa3ed5a44feb0b2f15f2c02d)
+[01:02:49] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] ===================================================
+[01:02:49] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  
+[01:02:49] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  DiscordSRV could not connect to Discord because:
+[01:02:49] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  The bot token is invalid
+[01:02:49] [DiscordSRV - Initialization/ERROR]: [DiscordSRV]  
+[01:02:49] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] ===================================================
+[01:02:50] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[01:02:50] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:02:50] [Server thread/INFO]: [Geyser-Spigot] 
+[01:02:50] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.1.0-SNAPSHOT (git-master-b3a66db)
+[01:02:50] [Server thread/INFO]: [Geyser-Spigot] 
+[01:02:50] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[01:03:01] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[01:03:01] [Server thread/INFO]: [Geyser-Spigot] Done (11.757s)! Run /geyser help for help!
+[01:03:02] [Server thread/INFO]: Done (231.692s)! For help, type "help"
+[01:03:02] [Server thread/INFO]: Starting GS4 status listener
+[01:03:02] [Server thread/INFO]: Thread Query Listener started
+[01:03:02] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[01:03:02] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerpoints [3.2.5]
+[01:03:02] [Server thread/WARN]: [PlayerPoints] The hook for Votifier was enabled, but it does not appear to be installed.
+[01:03:02] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18/1.18.1 (757)
+[01:03:02] [Craft Scheduler Thread - 22/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[01:03:02] [Craft Scheduler Thread - 5/INFO]: An update for PlayerPoints (v3.2.6) is available! You are running v3.2.5.
+[01:03:02] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[01:03:02] [Craft Scheduler Thread - 5/INFO]: §6Fetching version information...
+[01:03:02] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.26.2
+[01:03:02] [Craft Scheduler Thread - 22/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[01:03:02] [Craft Scheduler Thread - 22/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[01:03:02] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;35;1mCustomJoinAndQuitMessages[0;33;1m] [0;37;22m[0;30;1m: [0;33;1m[[0;32;1mSUCCESS[0;33;1m] [0;37;22m[0;32;1mCustomJoinAndQuitMessages is up to date![m
+[01:03:02] [Craft Scheduler Thread - 6/INFO]: [0;37;22m[PlayTime] Latest version is [0;32;1minstalled[0;37;22m! - v3.6[m
+[01:03:02] [Craft Scheduler Thread - 15/INFO]: [RealScoreboard] The plugin is updated to the latest version.
+[01:03:02] [ForkJoinPool.commonPool-worker-1/INFO]: [Geyser-Spigot] §aThere's a new Geyser update available to support Bedrock version 1.20.10. Download it here: §9§nhttps://ci.geysermc.org
+[01:03:02] [Craft Scheduler Thread - 22/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (The system cannot find the file specified)
+[01:03:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server [2.6.1]
+[01:03:03] [Server thread/INFO]: [0;32;1m1 placeholder hook(s) registered! [0;33;22m1 placeholder hook(s) have an update available.[m
+[01:03:03] [Server thread/INFO]: [SuperVanish] Your current version of SuperVanish is outdated - New version: '6.2.17'; Currently: '6.2.15'
+[01:03:03] [Craft Scheduler Thread - 20/INFO]: [Vault] Checking for Updates ... 
+[01:03:03] [Craft Scheduler Thread - 22/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[01:03:03] [Craft Scheduler Thread - 20/INFO]: [Vault] No new version available
+[01:03:04] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 4.7.0, you're on: 4.6.2
+[01:03:04] [Craft Scheduler Thread - 22/WARN]: [BossShopPro] Plugin BossShopPro v2.0.9 generated an exception while executing task 51
+java.lang.NoClassDefFoundError: me/realized/tokenmanager/TokenManagerPlugin
+	at org.black_ixx.bossshop.pointsystem.BSPointsPluginTokenManager.<init>(BSPointsPluginTokenManager.java:17) ~[?:?]
+	at org.black_ixx.bossshop.managers.features.PointsManager.<init>(PointsManager.java:55) ~[?:?]
+	at org.black_ixx.bossshop.managers.features.PointsManager.<init>(PointsManager.java:15) ~[?:?]
+	at org.black_ixx.bossshop.managers.ClassManager.setupDependentClasses(ClassManager.java:134) ~[?:?]
+	at org.black_ixx.bossshop.BossShop$1.run(BossShop.java:79) ~[?:?]
+	at org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftTask.run(CraftTask.java:82) ~[spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) [spigot-1.18.1-R0.1-SNAPSHOT.jar:3443-Spigot-699290c-2c1e499]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.ClassNotFoundException: me.realized.tokenmanager.TokenManagerPlugin
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:147) ~[spigot-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot-api-1.18.1-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	... 10 more
+[01:03:04] [Server thread/INFO]: [0;37;22m[[0;36;1m[21mJOINEVENTSPRO[0;37;22m] [0;37;22mNo new update found. You are on the latest version.[m
+[01:03:05] [Server thread/INFO]: [ClearLagTimer] Attempting hooks...[m
+[01:03:05] [Server thread/INFO]: [ClearLagTimer] Hooked into PlaceholderAPI![m
+[01:03:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: clearlagtimer [Build 36]
+[01:03:05] [Server thread/INFO]: [ClearLagTimer] Successfully performed 1 hooks![m
+[01:03:07] [Craft Scheduler Thread - 10/WARN]: [TradeSystem] Loaded class me.leoko.advancedban.shaded.org.hsqldb.jdbc.JDBCDriver from AdvancedBan v2.3.0 which is not a depend or softdepend of this plugin.
+[01:03:07] [Craft Scheduler Thread - 10/ERROR]: [TradeSystem] Database logging could not be started: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+[01:03:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23576ms or 471 ticks behind
+[01:04:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6939ms or 138 ticks behind
+[01:05:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9513ms or 190 ticks behind
+[01:06:12] [Server thread/INFO]: [0;31;1m[[0;36;1mTHÔNG BÁO[0;31;1m] [0;36;1m[0;33;1mDùng lệnh [0;32;22m/napthe [0;33;1mđể giúp owner duy trì server đi mọi người[m
+[01:06:42] [pool-59-thread-1/INFO]: [0;33;22m[Xóa rác] [0;32;1mĐã xóa 0 vật phẩm![m
+[01:08:42] [Server thread/INFO]: [0;31;1m[[0;36;1mTHÔNG BÁO[0;31;1m] [0;36;1m[0;33;1mDiscord: [0;32;1mhttps://discord.gg/nfTUEWrEe6[m
+[01:09:42] [pool-59-thread-1/INFO]: [0;33;22m[Xóa rác] [0;32;1mĐã xóa 0 vật phẩm![m
+[01:10:06] [nioEventLoopGroup-3-1/INFO]: [Geyser-Spigot] /127.0.0.1:61651 tried to connect!
+[01:10:07] [nioEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Bedrock user with ip: /127.0.0.1 has disconnected for reason Outdated Geyser proxy! This server supports the following Bedrock versions: 1.19.40/1.19.41, 1.19.50/1.19.51, 1.19.60, 1.19.63, 1.19.70/1.19.71/1.19.73, 1.19.80/1.19.81
+geyser.version.new.on_disconnect

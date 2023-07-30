@@ -1,74 +1,73 @@
 lang:
-  en:
+  vi:
     general:
-      prefix: '&0[&bPR&0]&r'
-      no-permission: '&4You do not have permissions to execute this command!'
-      rank-not-found: '&cRank ''[rank]'' not found!'
-      player-not-found: '&cPlayer ''[target]'' not found!'
-      console-is-no-player: '&cThe console is not a player and has no ranks!'
+      prefix: '&0[&bRanks System&0]&r'
+      no-permission: '&4Không đủ quyền!'
+      rank-not-found: '&cRank ''[rank]'' không thể tìm thấy!'
+      player-not-found: '&cNgười chơi ''[target]'' không thể tìm thấy!'
+      console-is-no-player: '&cDùng trong game!'
     messages:
       signs:
-        created: '&aNew sign command created'
-        unknown-command: '&cUnknown sign command'
+        created: '&aLệnh bảng mới đã được tạo'
+        unknown-command: '&cLệnh bảng không hợp lệ'
       usertags:
-        not-found: '&cUsertag [usertag] not found!'
+        not-found: '&cTag [usertag] không tìm thấy!'
     commands:
       addoninfo:
         arguments: <addon_name>
-        description: Show information about a installed add-on
-        failed-addon-not-found: '&cAn add-on called [addon] does not exist'
+        description: Xem thêm thông tin của addon vừa tải
+        failed-addon-not-found: '&cAddon được gọi [addon] không tồn tại'
       addonmanager:
         arguments: ''
-        description: Manage the PowerRanks add-ons
-        failed-addon-not-found: '&cAn add-on called [addon] does not exist'
+        description: Quản lý addon Powerranks
+        failed-addon-not-found: '&cAddon được gọi [addon] không tồn tại'
         terms-accepted: '&aAdd-on manager terms accepted!'
         terms-declined: '&cAdd-on manager terms declined, to use the add-on manager
           please accept the terms'
-        download-not-available: '&cThis add-on can''t be downloaded right now'
-        download-incompatible: '&cThis add-on is incompatible with the currently installed
-          PowerRanks version'
-        download-complete: '&aSuccessfully downloaded add-on: [addon]. Do ''/pr addoninfo
-          [addon]'' for more info'
-        download-failed: '&cDownload failed for add-on: [addon]'
-        uninstall-complete: '&aSuccessfully uninstalled add-on: [addon]'
+        download-not-available: '&cAddon này không thể tải lúc này'
+        download-incompatible: '&cAddon này không phù hợp với phiên bản PowerRanks'
+        download-complete: '&aTải thành công addon: [addon]. Dùng ''/pr addoninfo
+          [addon]'' để có thêm thông tin'
+        download-failed: '&cTải xuống thất bại addon: [addon]'
+        uninstall-complete: '&aGỡ cài đặt thành công addon: [addon]'
       listaddons:
         arguments: ''
-        description: List all installed add-ons
+        description: Danh sách tất cả các addon đã được tải
       addbuyablerank:
         arguments: <rank_name> <buyablerank_name>
-        description: Add a rank to the buyable list of a rank
-        success-add: '&aAdded buyable rank ''[rank]'' to: [target_rank]'
-        failed-add: '&cError adding buyable rank ''[rank]'' to: [target_rank]'
+        description: Thêm 1 rank vào danh sách có thể mua của 1 rank
+        success-add: '&aĐã thêm rank ''[rank]'' vào danh sách có thể mua của rank: [target_rank]'
+        failed-add: '&cLỗi thêm rank ''[rank]'' vào danh sách có thể mua của rank: [target_rank]'
       delbuyablerank:
         arguments: <rank_name> <buyablerank_name>
-        description: Remove a rank from the buyable list of a rank
-        success-del: '&aRemoved buyable rank ''[rank]'' from: [target_rank]'
-        failed-del: '&cError removing buyable rank ''[rank]'' from: [target_rank]'
+        description: Xoá 1 rank trong danh sách có thể mua của rank
+        success-del: '&aĐã xoá rank ''[rank]'' khỏi danh sách có thể mua của rank: [target_rank]'
+        failed-del: '&cLỗi xoá rank rank ''[rank]'' khỏi danh sách có thể mua của rank: [target_rank]'
       buyrank:
         arguments: '[rank_name] [confirm]'
-        description: Buy a rank
-        buy-not-available: '&cBuying ranks is not available on this server.'
-        succes-buy: '&aYou have bought the rank [rank]'
-        failed-buy-not-enough-money: '&cInsufficient funds to buy the rank [rank]'
+        description: Mua 1 rank
+        buy-not-available: '&cKhông thể mua rank trong server này.'
+        succes-buy: '&aBạn đã mua rank [rank]'
+        failed-buy-not-enough-money: '&cKhông đủ tiền để mua rank [rank]'
       rankup:
         arguments: ''
-        description: Buy a rank
-        buy-not-available: '&cBuying ranks is not available on this server.'
+        description: Mua 1 rank
+        buy-not-available: '&cKhông thể mua rank trong server này.'
       setbuycommand:
         arguments: <rank_name> <command including spaces>
-        description: Set the command that will be executed after that rank is bought
-        success-set: '&aChanged buy command to ''[buycommand]'' on rank: [rank]'
-        failed-set: '&cFailed to set buy command to ''[buycommand]'' on rank: [rank]'
+        description: Đặt lệnh sau khi rank này đã được mua
+        success-set: '&aĐã đổi lệnh mua thành ''[buycommand]'' đối với rank: [rank]'
+        failed-set: '&cLỗi đặt lệnh mua thành ''[buycommand]'' đối với rank: [rank]'
       setbuycost:
         arguments: <rank_name> <cost>
-        description: Set the buy cost of a rank
-        success-set: '&aChanged buy cost to ''[cost]'' on rank: [rank]'
-        failed-set: '&cFailed to set buy cost to ''[cost]'' on rank: [rank]'
+        description: Đặt giá tiền cho rank
+        success-set: '&aĐổi giá tiền thành ''[cost]'' đối với rank: [rank]'
+        failed-set: '&cLỗi đổi giá tiền thành ''[cost]'' đối với rank: [rank]'
       setbuydescription:
         arguments: <rank_name> <description including spaces>
-        description: Set the description of a buyable rank
-        success-set: '&aChanged buy description to ''[description]'' on rank: [rank]'
-        failed-set: '&cFailed to set buy description to ''[description]'' on rank:
+        description: Đặt mô tả của rank
+        success-set: '&aChanged buy description to ''[description]'' đối với rank: [rank]'
+        failed-set: '&cFailed to set buy description to ''[description]'' đối với rank:
           [rank]'
       config:
         arguments: <removeworldtag / (enable/disable chat_formatting/tablist_formatting/tablist_sorting/reverse_tablist_sorting/op/casesensitive_permissions)

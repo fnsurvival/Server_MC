@@ -1,31 +1,31 @@
 #
-# Language-File created by:		Pham2015609
+# Language-File created by:		Gecolay
 #
   
   
   
 Plugin:
   
-  plugin-start: "[P]&a Plugin đã bật thành công."
-  plugin-stop: "[P]&a đã được tắt thành công."
+  plugin-start: "[P]&a The Plugin was successfully enabled."
+  plugin-stop: "[P]&a The Plugin was successfully disabled."
   plugin-prefix: "&7[&6Power of Tiền&7]"
   
   
   
 Messages:
   
-  command-config-reload: "[P]&a Cài đặt đã được tải lại thành công."
+  command-config-reload: "[P]&a The settings were successfully reloaded."
   command-permission-error: "[P]&c Nâng rank để dùng!"
-  command-consol-error: "[P]&c Chỉ dùng trong game!"
-  command-gfly-modus-error: "[P]&c Không dùng trong chế độ sáng tạo!"
+  command-consol-error: "[P]&c This command is only for Players!"
+  command-gfly-modus-error: "[P]&c The Flymode can't be changed in this Gamemode!"
   command-gfly-activated: "[P]&a &6 Bật thành công!"
   command-gfly-disabled: "[P]&a &6 Tắt thành công!"
-  command-gfly-modus-other-error: "[P]&c Chế độ bay không thể thay đổi đối với Gamemode của &6 %Player%&c !"
-  command-gfly-online-error: "[P]&c&6 %Player%&c không online!"
+  command-gfly-modus-other-error: "[P]&c Flymode can't be changed in&6 %Player%'s&c Gamemode!"
+  command-gfly-online-error: "[P]&c The Player&6 %Player%&c isn't Online!"
   command-gfly-other-activated: "[P]&a Chế độ bay của&6 %Player%&a đã&6 bật!"
   command-gfly-other-disabled: "[P]&a Chế độ bay của&6 %Player%&a đã&6 tắt!"
-  command-gflyspeed: "[P]&a Tốc độ bay của bạn là:&b %Speed%"
-  command-gflyspeed-speed-error: "[P]&b %Speed%&c tốc độ bay không hợp lệ!"
-  command-gflyspeed-online-error: "[P]&c Người chơi&6 %Player%&ct không Online!"
+  command-gflyspeed: "[P]&a Your Flyspeed:&b %Speed%"
+  command-gflyspeed-speed-error: "[P]&b %Speed%&c is not a valid Flyspeed!"
+  command-gflyspeed-online-error: "[P]&c The Player&6 %Player%&c isn't Online!"
   command-gflyspeed-change: "[P]&a Đã chỉnh tốc độ bay thành &b %Speed%&a!"
-  command-gflyspeed-change-other: "[P]&a Tốc độ bay của người chơi&6 %Player%&a đã được chỉnh thành&b %Speed%&a!"
+  command-gflyspeed-change-other: "[P]&a Flyspeed from&6 %Player%&a successfully set to&b %Speed%&a!"

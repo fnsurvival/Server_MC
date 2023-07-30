@@ -1,8 +1,7 @@
 #Nhập API để sử dụng plugin
 TheSieuToc-API:
-  key: ''
-  secret: ''
-# Tìm những thứ ở trên tại đây https://thesieutoc.net/trangchu
+  key: '6F11F71B9023D79F0BCA040B748E0636'
+  secret: '6F11F71B9023D79F0BCA040B748E0636'
 
 
 #Tắt theo mặc định

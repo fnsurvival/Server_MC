@@ -4,6 +4,7 @@ header-footer:
   disable-in-worlds:
     - disabledworld
   header:
+    - "&3&lFunny Survival"
     - "&fTPS: &l&4%tps% "
     # - "&7&l>> %animation:Welcome%&3 &l%player%&7&l! &7&l<<"
     - "&7Online players: &f%online% &7/ &f%server_max_players%"

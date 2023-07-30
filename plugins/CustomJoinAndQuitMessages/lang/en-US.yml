@@ -1,13 +1,3 @@
-# | CustomJoinAndQuitMessage |
-# |   By jonagamerpro1234    |
-# |      Version 1.6.0       |
-# |__________________________|
-# 
-# | By jonagamerpro1234
-# | Lang Format: en-US 
-# | Lang: English[US]
-# | Version: 1.6
-#
 CustomJoinAndQuitMessage:
   Help-Msg:
     - '&b/CustomJoinAndQuitMessage &8| &9/Cjm &7these are the variants of the main plugin command'
@@ -17,6 +7,6 @@ CustomJoinAndQuitMessage:
   Help-Cmd: '&7Use &b/Cjm &6help&7 for more infomation'
   Reload: '&aReload Completed'
   Error-Cmd: '&cUnknown Argument'
-  No-Permission: '&cYou dont have permission to do that!'
-  No-Permission-Label: 'Ask the server owner or an administrator for help for more information.'
+  No-Permission: '&cBạn không có quyền dùng lệnh này => Bạn NON vcl!'
+  No-Permission-Label: 'Hỏi OWNER hoặc admin để biết thêm thông tin.'
   Sound-Error: 'the sound does not belong to the current version or the name is wrong'

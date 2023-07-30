@@ -29,7 +29,7 @@ Config:
   Type: normal
   
   # |Show-Chat-In-Console| here you can enable or disable the chat to be seen in the console
-  Show-Chat-In-Console: false
+  Show-Chat-In-Console: true
 #
 # |DiscordSRV| Here you can define the discord channel where the messages from minecraft to discord are seen
 # !This characteristic is in the experimental phase!
@@ -39,7 +39,7 @@ DiscordSRV:
   Enabled: true
   
   # |Channel-ID| Here is the id of the channel that is used for the chat
-  Channel-ID: '995382114738516088'
+  Channel-ID: '1060929594737303642'
 #
 # | Join |
 Join:
@@ -61,7 +61,7 @@ Join:
   
     # |Hover| This section allows you to define the hover text
     Hover:
-      - '&6> &aHi &b<name>'
+      - '&6> &aChào &b<name>'
       - '&6> %powerranks_rank%'
       # - '&6> &dadd more lines like these'
   
@@ -130,16 +130,16 @@ Join:
   ActionBar:
     
     # |Enabled| Here you can enable or disable this feature
-    Enabled: false
+    Enabled: true
     
     # |Text| here you can set the message that appears in the action bar
-    Text: '<GRADIENT:FF8700>Welcome to the server</GRADIENT:00FFAA>'
+    Text: '<GRADIENT:FF8700>Chào mừng đến với server</GRADIENT:00FFAA>'
 #
 # | Quit | 
 Quit:
 
   # |Enabled| Here you can enable or disable this feature
-  Enabled: false
+  Enabled: true
   
   # |Text| This is where Join customizable message is located
   Text: '&b[<#FF8E8E>+&b] <#A157FF><name>'
@@ -155,7 +155,7 @@ Quit:
   
     # |Hover| This section allows you to define the hover text
     Hover:
-      - '&6> &aHello &b<name>'
+      - '&6> &aChào &b<name>'
       - '&6> %powerranks_rank%'
       # - '&6> &dadd more lines like these'
   
@@ -211,7 +211,7 @@ Welcome:
     - '<0>'
     - '&e> &7Chào mừng ban đến với server &b<name>'
     - '<0>'
-    - '&e> &7Website: &afnsurvival.github.com'
+    - '&e> &7Website: &afnsurvival.github.io'
     # - '&e> &7Use &b/skin to put on a skin'
     - '<0>'
     - '<GRADIENT:8200FC>&m=========================================</GRADIENT:00FC95>&r'
@@ -287,7 +287,7 @@ Groups:
     Title:
     
       # |Enabled| Here you can enable or disable this feature
-      Enabled: true
+      Enabled: false
    
       # |Title| here you can set the title text
       Title: '<RAINBOW:1>Welcome to Server</RAINBOW>'

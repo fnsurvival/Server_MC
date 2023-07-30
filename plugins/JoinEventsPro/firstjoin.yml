@@ -25,8 +25,10 @@ FirstJoin:
       Title: Welcome to our Network!
       Author: Cervinakuy
     Pages:
-    - '&a&ltrang 1.'
-    - '&a&lPage 2%newline%&7trang 2.'
+    - '&a&lWelcome to our Network!%newline%&7This is a custom book made using the
+      plugin &bJoinEventsPro&7.%newline%%newline%&7You can customize these pages in
+      the config.yml.'
+    - '&a&lPage 2%newline%&7This is an example of a second page.'
     Enabled: false
   Items:
     Diamond:
@@ -40,7 +42,7 @@ FirstJoin:
       - '&7Đây là phần thưởng vì!'
       - '&7bạn đã chơi server này'
       - '&7HEHE.'
-    Enabled: false
+    Enabled: true
   Other:
     Firework: true
   Spawn:

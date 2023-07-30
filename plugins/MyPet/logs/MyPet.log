@@ -70,3 +70,89 @@
 06-07-2023 16:48 [INFO] [MyPet] WorldGuard (7.0.7+216b061) hook activated.
 06-07-2023 16:48 [INFO] [MyPet] Version 3.12-b1737 ENABLED
 06-07-2023 17:02 [INFO] [MyPet] Disabling MyPet v3.12
+06-16-2023 13:41 [INFO] [MyPet] Error-Reporter ENABLED
+06-16-2023 13:44 [INFO] [MyPet] Enabling MyPet v3.12
+06-16-2023 13:44 [INFO] [MyPet] No Update available.
+06-16-2023 13:44 [INFO] [MyPet] Compat mode for v1_18_R1 loaded.
+06-16-2023 13:44 [INFO] [MyPet] Exp calculation mode: MyPet
+06-16-2023 13:44 [INFO] [MyPet] Loading WorldGroups...
+06-16-2023 13:44 [INFO] [MyPet]    added 'world' to 'default'
+06-16-2023 13:44 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-16-2023 13:44 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-16-2023 13:44 [INFO] [MyPet] Connect to SQLite database...
+06-16-2023 13:44 [INFO] [MyPet] SQLite connection successful.
+06-16-2023 13:44 [INFO] [MyPet] BossShopPro (2.0.9) hook activated.
+06-16-2023 13:44 [INFO] [MyPet] PlaceholderAPI (2.11.3) hook activated.
+06-16-2023 13:44 [INFO] [MyPet] ProtocolLib (5.0.0) hook activated.
+06-16-2023 13:44 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: PlayerPoints) (Permissions: PowerRanks) hook activated.
+06-16-2023 13:44 [INFO] [MyPet] WorldGuard (7.0.7+216b061) hook activated.
+06-16-2023 13:44 [INFO] [MyPet] Version 3.12-b1737 ENABLED
+06-16-2023 14:37 [INFO] [MyPet] Disabling MyPet v3.12
+06-16-2023 14:37 [INFO] [MyPet] Error-Reporter ENABLED
+06-16-2023 14:38 [INFO] [MyPet] Enabling MyPet v3.12
+06-16-2023 14:38 [INFO] [MyPet] No Update available.
+06-16-2023 14:38 [INFO] [MyPet] Compat mode for v1_18_R1 loaded.
+06-16-2023 14:38 [INFO] [MyPet] Exp calculation mode: MyPet
+06-16-2023 14:38 [INFO] [MyPet] Loading WorldGroups...
+06-16-2023 14:38 [INFO] [MyPet]    added 'world' to 'default'
+06-16-2023 14:38 [INFO] [MyPet]    added 'world_nether' to 'default'
+06-16-2023 14:38 [INFO] [MyPet]    added 'world_the_end' to 'default'
+06-16-2023 14:38 [INFO] [MyPet] Connect to SQLite database...
+06-16-2023 14:38 [INFO] [MyPet] SQLite connection successful.
+06-16-2023 14:38 [INFO] [MyPet] BossShopPro (2.0.9) hook activated.
+06-16-2023 14:38 [INFO] [MyPet] PlaceholderAPI (2.11.3) hook activated.
+06-16-2023 14:38 [INFO] [MyPet] ProtocolLib (5.0.0) hook activated.
+06-16-2023 14:38 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: PlayerPoints) (Permissions: PowerRanks) hook activated.
+06-16-2023 14:38 [INFO] [MyPet] WorldGuard (7.0.7+216b061) hook activated.
+06-16-2023 14:38 [INFO] [MyPet] Version 3.12-b1737 ENABLED
+07-02-2023 14:42 [INFO] [MyPet] Error-Reporter ENABLED
+07-02-2023 14:45 [INFO] [MyPet] Enabling MyPet v3.12
+07-02-2023 14:45 [INFO] [MyPet] No Update available.
+07-02-2023 14:45 [INFO] [MyPet] Compat mode for v1_18_R1 loaded.
+07-02-2023 14:45 [INFO] [MyPet] Exp calculation mode: MyPet
+07-02-2023 14:45 [INFO] [MyPet] Loading WorldGroups...
+07-02-2023 14:45 [INFO] [MyPet]    added 'world' to 'default'
+07-02-2023 14:45 [INFO] [MyPet]    added 'world_nether' to 'default'
+07-02-2023 14:45 [INFO] [MyPet]    added 'world_the_end' to 'default'
+07-02-2023 14:45 [INFO] [MyPet] Connect to SQLite database...
+07-02-2023 14:45 [INFO] [MyPet] SQLite connection successful.
+07-02-2023 14:45 [INFO] [MyPet] BossShopPro (2.0.9) hook activated.
+07-02-2023 14:45 [INFO] [MyPet] PlaceholderAPI (2.11.3) hook activated.
+07-02-2023 14:45 [INFO] [MyPet] ProtocolLib (5.0.0) hook activated.
+07-02-2023 14:45 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: PlayerPoints) (Permissions: PowerRanks) hook activated.
+07-02-2023 14:45 [INFO] [MyPet] WorldGuard (7.0.7+216b061) hook activated.
+07-02-2023 14:45 [INFO] [MyPet] Version 3.12-b1737 ENABLED
+07-28-2023 20:46 [INFO] [MyPet] Error-Reporter ENABLED
+07-28-2023 20:49 [INFO] [MyPet] Enabling MyPet v3.12
+07-28-2023 20:49 [INFO] [MyPet] No Update available.
+07-28-2023 20:49 [INFO] [MyPet] Compat mode for v1_18_R1 loaded.
+07-28-2023 20:49 [INFO] [MyPet] Exp calculation mode: MyPet
+07-28-2023 20:49 [INFO] [MyPet] Loading WorldGroups...
+07-28-2023 20:49 [INFO] [MyPet]    added 'world' to 'default'
+07-28-2023 20:49 [INFO] [MyPet]    added 'world_nether' to 'default'
+07-28-2023 20:49 [INFO] [MyPet]    added 'world_the_end' to 'default'
+07-28-2023 20:49 [INFO] [MyPet] Connect to SQLite database...
+07-28-2023 20:49 [INFO] [MyPet] SQLite connection successful.
+07-28-2023 20:49 [INFO] [MyPet] BossShopPro (2.0.9) hook activated.
+07-28-2023 20:49 [INFO] [MyPet] PlaceholderAPI (2.11.3) hook activated.
+07-28-2023 20:49 [INFO] [MyPet] ProtocolLib (5.0.0) hook activated.
+07-28-2023 20:49 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: PlayerPoints) (Permissions: PowerRanks) hook activated.
+07-28-2023 20:49 [INFO] [MyPet] WorldGuard (7.0.7+216b061) hook activated.
+07-28-2023 20:49 [INFO] [MyPet] Version 3.12-b1737 ENABLED
+07-29-2023 00:59 [INFO] [MyPet] Error-Reporter ENABLED
+07-29-2023 01:02 [INFO] [MyPet] Enabling MyPet v3.12
+07-29-2023 01:02 [INFO] [MyPet] No Update available.
+07-29-2023 01:02 [INFO] [MyPet] Compat mode for v1_18_R1 loaded.
+07-29-2023 01:02 [INFO] [MyPet] Exp calculation mode: MyPet
+07-29-2023 01:02 [INFO] [MyPet] Loading WorldGroups...
+07-29-2023 01:02 [INFO] [MyPet]    added 'world' to 'default'
+07-29-2023 01:02 [INFO] [MyPet]    added 'world_nether' to 'default'
+07-29-2023 01:02 [INFO] [MyPet]    added 'world_the_end' to 'default'
+07-29-2023 01:02 [INFO] [MyPet] Connect to SQLite database...
+07-29-2023 01:02 [INFO] [MyPet] SQLite connection successful.
+07-29-2023 01:02 [INFO] [MyPet] BossShopPro (2.0.9) hook activated.
+07-29-2023 01:02 [INFO] [MyPet] PlaceholderAPI (2.11.3) hook activated.
+07-29-2023 01:02 [INFO] [MyPet] ProtocolLib (5.0.0) hook activated.
+07-29-2023 01:02 [INFO] [MyPet] Vault (1.7.3-b131) (Economy: PlayerPoints) (Permissions: LuckPerms) hook activated.
+07-29-2023 01:02 [INFO] [MyPet] WorldGuard (7.0.7+216b061) hook activated.
+07-29-2023 01:02 [INFO] [MyPet] Version 3.12-b1737 ENABLED

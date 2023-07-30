@@ -138,10 +138,10 @@ menhgia:
 seri_pin:
   Inv:
     Seri:
-      Type: DIAMOND
+      Type: Paper
       Name: '&aseri'
     Pin:
-      Type: DIAMOND
+      Type: Paper
       Name: '&aMã'
 
 

@@ -1,9 +1,29 @@
-TeleportSuccess: Thành công dịch chuyển về nhà!
-SetHomeSuccess: Đặt nhà!
-InvalidPlayer: '???'
-NoHome: Không có nhà:< nên hãy thêm nhà lệnh /sethome ....
-NoPlayer: '???1'
-NoExist: Không tồn tại nhà!
-NoPermission: Không đủ quyền!. Nếu bạn thấy dòng này thì hãy báo ngay cho admin
-SetHomeSomeonesSuccess: Đặt nhà thành công
-TeleportSomeonesSuccess: Thành công dịch chuyển tới nhà của Player's!
+# TeleportSuccess: Message After Teleport
+#
+# SetHomeSuccess: If player sets their home
+#
+# InvalidPlayer: Invalid Player
+#
+# NoHome: No Home was provided
+#
+# NoPlayer: No player provided
+#
+# NoExist: When players home doesnt exist
+#
+# HomeWasDeleted: On player's home deletion
+#
+# NoPermission: When player does not have permission to do this command
+#
+# SetHomeSomeonesSuccess: When player sets current location as another players home
+#
+# TeleportSomeonesSuccess: When player teleports to another players home
+
+TeleportSuccess: Successfully teleported to home!
+SetHomeSuccess: Successfully set your home!
+InvalidPlayer: Invalid Player!
+NoHome: No Home Provided!
+NoPlayer: No Player Provided!
+NoExist: This Home doesn't exist!
+NoPermission: You have no permission to do that command!
+SetHomeSomeonesSuccess: Successfully set current location as target's home!
+TeleportSomeonesSuccess: Successfully teleported to player's home!

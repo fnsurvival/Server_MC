@@ -9,20 +9,21 @@ Server:
       Enabled: true
     List:
       RandomBlue:
-        Line-1: '&b&l .'
-        Line-2: '&3.'
+        Line-1: '&b&lFunny survival SMP.' # &3Now with JoinEventsPro!'
+        Line-2: '&3Chúc bạn chơi game vui vẻ nhé.'
       RandomGreen:
-        Line-1: '&2&l .'
-        Line-2: '&a.'
+        Line-1: '&2&lFunny survival SMP.' # &aNow with JoinEventsPro!'
+        Line-2: '&aChúc bạn chơi game vui vẻ nhé.'
       RandomYellow:
-        Line-1: '&e&l .'
-        Line-2: '&6.'
+        Line-1: '&e&lFunny survival SMP.' # &6Now with JoinEventsPro!'
+        Line-2: '&6Chúc bạn chơi game vui vẻ nhé.'
       Maintenance:
-        Line-1: '&c&l .'
-        Line-2: '&7.'
+        Line-1: '&c&lFunny survival SMP.' # &7Now with &eJoinEventsPro!'
+        Line-2: '&7Chúc bạn chơi game vui vẻ nhé.'
   Messages:
     Full: '&7[&b&lGame&7] &cServer full rồi :<, bạn hãy thử lại sau nhé.'
-    Maintenance: '&7[&b&lHệ thống&7] &cMáy chủ hiện đang được Bảo trì, vui lòng kiểm tra lại sau.'
+    Maintenance: '&7[&b&lHệ thống&7] &cMáy chủ hiện đang được Bảo trì, vui lòng kiểm
+      tra lại sau.'
   Players:
     Unlimited: false
     Max: 10
@@ -41,3 +42,29 @@ Leave:
     Pitch: 1
     Enabled: true
   Commands: []
+
+# Server:
+#   MOTD:
+#     Options:
+#       Maintenance: true
+#       Enabled: true
+#     List:
+#       RandomBlue:
+#         Line-1: '&b&lFunny survival SMP.' # &3Now with JoinEventsPro!'
+#         Line-2: '&3Chúc bạn chơi game vui vẻ nhé.'
+#       RandomGreen:
+#         Line-1: '&2&lFunny survival SMP.' # &aNow with JoinEventsPro!'
+#         Line-2: '&aChúc bạn chơi game vui vẻ nhé.'
+#       RandomYellow:
+#         Line-1: '&e&lFunny survival SMP.' # &6Now with JoinEventsPro!'
+#         Line-2: '&6Chúc bạn chơi game vui vẻ nhé.'
+#       Maintenance:
+#         Line-1: '&c&lFunny survival SMP.' # &7Now with &eJoinEventsPro!'
+#         Line-2: '&7Chúc bạn chơi game vui vẻ nhé.'
+#   Messages:
+#     Full: '&7[&b&lGame&7] &cServer full rồi :<, bạn hãy thử lại sau nhé.'
+#     Maintenance: '&7[&b&lJOINEVENTSPRO&7] &cThe server is currently undergoing Maintenance,
+#       please check back later.'
+#   Players:
+#     Unlimited: true
+#     Max: 100

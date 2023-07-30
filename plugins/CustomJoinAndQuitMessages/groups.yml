@@ -39,7 +39,7 @@ default:
     # |Hover| This section allows you to define the hover text
     Hover:
        - '&6> &aHello &b<name>'
-        - '&6> %powerranks_rank%'
+       - '&6> %powerranks_rank%'
       # - '&6> &dadd more lines like these'
 
     # |ClickEvent| This section allows you to modify chat click events
@@ -90,7 +90,7 @@ default:
     Enabled: true
 
     # |Title| here you can set the title text
-    Title: '<RAINBOW:1>Welcome to Server</RAINBOW>'
+    Title: '<RAINBOW:1>Chào mừng đến với server</RAINBOW>'
     
     # |SubTitle| here you can set the subtitle text
     SubTitle: '<GRADIENT:FF0000><name></GRADIENT:00AAFF>'
@@ -111,6 +111,6 @@ default:
     Enabled: true
     
     # |Text|
-    Text: '<GRADIENT:FF8700>Welcome to the server</GRADIENT:00FFAA>'
+    Text: '<GRADIENT:FF8700>Chào mừng đến với server</GRADIENT:00FFAA>'
 
   

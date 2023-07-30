@@ -5,82 +5,26 @@ Moderator:
   default: false
   prefix: '[#9d1dffM#a51eefO#ae1fdfD#b720d0E#bf21c0R#c822b0A#d123a1T#d92491O#e22581R#FFFFFF]
     #e22581'
-  suffix: ''
   buyCommand: ''
-  buyDescription: ''
-  namecolor: ''
-  buyableRanks: []
-  chatcolor: ''
   buyCost: 0.0
+  buyableRanks: []
+  buyDescription: ''
+  suffix: ''
+  chatcolor: ''
+  namecolor: ''
 Owner:
   permissions: []
   inheritances: []
   weight: 100
   default: false
   prefix: '[#ff00ffO#cc33ffW#9966ffN#6699ffE#33ccffR#FFFFFF] #33ccff'
-  suffix: ''
   buyCommand: ''
-  buyDescription: ''
-  namecolor: ''
-  buyableRanks: []
-  chatcolor: ''
   buyCost: 0.0
-Donator:
-  permissions:
-  - name: playerpoints.pay
-    value: true
-  - name: invsee
-    value: true
-  - name: hat.*
-    value: true
-  - name: repairgui.command.repair
-    value: true
-  - name: autosmelt.permission.use
-    value: true
-  - name: autosmelt.toggle
-    value: true
-  - name: autotool.use
-    value: true
-  - name: chestcommands.open.example.yml
-    value: true
-  - name: chestcommands.open.Shop.yml
-    value: true
-  - name: mypet.command.trade.receive.*
-    value: true
-  - name: BossShop.open
-    value: true
-  - name: BossShop.close
-    value: true
-  - name: MyPet.leash.*
-    value: true
-  - name: MyPet.command.release
-    value: true
-  - name: MyPet.Skill.Ride.Item
-    value: true
-  - name: chestcommands.open.pet.yml
-    value: true
-  - name: essentials.afk
-    value: true
-  - name: essentials.msg
-    value: true
-  - name: essentials.balance
-    value: true
-  - name: essentials.warp
-    value: true
-  - name: essentials.warp.list
-    value: true
-  inheritances: []
-  weight: 0
-  default: false
-  prefix: '[#2792AFDonator#FFFFFF] #2792AF'
+  buyableRanks: []
+  buyDescription: ''
   suffix: ''
-  buyCommand: ''
-  buyDescription: /hat, /autotool toggle, /invsee, /repair, /as
-  namecolor: '#2792AF'
-  buyableRanks:
-  - LORD
-  chatcolor: '#2792AF'
-  buyCost: 150.0
+  chatcolor: ''
+  namecolor: ''
 KING:
   permissions:
   - name: hat.*
@@ -136,15 +80,15 @@ KING:
   inheritances: []
   weight: 0
   default: false
-  prefix: '[#E70000KING#FFFFFF]#E70000'
-  suffix: ''
+  prefix: '[#E70000KING#FFFFFF] #E70000'
   buyCommand: ''
-  buyDescription: /flyspeed 0.1-1, /heal hoi mau
-  namecolor: '&4'
-  buyableRanks: []
-  chatcolor: '#FF0000'
   buyCost: 400.0
-MVP:
+  buyableRanks: []
+  buyDescription: /flyspeed 0.1<->1, /heal hoi mau
+  suffix: ''
+  chatcolor: '#FF0000'
+  namecolor: '&4'
+Donator:
   permissions:
   - name: playerpoints.pay
     value: true
@@ -154,15 +98,17 @@ MVP:
     value: true
   - name: repairgui.command.repair
     value: true
-  - name: autotool.use
-    value: true
   - name: autosmelt.permission.use
     value: true
   - name: autosmelt.toggle
     value: true
+  - name: autotool.use
+    value: true
   - name: chestcommands.open.example.yml
     value: true
   - name: chestcommands.open.Shop.yml
+    value: true
+  - name: mypet.command.trade.receive.*
     value: true
   - name: BossShop.open
     value: true
@@ -189,16 +135,15 @@ MVP:
   inheritances: []
   weight: 0
   default: false
-  prefix: '[#3366FFM#3366CCV#336699P#FFFFFF] #336699'
-  suffix: ''
+  prefix: '[#2792AFDonator#FFFFFF] #2792AF'
   buyCommand: ''
-  buyDescription: /invsee xem inventory nguoi khac, /repair fix item, /as
-  namecolor: '#336699'
+  buyCost: 150.0
   buyableRanks:
   - LORD
-  - Donator
-  chatcolor: '#3366FF'
-  buyCost: 100.0
+  buyDescription: /hat, /autotool toggle, /invsee, /repair, /as
+  suffix: ''
+  chatcolor: '#2792AF'
+  namecolor: '#2792AF'
 LORD:
   permissions:
   - name: GFly.Fly
@@ -251,27 +196,83 @@ LORD:
   weight: 0
   default: false
   prefix: '[#990033LORD#FFFFFF] #990033'
-  suffix: ''
   buyCommand: ''
-  buyDescription: /fly, /weather clear-storm, /feed hoi thanh thuc an
-  namecolor: '#990033'
+  buyCost: 200.0
   buyableRanks:
   - KING
+  buyDescription: /fly, /weather clear-storm, /feed hoi thanh thuc an
+  suffix: ''
   chatcolor: '#660000'
-  buyCost: 200.0
+  namecolor: '#990033'
+MVP:
+  permissions:
+  - name: playerpoints.pay
+    value: true
+  - name: invsee
+    value: true
+  - name: hat.*
+    value: true
+  - name: repairgui.command.repair
+    value: true
+  - name: autotool.use
+    value: true
+  - name: autosmelt.permission.use
+    value: true
+  - name: autosmelt.toggle
+    value: true
+  - name: chestcommands.open.example.yml
+    value: true
+  - name: chestcommands.open.Shop.yml
+    value: true
+  - name: BossShop.open
+    value: true
+  - name: BossShop.close
+    value: true
+  - name: MyPet.leash.*
+    value: true
+  - name: MyPet.command.release
+    value: true
+  - name: MyPet.Skill.Ride.Item
+    value: true
+  - name: chestcommands.open.pet.yml
+    value: true
+  - name: essentials.afk
+    value: true
+  - name: essentials.msg
+    value: true
+  - name: essentials.balance
+    value: true
+  - name: essentials.warp
+    value: true
+  - name: essentials.warp.list
+    value: true
+  inheritances: []
+  weight: 0
+  default: false
+  prefix: '[#3366FFM#3366CCV#336699P#FFFFFF] #336699'
+  buyCommand: ''
+  buyCost: 100.0
+  buyableRanks:
+  - LORD
+  - Donator
+  buyDescription: /invsee xem inventory nguoi khac, /repair fix item, /as
+  suffix: ''
+  chatcolor: '#3366FF'
+  namecolor: '#336699'
 Admin:
   permissions: []
   inheritances: []
   weight: 75
   default: false
   prefix: '[#ffff00A#fbcc00D#f79900M#f36600I#ef3300N#FFFFFF] #ef3300'
-  suffix: ''
   buyCommand: ''
-  buyDescription: ''
-  namecolor: ''
+  buyCost: 100000000000000.0
   buyableRanks: []
+  buyDescription: 
+  - KING  
+  suffix: ''
   chatcolor: ''
-  buyCost: 0.0
+  namecolor: ''
 VIP:
   permissions:
   - name: hat.*
@@ -312,15 +313,15 @@ VIP:
   weight: 0
   default: false
   prefix: '[#FFFF66V#FFFF33I#FFFF00P#FFFFFF] #FFFF00'
-  suffix: ''
   buyCommand: ''
-  buyDescription: /hat
-  namecolor: '#FFFF00'
+  buyCost: 50.0
   buyableRanks:
   - MVP
   - Donator
+  buyDescription: /hat
+  suffix: ''
   chatcolor: '#FFFF33'
-  buyCost: 50.0
+  namecolor: '#FFFF00'
 Member:
   permissions:
   - name: playerpoints.pay
@@ -363,12 +364,12 @@ Member:
   weight: 0
   default: true
   prefix: '[#127e00M#1a8704E#239109M#2c9b0eB#35a513E#3eaf18R#FFFFFF] #127e00'
-  suffix: ''
   buyCommand: ''
-  buyDescription: /hat ?? ??i m?
-  namecolor: '&2'
+  buyCost: 0.0
   buyableRanks:
   - VIP
   - Donator
+  buyDescription: /hat ?? ??i m?
+  suffix: ''
   chatcolor: '&a'
-  buyCost: 0.0
+  namecolor: '&2'

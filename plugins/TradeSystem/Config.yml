@@ -113,14 +113,14 @@ TradeSystem:
   
   # WARNING - This log is very basic and does not remove files automatically after some time, so you have to do it yourself.
   TradeLog:
-    Enabled: false
+    Enabled: true
     Database:
       # Values: BUKKIT (does not support in-game access to the log), SQLite, MySQL
       Type: MySQL
       MySQL:
         Connection_URL: jdbc:mysql://localhost:3306/tradelog?autoReconnect=true&useSSL=false
-        User: root
-        Password: password
+        User: Pham2015609
+        Password: '@Hamcho201'
   
   # Sound names can be found here: https://github.com/CodingAir/CodingAPI/tree/master/src/main/java/de/codingair/codingapi/server/sounds/Sound.java
   Sounds:

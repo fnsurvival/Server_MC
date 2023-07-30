@@ -1,4 +1,4 @@
-# DO NOT EDIT THIS VALUE!
+﻿# DO NOT EDIT THIS VALUE!
 config-version: 9
 
 # If enabled, a notification and the download link will be printed on console whenever an update is available.
@@ -7,7 +7,7 @@ check-for-updates: true
 # Allows you to force set the plugin's mode to online/offline/automatic.
 # If you run a cracked server but the plugin detects it as online and saves UUID instead of name, set the value below to 'false'.
 # Available modes: true, false, auto (default)
-online-mode: auto
+online-mode: false
 
 # Prevents players from sending token to a player who has the same ip address as the sender.
 alt-prevention: false
@@ -28,7 +28,7 @@ shop:
 
   # Settings for the confirm purchase gui.
   confirm-purchase-gui:
-    title: 'Confirm Your Purchase'
+    title: 'Xác nhận'
     # Use the placeholder %price% in the name or the lore of the confirm-button to display the price of the item to be purchased.
     # NOTE: In Minecraft 1.13, stained glass panes were assigned their own material name. If buttons below won't load, use the new material name.
     confirm-button: 'STAINED_CLAY:5 1 name:&a&lBUY lore:&7Price:_&a%price%_tokens'
@@ -48,7 +48,7 @@ data:
   # If enabled, the plugin will use selected MySQL database as the token balance storage.
   # Note: To transfer all data from data.yml to the MySQL database, use the command '/tm transfer'. (MySQL must be enabled below!)
   mysql:
-    enabled: false
+    enabled: true
     hostname: '127.0.0.1'
     port: '3306'
     username: 'root'

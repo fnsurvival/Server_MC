@@ -1,3 +1,4 @@
+reset-xp-on-death: false
 hooks:
   HolographicDisplays:
     enabled: true
@@ -6,7 +7,7 @@ hooks:
 reset-skills-on-death: false
 save-blank-profiles: false
 mysql:
-  enabled: false
+  enabled: true
   host: localhost
   port: 3306
   database: aureliumskills

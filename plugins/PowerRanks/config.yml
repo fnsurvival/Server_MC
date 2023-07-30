@@ -1,5 +1,5 @@
 general:
-  language: en
+  language: vi
   autosave-files-interval: 600
   playtime-update-interval: 60
   case-sensitive-permissions: false
@@ -40,14 +40,14 @@ placeholderapi:
   inject_powerranks_color: true
 announcements:
   rankup:
-    enabled: false
-    format: '[powerranks_prefix] &6[player]''s rank has been changed to [rank]'
+    enabled: true
+    format: '[powerranks_prefix] rank của người chơi &6[player] đã được chuyển thành [rank]'
   promote:
-    enabled: false
-    format: '[powerranks_prefix] &6[player] has been promoted to [rank]'
+    enabled: true
+    format: '[powerranks_prefix] &6[player] đã được tăng lên rank [rank]'
   demote:
-    enabled: false
-    format: '[powerranks_prefix] &6[player] has been demoted to [rank]'
+    enabled: true
+    format: '[powerranks_prefix] &6[player] đã bị hạ xuống rank [rank]'
 updates:
   enable_update_checking: true
   automatic_download_updates: true
@@ -57,5 +57,5 @@ addon_manager:
 rankup:
   buy_command:
     enabled: true
-    command: say OH MY GOD, người chơi %playername% vừa mua rank ---  %rankname%  ---
+    command: say Người chơi %playername% vừa mua rank ---  %rankname%  ---
 version: 1.10.52

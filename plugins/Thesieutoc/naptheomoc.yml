@@ -11,7 +11,7 @@
 #
 
 #tắt theo mặc định
-enable: false
+enable: true
 
 #thực hiện các lệnh khi nạp thành công các thẻ có mệnh giá tương đương
 #

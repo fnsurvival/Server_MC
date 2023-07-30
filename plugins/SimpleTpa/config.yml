@@ -23,7 +23,7 @@ prefix: "&c[&6TPA&c]"
 # TO DISABLE A MESSAGE - SET IT TO - NONE
 # EXAMPLE:
 # Console-Isnt-Player: "none"
-Console-Isnt-Player: "&6Console can't use &cSimpleTpa&6!"
+Console-Isnt-Player: "&6Dùng trong game"
 Disabled-World-Message: "&6Bạn không thể dùng &cTpa &6trong thế giới này!"
 Teleport-Message: "&6Bạn sẽ được dịch chuyển trong &c%time% &6giây!"
 Teleport-Message-Back-To-Player: "&6Bạn đã &cchấp nhận &6yêu cầu dịch chuyển"
@@ -74,7 +74,7 @@ World-Doesnt-Exists-Or-Unloaded: "&6Thế giới bạn đang muốn dịch chuy�
 #Here you can find the colors https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/ChatColor.html
 
 #Accept Button Properties
-Accept-Button: "ACCEPT"
+Accept-Button: "Chấp nhận"
 Accept-Button-Color: "RED"
 Accept-Button-Set-Bold: true
 Accept-Button-Description: "&6Ấn vào đây để &cCHẤP NHẬN &6yêu cầu dịch chuyển!"
@@ -86,7 +86,7 @@ Middle-Button-Set-Bold: true
 Middle-Button-Description: "&7 <- CHỌN GIỮA -> "
 
 #Deny Button Properties
-Deny-Button: "DENY"
+Deny-Button: "Từ chơi"
 Deny-Button-Color: "RED"
 Deny-Button-Set-Bold: true
 Deny-Button-Description: "&6Ấn vào đây để &cTỪ CHỐI &6yêu cầu dịch chuyển!"
@@ -130,10 +130,10 @@ invincibility-seconds: 2
 #This will keep the teleport request alive for X seconds
 keep-alive: 60
 #This will delay the teleportation for X seconds
-delay-back-command: 3
+delay-back-command: 0
 delay-teleportation: 0
 #Cooldowns
-back-cooldown: 2
+back-cooldown: 0
 tpa-cooldown: 0
 tpahere-cooldown: 0
 tpahereall-cooldown: 0
